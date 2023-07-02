@@ -9,7 +9,7 @@ _______________________________________
 
 # FUNKeHud2015
 There are 3 different font options for health and ammo:  
--Newtown  
+-Newtown (default)  
 -Piximisa  
 -DOCK11  
 They can be enabled/disabled by going to the "options" folder and dragging+dropping the option you want into the "enabled" folder.
