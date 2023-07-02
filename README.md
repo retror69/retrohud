@@ -7,7 +7,7 @@ used as a base to make olden version of FUNKeHUD
 
 _______________________________________
 
-#FUNKeHud2015
+# FUNKeHud2015
 There are 3 different font options for health and ammo:
 -Newtown
 -Piximisa
