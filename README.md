@@ -1,6 +1,6 @@
-/funkehud-reloaded
-/Modern version of FUNKeHUD
-/(made with permission from FUNKe)
+/funkehud-reloaded  
+/Modern version of FUNKeHUD  
+/(made with permission from FUNKe)  
 
 ^
 used as a base to make olden version of FUNKeHUD
