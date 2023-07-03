@@ -1,13 +1,6 @@
-/funkehud-reloaded  
-/Modern version of FUNKeHUD  
-/(made with permission from FUNKe)  
-
-^
-used as a base to make olden version of FUNKeHUD
-
 _______________________________________
 
-# FUNKeHud2015
+# FUNKeHud-Edit
 There are 3 different font options for health and ammo:  
 -Newtown (default)  
 -Piximisa  
