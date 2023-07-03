@@ -1,7 +1,16 @@
 credit to malgreen for funkehud-reloaded
 _______________________________________
 ![background_upward_widescreen](https://github.com/retror69/FUNKeHud-Edit/assets/136416237/ab4a443e-3818-4354-81fc-5a179200994f)
-An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
+<p align="center">
+  <p align="center">
+    An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
+    <br />
+    <a href="https://github.com/retror69/FUNKeHud-Edit/releases">Download</a>
+    ·
+    <a href="">Screenshots</a>
+  </p>
+</p>
+
 
 # FUNKeHud-Edit by retror
 There are 3 different font options for health and ammo:
