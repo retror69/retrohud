@@ -7,7 +7,7 @@ _______________________________________
     <br />
     <a href="https://github.com/retror69/FUNKeHud-Edit/releases">Download</a>
     ·
-    <a href="">Screenshots</a>
+    <a href="https://imgur.com/a/KfGkGCg">Screenshots</a>
   </p>
 </p>
 
