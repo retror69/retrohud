@@ -4,12 +4,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.4
 	
-	Animate	HealthBoxBG		BgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"Health Buff BG"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Health Buff"		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
@@ -23,7 +23,7 @@ event HudHealthBonusPulseStop
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Health Pulse
@@ -32,12 +32,12 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.2
 	
-	Animate	HealthBoxBG		BgColor		"Health Hurt"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"Health Hurt BG"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Ammo In Clip Low"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"Ammo In Clip Low"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Health Hurt"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Health Hurt"		Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
@@ -51,7 +51,7 @@ event HudHealthDyingPulseStop
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 
 	Animate PlayerStatusHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate GuiPlayerHealth					FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate GuiPlayerHealth				FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Ammo Pulse
@@ -60,7 +60,7 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"0"					Linear 0.125 0.075
 	
-	Animate LowAmmoBG		BgColor		"Ammo In Reserve Low"					Accel 0.0 0.0
+	Animate LowAmmoBG		BgColor		"Health Hurt BG"					Accel 0.0 0.0
 	Animate LowAmmoBG		Alpha		"200"									Accel 0.0 0.2
 	Animate LowAmmoBG		Alpha		"0"										Accel 0.2 0.4
 
