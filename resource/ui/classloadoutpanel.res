@@ -6,7 +6,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"f0" //Change this to "0" if you dont want a bg here
+		"wide"			"f0"
 		"tall"			"f0"
 		"image"			"geelisgay/main_bg"
 		"scaleImage"	"1"

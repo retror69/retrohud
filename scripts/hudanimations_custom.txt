@@ -36,8 +36,8 @@ event HudHealthDyingPulse
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Hurt"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"Health Hurt"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Ammo In Clip Low"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Ammo In Clip Low"		Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
