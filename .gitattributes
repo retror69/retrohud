@@ -1,3 +1,8 @@
-.rescript linguist-detenctable=false
+# These filetypes should be recognized as VDF, not ReScript
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
+.gitattributes export-ignore
+
 # Auto detect text files and perform LF normalization
 * text=auto
