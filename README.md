@@ -1,6 +1,6 @@
 credit to malgreen for funkehud-reloaded
 _______________________________________
-![background_upward_widescreen](https://github.com/retror69/FUNKeHud-Edit/assets/136416237/ab4a443e-3818-4354-81fc-5a179200994f)
+(https://github.com/retror69/FUNKeHud-Edit/assets/136416237/ab4a443e-3818-4354-81fc-5a179200994f)
 <p align="center">
   <p align="center">
     An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
