@@ -1,10 +1,34 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"LowAmmoBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"LowAmmoBG"
+		"xpos"			"0"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"44"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+
+		"pin_to_sibling"	"HudWeaponAmmoBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
 	"HudWeaponAmmoBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"CExLabel"
 		"fieldName"			"HudWeaponAmmoBG"
-		"xpos"				"9999"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"5"
+		"wide"				"300"
+		"tall"				"100"
+		"textAlignment"		"center"
 		"visible"			"0"
 		"enabled"			"0"
 	}

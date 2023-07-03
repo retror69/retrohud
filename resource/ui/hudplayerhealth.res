@@ -1,5 +1,24 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+	"HealthBoxBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBoxBG"
+		"xpos"			"-80"
+		"ypos"			"-28"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"44"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+
+ 		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
 	// Player Health Data
 	"HudPlayerHealth"
 	{
@@ -49,7 +68,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"117"
-		"ypos"			"16"
+		"ypos"			"99999" //16
 		"zpos"			"2"
 		"wide"			"68"
 		"tall"			"68"
@@ -59,7 +78,7 @@
 		"wide_minmode"	"22"
 		"tall_minmode"	"22"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}

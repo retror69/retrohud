@@ -10,4 +10,8 @@ They can be enabled/disabled by going to the "options" folder and dragging+dropp
 
 Transparent viewmodels, crosshairs, and hitmarker can be enabled/disabled through the "hudlayout.res" file in the scripts folder.
 
+<<<<<<< Updated upstream
 Loadout BG can be enabled/disabled through the "classloadoutpanel.res" file in the scripts folder.
+=======
+Loadout BG can be enabled/disabled through the "classloadoutpanel.res" file in the scripts folder.
+>>>>>>> Stashed changes

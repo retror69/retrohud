@@ -40,7 +40,7 @@ Scheme
 		"Ammo In Reserve Low"		"255 46 46 255"
 		"Health Normal"				"255 255 255 255"
 		"Health Buff"				"195 255 195 255"
-		"Health Hurt"				"255 205 131 255"
+		"Health Hurt"				"255 0 0 255"
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"255 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
