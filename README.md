@@ -1,3 +1,4 @@
+credit to malgreen for funkehud-reloaded
 _______________________________________
 
 # FUNKeHud-Edit
