@@ -1,8 +1,9 @@
 credit to malgreen for funkehud-reloaded
 _______________________________________
 ![background_upward_widescreen](https://github.com/retror69/FUNKeHud-Edit/assets/136416237/ab4a443e-3818-4354-81fc-5a179200994f)
+An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
 
-# FUNKeHud-Edit
+# FUNKeHud-Edit by retror
 There are 3 different font options for health and ammo:
   
 -Newtown (default)  
