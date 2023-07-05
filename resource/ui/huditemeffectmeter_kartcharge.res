@@ -71,7 +71,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BebasNeue14"
+		"font"					"Newtown14"
 	}
 	"ItemEffectMeterCountBG"
 	{
@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BebasNeue14"
+		"font"					"Newtown14"
 		"fgcolor_override"		"TransparentBlack"
 	}
 }

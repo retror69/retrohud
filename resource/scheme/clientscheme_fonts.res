@@ -206,6 +206,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Newtown14"
+		{
+			"1"
+			{
+				"name"			"Newtown"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"BebasNeue12"
 		{
 			"1"

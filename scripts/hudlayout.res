@@ -1,3 +1,4 @@
+#base "../options/enabled/speedometer.res"
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------

@@ -73,7 +73,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BebasNeue14"
+		"font"					"Newtown14"
 		"fgcolor" "255 255 255 255"
 	}
 
@@ -94,7 +94,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BebasNeue14"
+		"font"					"Newtown14"
 		"fgcolor" "0 0 0 255"
 	}
 }
