@@ -264,7 +264,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"BebasNeue10"
+			"font"			"Killfeed"
 			"xpos"			"18"
 			"ypos"			"53"
 			"xpos_minmode"			"27"
@@ -451,7 +451,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"BebasNeue10"
+			"font"			"Killfeed"
 			"xpos"			"21"
 			"ypos"			"52"
 			"xpos_minmode"			"32"
