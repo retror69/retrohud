@@ -86,7 +86,7 @@
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"c228"
 			"ypos"			"0"
-			"zpos"			"100"
+			"zpos"			"-5000"
 			"wide"			"30"
 			"tall"			"30"
 			"autoResize"	"0"
