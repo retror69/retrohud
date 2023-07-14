@@ -835,16 +835,17 @@
 
 	HudControlPointIcons
 	{
-		"fieldName"			"HudControlPointIcons"
-		"xpos"				"0"
-		"ypos"				"410"
-		"wide"				"f0"
-		"tall"				"200"
-		"visible"			"1"
-		"enabled"			"1"
-		"separator_width"	"1"
-		"separator_height"	"4"
-		"height_offset"		"2"
+		"fieldName"				"HudControlPointIcons"
+		"xpos"					"0"
+		"ypos"					"410"	//410
+		"wide"					"f0"
+		"tall"					"200"
+		"visible"				"1"
+		"enabled"				"1"
+		"separator_width"		"2"	// distance between the icons (including their backgrounds)
+		"separator_height"		"3"
+		"height_offset"			"9"	[$WIN32] // distance from the bottom of the panel
+		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
