@@ -19,7 +19,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"25"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"

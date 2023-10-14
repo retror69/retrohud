@@ -5,11 +5,12 @@ _______________________________________
   <p align="center">
     An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
     <br />
+    <a href="https://github.com/retror69/FUNKeHud-Edit/releases">Download</a>
+    ·
     <a href="https://imgur.com/a/KfGkGCg">Screenshots</a>
   </p>
 </p>
 
-_______________________________________
 
 # FUNKeHud-Edit by retror
 There are 3 different font options for health and ammo:
