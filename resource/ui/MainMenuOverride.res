@@ -1499,7 +1499,7 @@
 		"fieldname"		"CreateServerButton"
 		"xpos"			"240"
 		"ypos"			"166"
-		"zpos"			"105"
+		"zpos"			"16"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
