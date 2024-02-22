@@ -87,7 +87,7 @@
 		"textinsety"	"5"
 
 		"border_default"	"NoBorder"
-		"border_armed"		"CyanBorderThick"
+		"border_armed"		"OrangeBorderThick"
 		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"

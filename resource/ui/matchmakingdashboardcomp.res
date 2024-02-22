@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"			"center"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSecondary"
 		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"
 		"allcaps"				"1"
