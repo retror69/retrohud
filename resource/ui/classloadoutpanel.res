@@ -1,6 +1,6 @@
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"TopBgImage" //Does not work in valve servers
+	"TopBgImage"
 	{
 		"ControlName"	"ImagePanel"
 		"xpos"			"0"
@@ -8,10 +8,10 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"f0"
-		"image"			"geelisgay/main_bg"
+		"image"			"../sprites/obj_icons/main_bg"
 		"scaleImage"	"1"
-		"enabled"		"0"
-		"visible"		"0"
+		"enabled"		"1"
+		"visible"		"1"
 	}
 	
 	"class_loadout_panel"

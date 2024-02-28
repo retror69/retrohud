@@ -1,5 +1,14 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"main_bg"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"main_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/main_bg"
+	}
+
 	"cpiconwhite"
 	{
 		"ControlName"	"ImagePanel"
