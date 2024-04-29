@@ -5,7 +5,7 @@ _______________________________________
   <p align="center">
     An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
     <br />
-    <a href="https://github.com/retror69/FUNKeHud-Edit/releases">Download</a>
+    <a href="https://codeload.github.com/retror69/FUNKeHud-Edit/zip/refs/heads/main">Download</a>
     ·
     <a href="https://imgur.com/a/KfGkGCg">Screenshots</a>
   </p>
