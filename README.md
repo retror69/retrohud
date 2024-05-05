@@ -24,8 +24,6 @@ Speedometer can be enabled/disabled by going to the "options" folder and draggin
 
 Transparent viewmodels, crosshairs, and hitmarker can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
-Loadout BG (enabled by default) can be enabled/disabled through the "classloadoutpanel.res" file in the "resource/ui" folders.
-
 _______________________________________
 
 For any questions, ask me in the HUDS.tf discord!
