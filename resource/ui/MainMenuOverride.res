@@ -123,6 +123,68 @@
 		}
 	}
 
+	// Payload
+    "cart_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue" }
+    "cart_blue_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue_bottom" }
+    "cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
+    "cart_red_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red_bottom" }
+    "cart_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_neutral" }
+    "cart_neutral_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_neutral_bottom" }
+    "cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }
+    "cart_home_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue_opaque" }
+    "cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }
+    "cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
+    "cart_track" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track" }
+    "cart_track_extender" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_extender" }
+
+    // Payload - Race
+    "cart_home_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_red" }
+    "cart_home_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue" }
+    "cart_home_red_square" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_red_square" }
+    "cart_home_blue_square" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue_square" }
+    "cart_point_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue" }
+    "cart_point_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red" }
+    "cart_track_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue_opaque" }
+    "cart_track_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_neutral_opaque" }
+    "cart_track_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red_opaque" }
+
+    // Control Points - Base
+    "icon_obj_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral" }
+    "icon_obj_neutral_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral_locked" }
+    "icon_obj_cap_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu" }
+    "icon_obj_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu" }
+    "icon_obj_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu_locked" }
+    "icon_obj_cap_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red" }
+    "icon_obj_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red" }
+    "icon_obj_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red_locked" }
+    "icon_obj_cap_mask" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_mask" }
+    "icon_obj_cap_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu" }
+    "icon_obj_cap_blu_up" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu_up" }
+    "icon_obj_cap_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red" }
+    "icon_obj_cap_red_up" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red_up" }
+
+    // Control Points - Numbered
+    "icon_obj_1_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_blu" }
+    "icon_obj_1_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_blu_locked" }
+    "icon_obj_1_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_red" }
+    "icon_obj_1_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_red_locked" }
+    "icon_obj_2_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_blu" }
+    "icon_obj_2_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_blu_locked" }
+    "icon_obj_2_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_red" }
+    "icon_obj_2_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_red_locked" }
+    "icon_obj_3_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_blu" }
+    "icon_obj_3_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_blu_locked" }
+    "icon_obj_3_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_red" }
+    "icon_obj_3_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_red_locked" }
+    "icon_obj_4_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_blu" }
+    "icon_obj_4_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_blu_locked" }
+    "icon_obj_4_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_red" }
+    "icon_obj_4_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_red_locked" }
+    "icon_obj_5_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_blu" }
+    "icon_obj_5_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_blu_locked" }
+    "icon_obj_5_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red" }
+    "icon_obj_5_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red_locked" }
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -162,391 +224,6 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	}	
-	
-	"cpicondummy1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy1"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_blu"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy2"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_blu_locked"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy3"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy3"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_cap_blu"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy4"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy4"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_cap_red"
-				"scaleImage"	"1"
-			}	
-		}		
-	}	
-	"cpicondummy5"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy5"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_neutral"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy6"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy6"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy7"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy7"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_red"
-				"scaleImage"	"1"
-			}	
-		}		
-	}
-	"cpicondummy8"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"cpicondummy8"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"11"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"VersionFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../sprites/obj_icons/icon_obj_red_locked"
-				"scaleImage"	"1"
-			}	
-		}		
 	}	
 	
 	"TooltipPanel"
