@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Regular10"
+		"font"			"Killfeed"
 		"xpos"			"5"
 		"ypos"			"1"
 		"zpos"			"4"
@@ -92,7 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Regular12"
+		"font"			"Killfeed"
 	}
 				
 	"CPTimerBG"

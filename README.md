@@ -1,4 +1,4 @@
-credit to malgreen for funkehud-reloaded
+credit to rayshud
 _______________________________________
 
 <p align="center">
