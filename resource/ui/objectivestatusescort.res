@@ -82,7 +82,7 @@
 
         "if_multiple_trains"
         {
-            "xpos"                                                  "c-139"
+            "xpos"                                                  "c-164"
             "ypos"                                                  "r40"
             "zpos"                                                  "5"
             "wide"                                                  "12"
@@ -92,14 +92,14 @@
 
         "if_multiple_trains_red"
         {
-            "xpos"                                                  "c-139"
+            "xpos"                                                  "c-164"
             "ypos"                                                  "r40"
             "image"                                                 "../hud/cart_home_red_square"
         }
 
         "if_multiple_trains_blue"
         {
-            "xpos"                                                  "c-139"
+            "xpos"                                                  "c-164"
             "ypos"                                                  "r40"
             "image"                                                 "../hud/cart_home_blue_square"
         }
