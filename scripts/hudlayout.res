@@ -68,6 +68,11 @@
 	}
 	//--------------------------------------------------------------
 
+	MMDashboardPopupContainer
+	{
+		"xpos"    "r0"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
