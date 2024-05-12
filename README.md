@@ -3,7 +3,7 @@ _______________________________________
 
 <p align="center">
   <p align="center">
-    An edit of FUNKe's hud that I personally use and maintain. Most of the assets are from versions of his huds. 
+    An edit of rayshud that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LionHUD, ahud, etc. 
     <br />
     <a href="https://codeload.github.com/retror69/FUNKeHud-Edit/zip/refs/heads/main">Download</a>
     ·
@@ -12,7 +12,7 @@ _______________________________________
 </p>
 
 
-# FUNKeHud-Edit by retror
+# retrohud by retror
 There are 3 different font options for health and ammo:
   
 -Newtown (default)  
