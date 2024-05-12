@@ -1,4 +1,4 @@
-credit to rayshud
+
 _______________________________________
 
 <p align="center">
