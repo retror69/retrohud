@@ -7,20 +7,6 @@
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
 	"DisconnectButton"
 	{
 		"label" "Disconnect" 

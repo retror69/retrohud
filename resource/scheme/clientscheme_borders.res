@@ -276,27 +276,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "4 1"
 				}
 			}
@@ -305,27 +305,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "4 1"
 				}
 			}
@@ -334,27 +334,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Button Color Dim"
 					"offset" "4 1"
 				}
 			}

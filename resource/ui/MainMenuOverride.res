@@ -125,66 +125,34 @@
 
 	// Payload
     "cart_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue" }
-    "cart_blue_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue_bottom" }
-    "cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
-    "cart_red_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red_bottom" }
-    "cart_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_neutral" }
-    "cart_neutral_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_neutral_bottom" }
-    "cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }
-    "cart_home_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue_opaque" }
-    "cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }
-    "cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
-    "cart_track" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track" }
-    "cart_track_extender" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_extender" }
-
-    // Payload - Race
-    "cart_home_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_red" }
-    "cart_home_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue" }
-    "cart_home_red_square" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_red_square" }
-    "cart_home_blue_square" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue_square" }
     "cart_point_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue" }
+    "cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }
+    "cart_point_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral" }
+    "cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }
     "cart_point_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red" }
+    "cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
+    "cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
+    "cart_track_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue" }
     "cart_track_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue_opaque" }
     "cart_track_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_neutral_opaque" }
+	"cart_track_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red" }
     "cart_track_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red_opaque" }
 
     // Control Points - Base
     "icon_obj_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral" }
     "icon_obj_neutral_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral_locked" }
-    "icon_obj_cap_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu" }
     "icon_obj_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu" }
     "icon_obj_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu_locked" }
-    "icon_obj_cap_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red" }
     "icon_obj_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red" }
     "icon_obj_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red_locked" }
-    "icon_obj_cap_mask" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_mask" }
-    "icon_obj_cap_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu" }
-    "icon_obj_cap_blu_up" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_blu_up" }
-    "icon_obj_cap_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red" }
-    "icon_obj_cap_red_up" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_cap_red_up" }
-
-    // Control Points - Numbered
-    "icon_obj_1_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_blu" }
-    "icon_obj_1_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_blu_locked" }
-    "icon_obj_1_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_red" }
-    "icon_obj_1_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_1_red_locked" }
-    "icon_obj_2_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_blu" }
-    "icon_obj_2_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_blu_locked" }
-    "icon_obj_2_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_red" }
-    "icon_obj_2_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_2_red_locked" }
-    "icon_obj_3_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_blu" }
-    "icon_obj_3_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_blu_locked" }
-    "icon_obj_3_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_red" }
-    "icon_obj_3_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_3_red_locked" }
-    "icon_obj_4_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_blu" }
-    "icon_obj_4_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_blu_locked" }
-    "icon_obj_4_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_red" }
-    "icon_obj_4_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_4_red_locked" }
-    "icon_obj_5_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_blu" }
-    "icon_obj_5_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_blu_locked" }
-    "icon_obj_5_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red" }
-    "icon_obj_5_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red_locked" }
-
+	
+	// Control Points - Extra
+    "icon_obj_a" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_a" }
+    "icon_obj_b" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_b" }
+    "icon_obj_c" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_c" }
+    "icon_obj_d" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_d" }
+    "icon_obj_e" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_e" }
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -443,11 +411,11 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot0"
-		"xpos"			"c233"
-		"ypos"			"28"
+		"xpos"			"c+243"
+		"ypos"			"319"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"19"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -464,8 +432,8 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot1"
-		"xpos"			"c256"
-		"ypos"			"28"
+		"xpos"			"c+266"
+		"ypos"			"319"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
@@ -485,8 +453,8 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot2"
-		"xpos"			"c279"
-		"ypos"			"28"
+		"xpos"			"c+266"
+		"ypos"			"338"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
@@ -506,8 +474,8 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot3"
-		"xpos"			"c302"
-		"ypos"			"28"
+		"xpos"			"c+266"
+		"ypos"			"357"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
@@ -527,8 +495,8 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot4"
-		"xpos"			"c325"
-		"ypos"			"28"
+		"xpos"			"c+266"
+		"ypos"			"376"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
@@ -548,8 +516,8 @@
 	{
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot5"
-		"xpos"			"c348"
-		"ypos"			"28"
+		"xpos"			"c+266"
+		"ypos"			"395"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
@@ -610,112 +578,115 @@
 	}
 	
 	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"r112"
-		"ypos"			"90"
-		"zpos"			"11"
-		"wide"			"150"
-		"tall"			"300"
-		"visible"		"1"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "FriendsContainer"
+        "xpos"          "c30"
+        "ypos"          "315"
+        "zpos"          "-71"
+        "wide"          "260"
+        "tall"          "105"
+        "visible"       "1"
+        "proportionaltoparent"  "0"
+        "PaintBackgroundType"   "0"
 
-		"bgcolor_override"		"0 0 0 0"
+        "border"        "MainMenuBGBorder"
 
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"surface14"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"west"
-			"xpos"			"0"
-			"ypos"			"5"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"BGColor"
-		}
+        "TitleLabel"
+        {
+            "ControlName"   "CExLabel"
+            "fieldName"     "TitleLabel"
+            "font"          "HudFontSmallBold"
+            "labelText"     "Play with friends"
+            "textAlignment" "west"
+            "xpos"          "12"
+            "ypos"          "4"
+            "wide"          "f0"
+            "tall"          "20"
+            "autoResize"    "0"
+            "pinCorner"     "0"
+            "visible"       "1"
+            "enabled"       "1"
+            "textinsetx"    "0"
+            "fgcolor_override"  "235 227 203 255"
+        }
 
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"2"
-			"ypos"			"32"
-			"zpos"			"500"
-			"wide"			"f20"
-			"tall"			"260"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
+        "InnerShadow"
+        {
+            "ControlName"   "EditablePanel"
+            "fieldname"     "InnerShadow"
+            "xpos"          "c-125"
+            "ypos"          "c-25"
+            "zpos"          "501"
+            "wide"          "230"
+            "tall"          "70"
+            "visible"       "1" 
+            "PaintBackgroundType"   "0"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled" "0"
 
-			"columns_count"	"1"
-			"inset_x"		"0"
-			"inset_y"		"0"
-			"row_gap"		"2"
-			"column_gap"	"20"
-			"restrict_width"	"0"
+            "paintborder"   "1"
+            "border"        "InnerShadowBorder"
+        }
 
-			"friendpanel_kv"
-			{
-				"wide"		"100"
-				"tall"		"20"
-			}
+        "SteamFriendsList"
+        {
+            "ControlName"   "CSteamFriendsListPanel"
+            "fieldname"     "SteamFriendsList"
+            "xpos"          "c-125"
+            "ypos"          "c-25"
+            "zpos"          "500"
+            "wide"          "240"
+            "tall"          "70"
+            "visible"       "1"
+            "proportionaltoparent"  "1"
 
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"106"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
+            "columns_count" "2"
+            "inset_x"       "10"
+            "inset_y"       "5"
+            "row_gap"       "5"
+            "column_gap"    "10"
+            "restrict_width"    "0"
 
-				"Slider"
-				{
-					"fgcolor_override"	"White"
-				}
-		
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-		
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-				}
-			}
-		}
+            "friendpanel_kv"
+            {
+                "wide"      "100"
+                "tall"      "20"
+            }
 
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"499"
-			"wide"			"112"
-			"tall"			"265"
-			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+            "ScrollBar"
+            {
+                "ControlName"   "ScrollBar"
+                "FieldName"     "ScrollBar"
+                "xpos"          "rs1-10"
+                "ypos"          "0"
+                "tall"          "f0"
+                "wide"          "5" // This gets slammed from client schme.  GG.
+                "zpos"          "1000"
+                "nobuttons"     "1"
+                "proportionaltoparent"  "1"
 
-			"bgcolor_override"	"0 0 0 175"
-		}
-	}
+                "Slider"
+                {
+                    "fgcolor_override"  "TanDark"
+                }
+        
+                "UpButton"
+                {
+                    "ControlName"   "Button"
+                    "FieldName"     "UpButton"
+                    "visible"       "0"
+                }
+        
+                "DownButton"
+                {
+                    "ControlName"   "Button"
+                    "FieldName"     "DownButton"
+                    "visible"       "0"
+                }
+            }
+        }
+    }
 	
 	"TFLogoImage"
 	{
@@ -728,7 +699,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/tflogo"
+		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
 	
@@ -816,7 +787,7 @@
 		"fieldName"		"SidePanelBG"
 		"xpos"			"75"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-10"
 		"wide"			"200"
 		"tall"			"f0"
 		"visible"		"1"
@@ -1971,128 +1942,6 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"137 134 127 255"
-		}
-	}
-		
-	"ServerBrowserButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ServerBrowserButton"
-		"xpos"			"70"
-		"ypos"			"170"
-		"zpos"			"16"
-		"wide"			"200"
-		"tall"			"16"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold16"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
-	"ChangeServerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ChangeServerButton"
-		"xpos"			"70"
-		"ypos"			"170"
-		"zpos"			"16"
-		"wide"			"200"
-		"tall"			"16"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold16"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
 		}
 	}
 
