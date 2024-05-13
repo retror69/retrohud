@@ -21,7 +21,7 @@
 		"ControlName"                "CExImageButton"
 		"xpos"                        "92.5"
 		"ypos"                        "170"
-		"zpos"                        "1011"
+		"zpos"                        "19"
 		"wide"                        "200"
 		"tall"                        "16"
 		"Command"                    "find_game"

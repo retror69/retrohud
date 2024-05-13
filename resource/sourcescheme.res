@@ -13,12 +13,12 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimary"			"255 128 28 255"
-		"RaysPrimaryLight"		"255 128 28 255"
-		"RaysPrimaryDark"		"255 128 28 255"
+		"RaysPrimary"			"188 60 56 255"
+		"RaysPrimaryLight"		"188 60 56 255"
+		"RaysPrimaryDark"		"188 60 56 255"
 		"RaysBlack"				"15 15 15 255"
 		"RaysBlackTrans"		"15 15 15 190"
-		"RaysButtonHover"		"128 64 0 255"
+		"RaysButtonHover"		"128 40 36 255"
 		
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"

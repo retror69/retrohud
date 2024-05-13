@@ -699,7 +699,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
+		"image"			"../console/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
 	

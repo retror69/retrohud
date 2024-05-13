@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"ItemFontNameLargest"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -265,7 +265,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"paintbackground"	"0"
 	}
 	
 	"PresetsExplanation"
@@ -605,76 +604,78 @@
 	}
 	"RedButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-//		"xpos"				"c-40"
-//		"ypos"				"35"
-		"xpos"				"c5"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
+		"xpos"				"c136"
+		"ypos"				"c-180"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"25"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"RED Team"
+		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"BebasNeue16"
+		"font"				"HudFontMediumBold"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"Button Color"
+		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "250 68 17 255"
+		"defaultBgColor_override"	"TanDarker"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 		"border_depressed"			"NoBorder"
 	}
-	
+
 	"BlueButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BlueButton"
-//		"xpos"				"c-40"
-//		"ypos"				"10"
-		"xpos"				"c-85"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BlueButton"
+		"xpos"				"c136"
+		"ypos"				"c-153"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"25"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"BLU Team"
+		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"BebasNeue16"
+		"font"				"HudFontMediumBold"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"Button Color"
+		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "119 179 214 255"
-		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "119 179 214 255"
+		"defaultBgColor_override"	"TanDarker"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"

@@ -2025,6 +2025,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ItemFontNameLargest"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"

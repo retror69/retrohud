@@ -2,17 +2,17 @@ Scheme
 {
 	Colors
 	{
-		"BGColor"					"255 128 28 255"
+		"BGColor"					"188 60 56 255"
 
 		// HUD-specific colors
 		//---------------------------------------------
-		"Base Color"				"255 128 28 255"
+		"Base Color"				"188 60 56 255"
 		//---------------------------------------------
 		//Custom basic colors
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
 		"ColorVermillion"			"255 64 0 255"
-		"ColorOrange"				"255 128 28 255"
+		"ColorOrange"				"188 60 56 255"
 		"ColorYellow"				"255 255 0 255"
 		"ColorLime"					"128 255 0 255"
 		"ColorGreen"				"0 255 0 255"
@@ -46,8 +46,8 @@ Scheme
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"255 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
-		"Button Color"				"255 128 28 255"
-		"Button Color Dim"			"128 64 0 255"
+		"Button Color"				"188 60 56 255"
+		"Button Color Dim"			"128 40 36 255"
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
@@ -60,15 +60,15 @@ Scheme
 		"Flashing Uber Color2"		"255 69 0 255"
 		//---------------------------------------------
 		// Player Stats
-		"StatBar1"						"255 128 28 168"
-		"StatBar2"						"255 128 28 168"
-		"StatBar3"						"255 128 28 168"
-		"StatBar4"						"255 128 28 168"
-		"StatBar5"						"255 128 28 168"
-		"StatBar6"						"255 128 28 168"
-		"StatBar7"						"255 128 28 168"
-		"StatBar8"						"255 128 28 168"
-		"StatBar9"						"255 128 28 168"
+		"StatBar1"						"188 60 56 168"
+		"StatBar2"						"188 60 56 168"
+		"StatBar3"						"188 60 56 168"
+		"StatBar4"						"188 60 56 168"
+		"StatBar5"						"188 60 56 168"
+		"StatBar6"						"188 60 56 168"
+		"StatBar7"						"188 60 56 168"
+		"StatBar8"						"188 60 56 168"
+		"StatBar9"						"188 60 56 168"
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------
