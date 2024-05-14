@@ -1,14 +1,13 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/destroy_menu/sentry_active.res"
+"Resource/UI/Destroy_Menu/Sentry_Active.res"
 {
-	"ItemNameLabel"
+	"BuildingName"
 	{
-		"labelText"			"#TF_Object_Sentry"
+		"labelText"									"Sentrygun"
 	}
-
-	"BuildingIcon"
+	"NumberLabel"
 	{
-		"icon"				"obj_status_sentrygun_1"
+		"labelText"									"1"
 	}
 }

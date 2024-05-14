@@ -1,19 +1,26 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/soldier_red.res"
+"Resource/UI/Disguise_Menu/Soldier_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
 	"ItemNameLabel"
 	{
-		"labelText"			"#TF_Class_Name_Soldier"
+		"xpos"										"0"
+		"ypos"										"0"
+		"labelText"									"#TF_Class_Name_Soldier"
 	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"2"
-	}
-
 	"NumberLabel"
 	{
-		"labelText"			"2"
+		"ypos"										"0"
+		"labelText"									"2"
+	}
+	"NewNumberLabel"
+	{
+		"xpos"										"50"
+		"ypos"										"0"
+		"labelText"									"2"
 	}
 }

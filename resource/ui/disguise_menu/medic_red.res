@@ -1,19 +1,26 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/medic_red.res"
+"Resource/UI/Disguise_Menu/Medic_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
 	"ItemNameLabel"
 	{
-		"labelText"			"#TF_Class_Name_Medic"
+		"xpos"										"0"
+		"ypos"										"0"
+		"labelText"									"#TF_Class_Name_Medic"
 	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"1"
-	}
-
 	"NumberLabel"
 	{
-		"labelText"			"7"
+		"ypos"										"0"
+		"labelText"									"7"
+	}
+	"NewNumberLabel"
+	{
+		"xpos"										"50"
+		"ypos"										"0"
+		"labelText"									"1"
 	}
 }

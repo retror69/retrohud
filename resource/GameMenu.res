@@ -9,14 +9,14 @@
 	}
 	"DisconnectButton"
 	{
-		"label" "Disconnect" 
+		"label" "DISCONNECT" 
 		"Command"	"engine disconnect"
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "TRAINING"
 		"command" "offlinepractice"
 		"subimage" ""
 		"OnlyAtMenu" "0"
@@ -32,13 +32,13 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
+		"label" "SHOP"
 		"command" "engine open_store"
 		"subimage" ""
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "ITEMS"
 		"command" "engine open_charinfo"
 		"subimage" ""
 	}

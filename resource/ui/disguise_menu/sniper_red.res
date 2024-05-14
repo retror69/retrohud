@@ -1,19 +1,26 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/sniper_red.res"
+"Resource/UI/Disguise_Menu/Sniper_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
 	"ItemNameLabel"
 	{
-		"labelText"			"#TF_Class_Name_Sniper"
+		"xpos"										"0"
+		"ypos"										"0"
+		"labelText"									"#TF_Class_Name_Sniper"
 	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"2"
-	}
-
 	"NumberLabel"
 	{
-		"labelText"			"8"
+		"ypos"										"0"
+		"labelText"									"8"
+	}
+	"NewNumberLabel"
+	{
+		"xpos"										"50"
+		"ypos"										"0"
+		"labelText"									"2"
 	}
 }

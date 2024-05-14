@@ -1,19 +1,26 @@
-#base "heavy_red.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/spy_red.res"
+"Resource/UI/Disguise_Menu/Spy_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
 	"ItemNameLabel"
 	{
-		"labelText"			"#TF_Class_Name_Spy"
+		"xpos"										"0"
+		"ypos"										"0"
+		"labelText"									"#TF_Class_Name_Spy"
 	}
-
-	"NewNumberLabel"
-	{
-		"labelText"			"3"
-	}
-
 	"NumberLabel"
 	{
-		"labelText"			"9"
+		"ypos"										"0"
+		"labelText"									"9"
+	}
+	"NewNumberLabel"
+	{
+		"xpos"										"50"
+		"ypos"										"0"
+		"labelText"									"3"
 	}
 }

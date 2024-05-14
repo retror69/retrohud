@@ -1,14 +1,13 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/destroy_menu/tele_exit_active.res"
+"Resource/UI/Destroy_Menu/Tele_Exit_Active.res"
 {
-	"ItemNameLabel"
+	"BuildingName"
 	{
-		"labelText"			"#TF_Object_Tele_Exit_360"
+		"labelText"									"Tele Exit"
 	}
-
-	"BuildingIcon"
+	"NumberLabel"
 	{
-		"icon"				"obj_status_tele_exit"
+		"labelText"									"4"
 	}
 }

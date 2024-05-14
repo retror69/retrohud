@@ -17,15 +17,21 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c210"
-		"ypos"			"r60"
+		"xpos"			"25"	[$WIN32]
+		"xpos$_disabled_"	"15"	[$WIN32]
+		"ypos"			"r60"	[$WIN32]
+		"ypos$_disabled_"	"r54"	[$WIN32]
+		"xpos"			"57"	[$_disabled_]
+		"ypos"			"r110"	[$_disabled_]
 		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"75"
+		"wide$_disabled_"	"37"
+		"tall"			"75"
+		"tall$_disabled_"	"37"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -67,37 +73,47 @@
 
 	"classmodelpanel"
 	{
-		"ControlName"		"CTFPlayerModelPanel"
-		"fieldName"			"classmodelpanel"
-		"xpos"				"r210"
-		"ypos"				"r148"
-		"zpos"				"2"
-		"wide"				"75"
-		"tall"				"150"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"0"	[$WIN32]
+		"xpos$_disabled_"	"0"	[$WIN32]
+		"ypos"			"r180"	[$WIN32]
+		"ypos$_disabled_"	"r88"	[$WIN32]
+		"zpos"			"2"		
+		"wide"			"100"
+		"wide$_disabled_"	"52"
+		"tall"			"200"
+		"tall$_disabled_"	"102"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
 		"render_texture"	"0"
-		"fov"				"12"
-		"allow_rot"			"1"
+		"fov"			"12"
+		"allow_rot"		"1"
 
+		"disable_speak_event"	"1"
+				
 		"model"
 		{
-			"force_pos"			"1"
-			"angles_x" 			"0"
-			"angles_y" 			"172"
-			"angles_z" 			"0"
-			"origin_x" 			"200"
-			"origin_y" 			"0"
-			"origin_z" 			"-60"
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "172"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "0"
+			"origin_z" "-60"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight"			"1"
-			"modelname"			""
-		}
+			"spotlight" "1"
 		
+			"modelname"		""
+		}
+
 		"customclassdata"
 		{
 			"undefined"
@@ -107,91 +123,114 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"150"
-				"angles_z"		"-10"
+				"angles_x$_disabled_"	"-10"
+				"angles_y"		"145"
+				"angles_z"		"0"
 				"origin_x"		"105"
-				"origin_y"		"7"
+				"origin_y"		"4"
 				"origin_z"		"-82"
+				"origin_z$_disabled_"	"-52"
 			}
 			"Sniper"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"0"
+				"angles_y"		"172"
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"-3"
 				"origin_z"		"-97"
+				"origin_z$_disabled_"	"-57"
 			}
 			"Soldier"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"-3"
+				"angles_y"		"170"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
+				"origin_y$_disabled_"	"-8"
 				"origin_z"		"-90"
+				"origin_z$_disabled_"	"-50"
 			}
 			"Demoman"
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"-3"
+				"angles_y"		"200"
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"-4"
 				"origin_z"		"-93"
+				"origin_z$_disabled_"	"-53"
 			}
 			"Medic"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"158"
+				"angles_x$_disabled_"	"3"
+				"angles_y"		"178"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
 				"origin_z"		"-96"
+				"origin_z$_disabled_"	"-60"
 			}
 			"Heavy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"0"
+				"angles_y"		"200"
+				"angles_y$_disabled_"	"210"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"-7"
+				"origin_y"		"0"
 				"origin_z"		"-102"
+				"origin_z$_disabled_"	"-60"
 			}
 			"Pyro"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"0"
+				"angles_y"		"172"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"-10"
+				"origin_y"		"-5"
 				"origin_z"		"-90"
+				"origin_z$_disabled_"	"-50"
 			}
 			"Spy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"3"
+				"angles_y"		"160"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
+				"origin_y$_disabled_"	"-3"
 				"origin_z"		"-95"
+				"origin_z$_disabled_"	"-60"
 			}
 			"Engineer"
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"150"
+				"angles_x$_disabled_"	"0"
+				"angles_y"		"168"
 				"angles_z"		"0"
 				"origin_x"		"140"
+				"origin_x$_disabled_"	"160"
 				"origin_y"		"-2"
+				"origin_y$_disabled_"	"-7"
 				"origin_z"		"-82"
+				"origin_z$_disabled_"	"-52"
 			}
 		}
 	}

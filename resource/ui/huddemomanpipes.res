@@ -72,10 +72,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c+39" // 1 CSBC
-		"xpos_minmode"	"c+19" // 2 CSBC
-		"ypos"			"r32"
-		"ypos_minmode"	"c+108" // 1 BPM
+		"xpos"				"-105"
+		"ypos"				"0"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"126"

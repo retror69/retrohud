@@ -33,7 +33,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "BebasNeueBold"
+				"name"		 "BebasNeuePro-Bold"
 				"tall" 		 "16"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -44,7 +44,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "BebasNeueBold"
+				"name"		 "BebasNeuePro-Bold"
 				"tall" 		 "12"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -65,7 +65,7 @@ Scheme
 			}
 		}
 		
-		"BebasNeueBold28"
+		"BebasNeuePro-Bold28"
 		{
 			"1"
 			{
@@ -342,7 +342,7 @@ Scheme
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"12"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
@@ -350,7 +350,7 @@ Scheme
 			"2"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"600 767"
@@ -1318,7 +1318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"6"
 				"weight"		"400"
 				"additive"		"0"
@@ -1744,8 +1744,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"8"
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"12"
 				"weight"		"0"
 				"additive"		"1"
 				"antialias" 	"1"
@@ -1755,7 +1755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
@@ -2898,16 +2898,6 @@ Scheme
 		"14"
 		{	"font"	"resource/fonts/tf2secondarynm.ttf"
 			"name"	"tf2secondarynm"
-		}
-		"15"
-		{
-			"font" "resource/fonts/BebasNeue.otf"
-			"name" "BebasNeueRegular"
-		}
-		"16"
-		{
-			"font" "resource/fonts/BebasNeue Bold.otf"
-			"name" "BebasNeueBold"
 		}
 	}
 }

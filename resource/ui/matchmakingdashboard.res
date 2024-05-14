@@ -27,7 +27,7 @@
 		"Command"                    "find_game"
 		"proportionaltoparent"        "1"
 		"font"							"CerbeticaBold16"
-		"labeltext"                    "Servers"
+		"labeltext"                    "SERVERS"
 		"mouseinputenabled"            "1"
 		"keyboardinputenabled"        "0"
 		"pinCorner"		"3"

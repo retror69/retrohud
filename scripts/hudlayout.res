@@ -287,7 +287,7 @@
 		"PaintBackgroundType"	"2"
 	}
 
-		DisguiseStatus
+	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
@@ -340,33 +340,40 @@
 		"priority"				"35"
 	}
 
-	BuildingStatus_Spy
+	"BuildingAnchor"
 	{
-		"fieldName" 			"BuildingStatus_Spy"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"640"
-		"tall"					"480"
-		"PaintBackgroundType"	"2"
+		"ControlName"								"Panel"
+		"fieldName"									"BuildingAnchor"
+		"xpos"										"1"
+		"ypos"										"139"
+		"zpos"										"0"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha"										"0"
 	}
-
-	BuildingStatus_Engineer
+	"BuildingStatus_Spy"
 	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
+		"fieldName"									"BuildingStatus_Spy"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"12"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"pin_to_sibling"							"BuildingAnchor"
+	}
+	"BuildingStatus_Engineer"
+	{
+		"fieldName"									"BuildingStatus_Engineer"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"12"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"pin_to_sibling"							"BuildingAnchor"
 	}
 
 	HudMannVsMachineStatus
@@ -980,30 +987,25 @@
 
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 		"HudMenuEngyBuild"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c-200"
-		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
-		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"150"
-		"PaintBackgroundType"	"0"
+		"fieldName"									"HudMenuEngyBuild"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"37"
+		"ypos"										"c-92"
+		"zpos"										"20"
+		"wide"										"34"
+		"tall"										"f0"
 	}
-
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 		"HudMenuEngyDestroy"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c-200"
-		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
-		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"150"
-		"PaintBackgroundType"	"0"
+		"fieldName"									"HudMenuEngyDestroy"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"1"
+		"ypos"										"c-92"
+		"zpos"										"20"
+		"wide"										"85"
+		"tall"										"f0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -1022,16 +1024,14 @@
 
 	"HudMenuSpyDisguise"
 	{
-		"fieldName" 		"HudMenuSpyDisguise"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c90"
-		"ypos"				"c-72"
-		"xpos_minmode"		"c120"
-		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"190"
-		"PaintBackgroundType"	"0"
+		"fieldName"									"HudMenuSpyDisguise"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"c135"
+		"ypos"										"c50"
+		"wide"										"64"
+		"tall"										"123"
+		"zpos"										"10"
 	}
 
 	HudDemomanPipes
@@ -1039,9 +1039,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"					"c200"
+		"xpos_minmode"			"c130"
+		"ypos"					"c130"
+		"zpos"					"1"
+		"ypos_minmode"			"c83"
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"

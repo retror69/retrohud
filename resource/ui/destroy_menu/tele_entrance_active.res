@@ -1,14 +1,13 @@
-#base "base_active.res"
+#base "Base_Active.res"
 
-"Resource/UI/destroy_menu/tele_entrance_active.res"
+"Resource/UI/Destroy_Menu/Tele_Entrance_Active.res"
 {
-	"ItemNameLabel"
+	"BuildingName"
 	{
-		"labelText"			"#TF_Object_Tele_Entrance_360"
+		"labelText"									"Tele Ent"
 	}
-
-	"BuildingIcon"
+	"NumberLabel"
 	{
-		"icon"				"obj_status_tele_entrance"
+		"visible"									"1"
 	}
 }
