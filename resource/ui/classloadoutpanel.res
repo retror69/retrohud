@@ -618,7 +618,7 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"HudFontMediumBold"
+		"font"			"ItemFontNameLargest"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
@@ -658,7 +658,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"HudFontMediumBold"
+		"font"				"ItemFontNameLargest"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
