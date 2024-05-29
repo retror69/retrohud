@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall" 		 	"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"

@@ -3,7 +3,7 @@ _______________________________________
 
 <p align="center">
   <p align="center">
-    An edit of rayshud that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LionHUD, ahud, etc. 
+    An edit of FUNKeHUD that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LightHUD, rayshud etc. 
     <br />
     <a href="https://codeload.github.com/retror69/FUNKeHud-Edit/zip/refs/heads/main">Download</a>
     ·
@@ -13,16 +13,15 @@ _______________________________________
 
 
 # retrohud by retror
-There are 3 different font options for health and ammo:
+There are 2 different font options for health and ammo:
   
 -Newtown (default)  
--Piximisa  
--DOCK11  
+-Bebas Neue  
 They can be enabled/disabled by going to the "options" folder and dragging+dropping the option you want into the "enabled" folder.
 
 Speedometer can be enabled/disabled by going to the "options" folder and dragging+dropping it into the "enabled" folder.
 
-Transparent viewmodels, crosshairs, and hitmarker can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
+Transparent viewmodels can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
 _______________________________________
 

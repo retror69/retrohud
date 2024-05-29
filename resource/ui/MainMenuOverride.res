@@ -43,7 +43,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"CerbeticaBold16"
+				"font"			"BebasNeue16"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -56,12 +56,12 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "TanLight"
-				"armedFgColor_override" "Button Color"
-				"depressedFgColor_override" "Button Color"
+				"armedFgColor_override" "Base Color"
+				"depressedFgColor_override" "Base Color"
 				
 				"image_drawcolor"	"TanLight"
-				"image_armedcolor"	"Button Color"
-				"image_depressedcolor" "Button Color"
+				"image_armedcolor"	"Base Color"
+				"image_depressedcolor" "Base Color"
 				
 				"SubImage"
 				{
@@ -297,7 +297,7 @@
 		"paintbackground"	"0"
 		"paintborder"		"0"
 		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
+		"armedFgColor_override"		"Base Color"
 
 		"SubImage"
 		{
@@ -744,7 +744,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold20"
+			"font"			"HUDFont20"
 			"textAlignment"	"center"
 			"labelText"		"FUNKeHUD"
 			"dulltext"		"0"
@@ -907,7 +907,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
+			"armedFgColor_override"		"Base Color"
 		}	
 		
 		"NotificationsContainer"
@@ -1003,7 +1003,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
+			"armedFgColor_override"		"Base Color"
 		}
 	}
 	
@@ -1433,7 +1433,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
+			"armedFgColor_override"		"Base Color"
 		}
 	}
 	
@@ -1480,8 +1480,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 		}
 	
 		"Notifications_TitleLabel"
@@ -1562,7 +1562,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
+			"armedFgColor_override"		"Base Color"
 		}	
 	}
 	
@@ -1593,7 +1593,7 @@
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
 			"labelText"		"TRAINING"
-			"font"			"CerbeticaBold16"
+			"font"			"BebasNeue16"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1606,11 +1606,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1641,7 +1641,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"ADV. OPTIONS"
-		"font"			"CerbeticaBold16"
+		"font"			"BebasNeue16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1652,8 +1652,8 @@
 		"Command"		"opentf2options"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1676,7 +1676,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"OPTIONS"
-		"font"			"CerbeticaBold16"
+		"font"			"BebasNeue16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1687,8 +1687,8 @@
 		"Command"		"OpenOptionsDialog"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1721,7 +1721,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold16"
+			"font"			"BebasNeue16"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1734,8 +1734,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1794,7 +1794,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold16"
+			"font"			"BebasNeue16"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1807,8 +1807,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1974,17 +1974,17 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"actionsignallevel" "2"
-			"paintbackground"	"1"
+			"paintbackground"	"0"
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"Button Color"		
+			"image_armedcolor"	"ColorWhite"		
 		}
 	}
 	"MutePlayersButton"
@@ -2017,17 +2017,17 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"actionsignallevel" "2"
-			"paintbackground"	"1"
+			"paintbackground"	"0"
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"Button Color"				
+			"image_armedcolor"	"ColorWhite"				
 		}
 	}
 	"RequestCoachButton"
@@ -2060,17 +2060,17 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"actionsignallevel" "2"
-			"paintbackground"	"1"
+			"paintbackground"	"0"
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"Button Color"		
+			"image_armedcolor"	"ColorWhite"			
 		}
 	}
 	
@@ -2104,11 +2104,11 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Button Color"			
+		"image_armedcolor"	"Base Color"			
 	}		
 	
 	"AchievementsButton"
@@ -2140,11 +2140,11 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 	}		
 	
 	"CommentaryButton"
@@ -2176,11 +2176,11 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 	}		
 	
 	"CoachPlayersButton"
@@ -2213,11 +2213,11 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Button Color"	
+		"image_armedcolor"	"Base Color"	
 	}	
 	
 	"ReportBugButton"
@@ -2250,11 +2250,11 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 	}		
 	
 	"QuitButton"
@@ -2272,7 +2272,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"QUIT"
-		"font"			"CerbeticaBold16"
+		"font"			"BebasNeue16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2283,14 +2283,14 @@
 		"Command"		"engine replay_confirmquit"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2322,7 +2322,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"DEMOUI"
-		"font"			"CerbeticaBold12"
+		"font"			"BebasNeue12"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2333,14 +2333,14 @@
 		"Command"		"engine demoui"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2372,7 +2372,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"CONSOLE"
-		"font"			"CerbeticaBold12"
+		"font"			"BebasNeue12"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2383,14 +2383,14 @@
 		"Command"		"engine toggleconsole"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"		
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2433,7 +2433,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"CerbeticaBold16"
+			"font"			"BebasNeue16"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2446,8 +2446,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2469,7 +2469,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"SWITCH SCOREBOARDS"
-		"font"			"CerbeticaBold16"
+		"font"			"BebasNeue16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2480,8 +2480,8 @@
 		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2518,7 +2518,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOAD HUD"
-		"font"			"CerbeticaBold16"
+		"font"			"BebasNeue16"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2528,8 +2528,8 @@
 		"Command"		"engine hud_reloadscheme"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 		
 		"border_default"	""
 		"border_armed"		""
@@ -2693,7 +2693,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2861,7 +2861,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2973,7 +2973,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3085,7 +3085,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3197,7 +3197,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3309,7 +3309,7 @@
 			"depressedFgColor_override" "DarkGrey"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"Base Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

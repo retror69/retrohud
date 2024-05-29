@@ -1,5 +1,4 @@
-#base "../../options/enabled/dock11_font.res"
-#base "../../options/enabled/piximisa_font.res"
+#base "../../options/enabled/bebas_neue_font.res"
 #base "../../options/enabled/newtown_font.res"
 		
 		//=== Actual fonts ===//
@@ -18,45 +17,12 @@ Scheme
 			}
 		}
 		
-		"CerbeticaBold20"
-		{
-			"1"
-			{
-				"name"		 "BebasNeuePro-Bold"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		
-		"CerbeticaBold16"
-		{
-			"1"
-			{
-				"name"		 "BebasNeuePro-Bold"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		
-		"CerbeticaBold12"
-		{
-			"1"
-			{
-				"name"		 "BebasNeuePro-Bold"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		
 		"G_FontMedium"
 		{
 			"1"
 			{
-				"name"			"DOCK11" [$WINDOWS] // Primary font
-				"name"			"DOCK11" [!$WINDOWS] // Primary font
+				"name"			"BebasNeuePro-Bold" [$WINDOWS] // Primary font
+				"name"			"BebasNeuePro-Bold" [!$WINDOWS] // Primary font
 				"tall"			"25" [$WINDOWS] // Size Medium Primary
 				"tall"			"20" [!$WINDOWS] // Size Medium Primary
 				"weight"		"0"
@@ -64,32 +30,12 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"BebasNeuePro-Bold28"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"28"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"tf2secondarynm"
-		{
-			"1"
-			{
-				"name"			"tf2secondarynm"
-				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
+
 		"HUDFont56"
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall" 		 	"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -99,7 +45,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"48"
 				"additive"		"0"
 				"antialias"		"1"
@@ -109,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -119,7 +65,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -129,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -139,7 +85,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -149,7 +95,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
+				"name"			"BebasNeuePro-Bold"
 				"tall" 		 	"24"
 				"additive"	 	"0"
 				"antialias"	 	"1"
@@ -160,17 +106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Piximisa"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"BebasNeue20"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -190,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2880,24 +2816,10 @@ Scheme
 			"font" "resource/fonts/BebasNeuePro-Bold.otf"
 			"name" "BebasNeuePro-Bold"
 		}
-		"11"
-		{
-			"font" "resource/fonts/Piximisa.ttf"
-			"name" "Piximisa"
-		}
-		"12"
-		{
-			"font" "resource/fonts/DOCK11.otf"
-			"name" "DOCK11"
-		}
-		"13"
+		"10"
 		{
 			"font" "resource/fonts/Newtown.ttf"
 			"name" "Newtown"
-		}
-		"14"
-		{	"font"	"resource/fonts/tf2secondarynm.ttf"
-			"name"	"tf2secondarynm"
 		}
 	}
 }

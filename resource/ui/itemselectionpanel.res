@@ -101,29 +101,11 @@
 		}
 	}
 
-	"CaratLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontMediumSmallSecondary"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-290"
-		"ypos"			"26"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "ColorPurple"
-	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"ItemFontNameLargest"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-270"
@@ -214,7 +196,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"ItemFontNameLargest"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"c-185"

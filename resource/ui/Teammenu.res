@@ -353,43 +353,63 @@
 		}
 	}	
 	
-	"ShadedBar"
+	"FooterBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"Shaded_Bar"
+		"fieldName"		"FooterBG"
 		"xpos"			"0"
 		"ypos"			"r50"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		"image"			"loadout_header"
 		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
-	}											
-	
-	"ShadedBar2"
+	}							
+	"FooterBG2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar2"
+		"fieldName"		"FooterBG2"
 		"xpos"			"0"
-		"ypos"			"r480"
-		"zpos"			"-100"
+		"ypos"			"r50"
+		"zpos"			"6"
 		"wide"			"f0"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+	}	
+	
+	"HeaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG"
+		"xpos"			"0"
+		"ypos"			"r480"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
 	}			
+	"HeaderBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG2"
+		"xpos"			"0"
+		"ypos"			"r480"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}	
 
 	"line1"
 	{
@@ -397,7 +417,7 @@
 		"fieldName"		"line1"
 		"xpos"			"0"
 		"ypos"			"r432"
-		"zpos"			"-100"
+		"zpos"			"6"
 		"wide"			"f0"
 		"tall"			"2"
 		"visible"		"1"
@@ -415,6 +435,7 @@
 		"wide"			"f0"
 		"tall"			"2"
 		"enabled"		"1"
+		"visible"		"1"
 		"fillcolor" "TanDark"
 	}		
 	

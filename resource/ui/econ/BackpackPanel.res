@@ -168,24 +168,6 @@
 		}
 	}
 	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"Cerbetica16"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
-	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -434,20 +416,20 @@
 	
 	"PrevPageButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c-290"
 		"ypos"			"323"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -465,6 +447,9 @@
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
+		
+		"paintbackground"		"1"
+		"paintbackgroundtype"	"2"
 	}		
 	
 	"CurPageLabel"
@@ -488,22 +473,20 @@
 	
 	"NextPageButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c-230"
 		"ypos"			"323"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
-		"border"		"NoBorder"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -521,6 +504,9 @@
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
+		
+		"paintbackground"		"1"
+		"paintbackgroundtype"	"2"
 	}		
 	
 	"DragToNextPageButton"

@@ -614,7 +614,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"			"BebasNeue20"
+		"font"			"HUDFont20"
 		"labelText"		"%playerscore%"
 		"textAlignment"		"center"
 		"xpos"			"c-368"
@@ -636,7 +636,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"BebasNeue20"
+		"font"			"HUDFont20"
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"			"c-360"

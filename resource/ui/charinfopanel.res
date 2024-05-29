@@ -1,19 +1,5 @@
 "Resource/UI/CharInfoPanel.res"
 {
-	"TopBgImage"
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"f0"
-		"image"			"../sprites/obj_icons/main_bg"
-		"scaleImage"	"1"
-		"enabled"		"1"
-		"visible"		"1"
-	}
-	
 	"character_info"
 	{
 		"ControlName"	"EditablePanel"
@@ -115,7 +101,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"Button Color"
+		"bgcolor_override"		"Base Color"
 	}
 
 	"Sheet"

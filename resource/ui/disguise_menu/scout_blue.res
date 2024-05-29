@@ -1,9 +1,22 @@
-#base "scout_red.res"
+#base "heavy_red.res"
 
-"Resource/UI/Disguise_Menu/Scout_Blue.res"
+"Resource/UI/disguise_menu/scout_blue.res"
 {
-	"TitleBG"
+	"ItemNameLabel"
 	{
-		"bgcolor_override"							"HUDBlueTeamSolid"
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"#TF_Class_Name_Scout"
+	}
+
+	"NewNumberLabel"
+	{
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"1"
+	}
+
+	"NumberLabel"
+	{
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"1"
 	}
 }

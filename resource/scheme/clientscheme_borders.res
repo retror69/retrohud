@@ -31,7 +31,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 			}
@@ -40,7 +40,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 			}
@@ -49,7 +49,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -58,7 +58,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -71,7 +71,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -79,7 +79,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -87,7 +87,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -95,7 +95,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -141,17 +141,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 			}
@@ -188,27 +188,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -216,27 +216,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -244,27 +244,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -367,7 +367,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 4"
 				}
 			}
@@ -375,7 +375,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -383,7 +383,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -391,7 +391,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -404,17 +404,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -422,17 +422,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -440,17 +440,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -458,17 +458,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -584,12 +584,14 @@ Scheme
 		{
 			"offset" "0 0"
 			"color" "blank"
+			"backgroundtype" "2"
 		}
 
 		ButtonKeyFocusBorder
 		{
 			"offset" "0 0"
 			"color" "blank"
+			"backgroundtype"	"2"
 		}
 
 		ComboBoxBorder
@@ -776,8 +778,8 @@ Scheme
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		OutlinedDullGreyBox
@@ -787,8 +789,8 @@ Scheme
 			"image"					"loadout_round_rect"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"	"0"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height"	"11"
 		}
 
 		TFThinLineBorder
@@ -970,8 +972,8 @@ Scheme
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		StoreFreeTrialBorder
@@ -993,8 +995,8 @@ Scheme
 			//"color"				"ItemPanelBG"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		Econ.Button.Border.Default
@@ -1004,7 +1006,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1012,7 +1014,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1020,7 +1022,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1028,7 +1030,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1041,7 +1043,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1049,7 +1051,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1057,7 +1059,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1065,7 +1067,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Button Color"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -1075,11 +1077,11 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"loadout_rect_mouseover"
+			"image"					"../sprites/obj_icons/backpack_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"
+			"draw_corner_width"		"11"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		LoadoutItemPopupBorder
@@ -1090,8 +1092,8 @@ Scheme
 			"color"					"ItemPanelBG"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"2"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"
+			"draw_corner_width"		"11"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		BackpackItemGrayedOut
@@ -1102,8 +1104,8 @@ Scheme
 			"image"					"../sprites/obj_icons/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"
+			"draw_corner_width"		"11"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
 		}
 
 		// Standard ------------------------------------------------------------------------------------------------
@@ -2390,8 +2392,8 @@ Scheme
 			"image"					"button_glow"
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height"	"0"
 		}
 		MainMenuButtonGlow2
 		{
@@ -2401,8 +2403,8 @@ Scheme
 			"image"					"button_glow"
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height"	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height"	"0"
 		}
 		MainMenuButtonDefault
 		{
@@ -2818,8 +2820,8 @@ Scheme
 			"image"					"replay/panel_scalable_transparent"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		RedWithThinBorder
@@ -2829,8 +2831,8 @@ Scheme
 			"image"					"../hud/panel_scalable_red"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		BlueWithThinBorder
@@ -2840,8 +2842,8 @@ Scheme
 			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		InnerShadowBorder
@@ -2851,8 +2853,8 @@ Scheme
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 		InnerShadowBorderThin
 		{
@@ -2861,8 +2863,8 @@ Scheme
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		OuterShadowBorder
@@ -2872,8 +2874,8 @@ Scheme
 			"image"					"outer_shadow_border"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		OuterShadowBorderThin
@@ -2883,8 +2885,8 @@ Scheme
 			"image"					"outer_shadow_border"
 			"src_corner_height"		"8"				// pixels inside the image
 			"src_corner_width"		"8"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 
 		CYOAScreenBorder

@@ -1,26 +1,19 @@
-#base "scout_red.res"
+#base "heavy_red.res"
 
-"Resource/UI/Disguise_Menu/Engineer_Red.res"
+"Resource/UI/disguise_menu/engineer_red.res"
 {
-	"TitleBG"
-	{
-		"visible"									"0"
-	}
 	"ItemNameLabel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"labelText"									"#TF_Class_Name_Engineer"
+		"labelText"			"#TF_Class_Name_Engineer"
 	}
-	"NumberLabel"
-	{
-		"ypos"										"0"
-		"labelText"									"6"
-	}
+
 	"NewNumberLabel"
 	{
-		"xpos"										"50"
-		"ypos"										"0"
-		"labelText"									"3"
+		"labelText"			"3"
+	}
+
+	"NumberLabel"
+	{
+		"labelText"			"6"
 	}
 }

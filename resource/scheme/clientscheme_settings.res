@@ -38,7 +38,7 @@ Scheme
 		Border.Selection						"NoBorder"
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"StatBar1"
+		Button.BgColor					"Button Color"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"

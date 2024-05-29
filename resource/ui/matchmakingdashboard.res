@@ -26,7 +26,7 @@
 		"tall"                        "16"
 		"Command"                    "find_game"
 		"proportionaltoparent"        "1"
-		"font"							"CerbeticaBold16"
+		"font"							"BebasNeue16"
 		"labeltext"                    "SERVERS"
 		"mouseinputenabled"            "1"
 		"keyboardinputenabled"        "0"
@@ -42,11 +42,11 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
 			
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 
 		"SubImage"
 		{
@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		"l"
+		"labeltext"		"n"
 		"font"			"CustomIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -94,7 +94,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
+		"armedFgColor_override"		"Base Color"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"

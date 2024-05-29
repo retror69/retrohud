@@ -84,51 +84,32 @@
 
 		"itemoptionpanels_kv"
 		{
-			"ControlName"	"CExButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"autoResize"	"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"bgcolor_override"		"TanDark"
-			"fgcolor"					"TanLight"
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "TanLight"
-			"paintbackground"		"0"
-			"labelText"		"+"
-			"font"			"BebasNeue20"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
+			"ControlName"		"CExButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
+			"wide"				"14"
+			"tall"				"14"
+			"autoResize"		"0"
+			"visible"			"0"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			"+"
+			"font"				"ImportToolSmallestBold"
+			"textAlignment"		"center"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"default"			"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"1"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"Base Color"
+			"depressedFgColor_override"	"TanLight"
 		}
 	}
 	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"26"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
-	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -257,14 +238,17 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
+		"xpos"			"c-130"
+		"ypos"			"20"
 		"zpos"			"20"
-		"wide"			"150"
+		"wide"			"260"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintbackground"	"0"
 	}
 	
 	"PresetsExplanation"
@@ -604,7 +588,7 @@
 	}
 	"RedButton"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"Button"
 		"fieldName"			"RedButton"
 		"xpos"				"c136"
 		"ypos"				"c-180"
@@ -636,6 +620,7 @@
 		"keyboardinputenabled"	"0"
 		
 		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -644,7 +629,7 @@
 
 	"BlueButton"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"Button"
 		"fieldName"			"BlueButton"
 		"xpos"				"c136"
 		"ypos"				"c-153"
@@ -676,6 +661,7 @@
 		"keyboardinputenabled"	"0"
 		
 		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
