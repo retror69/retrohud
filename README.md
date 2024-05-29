@@ -17,9 +17,9 @@ There are 2 different font options for health and ammo:
   
 -Newtown (default)  
 -Bebas Neue  
-They can be enabled/disabled by going to the "options" folder and dragging+dropping the option you want into the "enabled" folder.
+They can be enabled by going to the "options" folder and dragging+dropping the option you want into the "enabled" folder.
 
-Speedometer can be enabled/disabled by going to the "options" folder and dragging+dropping it into the "enabled" folder.
+Speedometer can be enabled by going to the "options" folder and dragging+dropping it into the "enabled" folder.
 
 Transparent viewmodels can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
