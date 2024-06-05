@@ -19,8 +19,8 @@
 		"fieldName"			"DamageAccountValue"
 		"xpos"				"c108"
 		"ypos"				"288"
-		"xpos_minmode"		"c58"
-		"ypos_minmode"		"263"
+		//	"xpos_minmode"		"c58"
+		//	"ypos_minmode"		"263"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"26"
@@ -29,7 +29,7 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"font"				"HudFontMediumBold"
-		"font_minmode"		"HudFontMediumSecondary"
+		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"Last DamageHeal Info"
 	}
 
@@ -47,7 +47,7 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"font"				"HudFontMediumBold"
-		"font_minmode"		"HudFontMediumSecondary"
+		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 
 		"pin_to_sibling"		"DamageAccountValue"

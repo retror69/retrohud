@@ -1,6 +1,3 @@
-#base "../../options/enabled/bebas_neue_font.res"
-#base "../../options/enabled/newtown_font.res"
-		
 		//=== Actual fonts ===//
 Scheme
 {
@@ -17,20 +14,38 @@ Scheme
 			}
 		}
 		
-		"G_FontMedium"
+		// Health and Ammo fonts
+		"Big56"
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Bold" [$WINDOWS] // Primary font
-				"name"			"BebasNeuePro-Bold" [!$WINDOWS] // Primary font
-				"tall"			"25" [$WINDOWS] // Size Medium Primary
-				"tall"			"20" [!$WINDOWS] // Size Medium Primary
-				"weight"		"0"
+				"name"			"Newtown"
+				"tall" 		 	"48"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-
+		"Big32"
+		{
+			"1"
+			{
+				"name"			"Newtown"
+				"tall"			"38"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Big20"
+		{
+			"1"
+			{
+				"name"			"Newtown"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"HUDFont56"
 		{
 			"1"
@@ -116,7 +131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -136,7 +151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -156,7 +171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -166,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1976,7 +1991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -1987,7 +2002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"antialias"		"1"
 				"weight"		"500"
@@ -1997,7 +2012,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2008,7 +2023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2019,7 +2034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Regular"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2808,15 +2823,10 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/BebasNeuePro-Regular.otf"
-			"name" "BebasNeuePro-Regular"
-		}
-		"9"
-		{
 			"font" "resource/fonts/BebasNeuePro-Bold.otf"
 			"name" "BebasNeuePro-Bold"
 		}
-		"10"
+		"9"
 		{
 			"font" "resource/fonts/Newtown.ttf"
 			"name" "Newtown"

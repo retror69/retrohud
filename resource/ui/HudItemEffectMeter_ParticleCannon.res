@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-37"
 		"ypos"			"r120"
-		"ypos_minmode"  "r90"
+		//	"ypos_minmode"  "r90"
 		"wide"			"74"
 		"tall"			"50"
 		"MeterFG"		"White"

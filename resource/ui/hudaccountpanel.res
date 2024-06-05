@@ -87,7 +87,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"HudFontMedium"
-		"font_minmode"		"HudFontMediumSecondary"
+		//	"font_minmode"		"HudFontMediumSecondary"
 	}
 
 	"AccountValueShadow"
@@ -109,7 +109,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"HudFontMedium"
-		"font_minmode"		"HudFontMediumSecondary"
+		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 
 		"pin_to_sibling"		"AccountValue"
