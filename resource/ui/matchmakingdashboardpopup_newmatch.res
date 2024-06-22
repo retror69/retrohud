@@ -5,7 +5,7 @@
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NewMatchFound"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"-50"
 		"zpos"			"10000"
 		"wide"			"200"
 		"tall"			"60"
@@ -19,6 +19,9 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
+		
+		"pin_to_sibling"  "popup_pinner"
+		"pin_to_sibling_corner"  "3"
 
 		"OuterShadow"
 		{

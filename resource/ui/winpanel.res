@@ -217,7 +217,6 @@
 		"tall"			"152"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"0"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}

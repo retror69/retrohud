@@ -31,7 +31,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Killfeed"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -71,7 +71,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Newtown14"
+		"font"					"Newtown16"
 	}
 	"ItemEffectMeterCountBG"
 	{
@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Newtown14"
+		"font"					"Newtown16"
 		"fgcolor_override"		"TransparentBlack"
 	}
 }

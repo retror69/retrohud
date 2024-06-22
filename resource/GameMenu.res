@@ -1,12 +1,10 @@
 "GameMenu" [$WIN32]
 {
-	"VersionNumber"
-	{
-		"tooltip"	"rayshud v2015.1028"
-		"label" "rayshud v2015.1028" 
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
+	"ShowFriends"
+    {
+        "label"                "SHOW FRIENDS"
+        "command"            "engine toggle cl_mainmenu_safemode"
+    }
 	"DisconnectButton"
 	{
 		"label" "DISCONNECT" 
@@ -28,7 +26,6 @@
 		"label" "p"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "0"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
@@ -51,7 +48,6 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" ""
-		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -59,7 +55,6 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" ""
-		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
@@ -67,6 +62,5 @@
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" ""
-		"tooltip" "#MMenu_RequestCoach"
 	}
 }

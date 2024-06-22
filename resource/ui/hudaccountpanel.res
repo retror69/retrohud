@@ -2,77 +2,24 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"8"
+		"delta_item_x"			"0"
 		"delta_item_start_y"	"10"
 		"delta_item_end_y"		"35"
 		"PositiveColor"			"ColorGreen"
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"HudFontMedium"
-		"delta_item_x_minmode"			"18"
-		"delta_item_start_y_minmode"	"10"
-		"delta_item_end_y_minmode"		"25"
-		"delta_item_font_minmode"		"HudFontSmall"
+		"delta_item_font"		"Newtown16"
+		//	"delta_item_x_minmode"			"18"
+		//	"delta_item_start_y_minmode"	"10"
+		//	"delta_item_start_y_minmode"		"25"
+		//	"delta_item_font_minmode"		"HudFontSmall"
 	}
-
-	"AccountBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AccountBG"
-		"xpos"			"5"
-		"ypos"			"103"
-		"zpos"			"0"
-		"wide"			"84"
-		"tall"			"42"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-	}
-
-	"MetalIcon"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"0"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"ico_metal"
-		"iconColor"		"TanLight"
-	}
-
-	"MetalIconShadow"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIconShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"ico_metal"
-		"iconColor"		"TransparentBlack"
-
-		"pin_to_sibling"		"MetalIcon"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-
+	
 	"AccountValue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValue"
-		"xpos"				"5"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
@@ -86,7 +33,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"HudFontMedium"
+		"font"				"Newtown16"
 		//	"font_minmode"		"HudFontMediumSecondary"
 	}
 
@@ -108,7 +55,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"HudFontMedium"
+		"font"				"Newtown16"
 		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 

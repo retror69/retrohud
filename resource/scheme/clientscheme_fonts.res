@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Newtown"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -110,7 +110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Newtown"
 				"tall" 		 	"24"
 				"additive"	 	"0"
 				"antialias"	 	"1"
@@ -157,12 +157,12 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Newtown14"
+		"Newtown16"
 		{
 			"1"
 			{
 				"name"			"Newtown"
-				"tall"			"14"
+				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -1691,7 +1691,7 @@ Scheme
 			}
 		}
 
-		TFFontSmall
+		Killfeed
 		{
 			"1"
 			{

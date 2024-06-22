@@ -23,7 +23,8 @@
 	
 	MMDashboardPopupContainer
 	{
-		"xpos"    "r0"
+		"xpos"    "9999"
+		"ypos"    "9999"
 	}
 	
 	"score_pin"
@@ -210,9 +211,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c200"
+		"xpos"					"c110"
 		//	"xpos_minmode"			"c130"
-		"ypos"					"c130"
+		"ypos"					"c80"
 		"zpos"					"0"
 		//	"ypos_minmode"			"c83"
 		"wide"					"50"

@@ -32,7 +32,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Killfeed"
 		"fgcolor_override"		"255 255 255 100"
 	}
 
@@ -73,7 +73,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Newtown14"
+		"font"					"Newtown16"
 		"fgcolor" "255 255 255 255"
 	}
 
@@ -94,7 +94,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Newtown14"
+		"font"					"Newtown16"
 		"fgcolor" "0 0 0 255"
 	}
 }

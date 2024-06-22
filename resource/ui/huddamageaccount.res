@@ -28,11 +28,11 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"font"				"HudFontMediumBold"
+		"font"				"HUDFont24"
 		//	"font_minmode"		"HudFontMediumSecondary"
-		"fgcolor"			"Last DamageHeal Info"
+		"fgcolor"			"Ammo In Clip"
 	}
-
+	
 	"DamageAccountValueShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -46,7 +46,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"font"				"HudFontMediumBold"
+		"font"				"HUDFont24"
 		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 
