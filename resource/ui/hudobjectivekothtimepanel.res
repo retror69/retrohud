@@ -1,133 +1,145 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{
+{	
 	"HudKothTimeStatus"
 	{
 		if_match
 		{
-			"zpos"			"5"
+			"zpos"		"5"
 		}
 	}
-
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"10"
+		"xpos"				"23"
+		"ypos"				"-57"
+		"zpos"				"2"
 		"wide"				"100"
-		"tall"				"50"
+		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-.7"
-			"ypos"					"5"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"ColorGreen"
-			"NegativeColor"			"ColorRed"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
-
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"HudFontMedium"
+		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"HudFontMedium"
-			"fgcolor"			"TanLight"
-			"xpos"				"25"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"50"
-			"tall"				"24"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
+			"ControlName"	"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"BebasNeue18"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"10"
+			"ypos"			"64"
+			"zpos"			"3"
+			"wide"			"40"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"
+			"labelText"		"0:00"
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-				"xpos"			"10"
-				"ypos"			"9"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
+				"xpos"		"13"
+				"font"		"BebasNeue14"
 			}
+		}	
+	}
+	"BluTimerBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"BluTimerBG"
+		"xpos"			"33"
+		"ypos"			"6"
+		"zpos"			"-1"
+		"wide"			"40"
+		"tall"			"22"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_blu"
+
+		"src_corner_height"	"23"
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"
+		"draw_corner_height" 	"5"
+
+		if_match
+		{
+			"wide" "0"
 		}
 	}
-
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
-		"fieldName"			"RedTimer"
-		"xpos"				"50"
-		"ypos"				"0"
-		"zpos"				"10"
-		"wide"				"100"
-		"tall"				"150"
-		"visible"			"1"
-		"enabled"			"1"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.77"
-			"ypos"					"5"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"ColorGreen"
-			"NegativeColor"			"ColorRed"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
-
+		"fieldName"		"RedTimer"
+		"xpos"			"65"
+		"ypos"			"-57"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"delta_item_x"		"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"	"70"
+		"PositiveColor"		"0 255 0 255"
+		"NegativeColor"		"255 0 0 255"
+		"delta_lifetime"	"1.5"
+		"delta_item_font"	"HudFontMedium"
+		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"HudFontMedium"
-			"fgcolor"			"TanLight"
-			"xpos"				"25"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"50"
-			"tall"				"24"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
+			"ControlName"	"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"BebasNeue18"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"10"
+			"ypos"			"64"
+			"zpos"			"3"
+			"wide"			"40"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"
+			"labelText"		"0:00"
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-				"xpos"			"rs1-15"
-				"ypos"			"9"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
+				"xpos"		"7"
+				"font"		"BebasNeue14"
 			}
-		}
+		}	
 	}
-
-	"ActiveTimerBG"
+	"RedTimerBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ActiveTimerBG"
-		"xpos"				"15"
-		"ypos"				"25"
-		"zpos"				"10"
-		"wide"				"50"
-		"tall"				"3"
-		"visible"			"0"
-		"enabled"			"1"
-		"bgcolor_override"	"TanLight"
-		"PaintBackgroundType"	"0"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"RedTimerBG"
+		"xpos"			"75"
+		"ypos"			"6"
+		"zpos"			"-1"
+		"wide"			"40"
+		"tall"			"22"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_red"
+
+		"src_corner_height"	"23"
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"
+		"draw_corner_height" 	"5"
+
+		if_match
+		{
+			"wide" "0"
+		}
 	}
 }

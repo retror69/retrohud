@@ -890,8 +890,8 @@
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
 		"wrap"			"1"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
+		"font"			"HudFontMediumSmall"
+		"font_lodef"	"HudFontMediumSmall"
 		"fgcolor"		"HudTrainingHint"
 		"fgcolor_lodef"	"HudTrainingHint"
 	}
@@ -1300,7 +1300,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TanLight"
 	}
 	

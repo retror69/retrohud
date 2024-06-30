@@ -2,23 +2,41 @@
 {
 	"TimePanelBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"TimePanelBG"
+		"visible"	"0"
+		"enabled"	"0"
+	}
+	
+	"TimeBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimeBG"
 		"xpos"				"25"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"24"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/material_base"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/material_base"
+		"teambg_2"		"../hud/tournament_panel_red"
+		"teambg_3"		"../hud/tournament_panel_blu"
+		
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+			
+		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"7"
 
 		if_match
 		{
-			"visible"		"0"
+			"wide" "0"
 		}
 	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"

@@ -1,4 +1,3 @@
-#base "../../resource/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -152,6 +151,15 @@
     "icon_obj_c" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_c" }
     "icon_obj_d" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_d" }
     "icon_obj_e" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_e" }
+	
+	// Backpack
+	"main_bg" { "ControlName" "ImagePanel" "fieldName" "main_bg" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/main_bg" }
+	"backpack_rect" { "ControlName" "ImagePanel" "fieldName" "backpack_rect" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect" }
+	"backpack_rect_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_color" }
+	"backpack_rect_mousedown" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mousedown" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mousedown" }
+	"backpack_rect_mouseover" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mouseover" }
+	"backpack_rect_mouseover_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mouseover_color" }
+	"backpack_rect_selected" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_selected" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_selected" }
 	
 	"mouseoveritempanel"
 	{
@@ -2431,7 +2439,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"Command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar tf_use_match_hud 0 1 1"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Base Color"

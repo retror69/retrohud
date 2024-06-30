@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/statsummary.res"
 {
 	"TFStatsSummary"
 	{
@@ -14,17 +14,31 @@
 
 	"MainBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../console/background_upward"
+		"scaleImage"	"1"
+	}
+
+	"Background"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"
-	}	
+		"image"			"../console/background_upward"
+		"scaleImage"	"1"
+	}
 
 	"MapInfo"
 	{
@@ -36,21 +50,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
-	
-		"Background"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"640"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"stamp_background_map"
-			"scaleImage"		"1"
-		}
+		"bgcolor_override"	"46 43 42 0"
 
 		"MapImage"
 		{

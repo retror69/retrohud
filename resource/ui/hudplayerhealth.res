@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
  		"pin_to_sibling"	"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

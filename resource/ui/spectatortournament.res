@@ -15,10 +15,10 @@
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
 
-		"team2_player_base_offset_x"	"0"
-		"team2_player_base_y"			"275"
+		"team2_player_base_offset_x"	"275"
+		"team2_player_base_y"			"255"
 		"team2_player_delta_x"			"0"
-		"team2_player_delta_y"			"16"
+		"team2_player_delta_y"			"-16"
 
 		"playerpanels_kv"
 		{
@@ -71,8 +71,8 @@
 				"tall"				"18"
 				"autoResize"		"0"
 				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
+				"visible"			"0"
+				"enabled"			"0"
 				"fillcolor"			"15 15 15 64"
 			}
 
@@ -80,16 +80,16 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"PanelLeftHalf"
-				"xpos"				"0"
+				"xpos"				"26"
 				"ypos"				"0"
 				"zpos"				"-1"
-				"wide"				"49"
+				"wide"				"19"
 				"tall"				"18"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
-				"fillcolor"			"15 15 15 128"
+				"fillcolor"			"45 45 45 255"
 			}
 
 			"PanelLeftFull"
@@ -221,7 +221,7 @@
 				"visible"			"1"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"west"
-				"fgcolor"			"255 20 175 255"
+				"fgcolor"			"255 255 255 255"
 			}
 
 			"respawntimeBG"
@@ -277,7 +277,7 @@
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"east"
-				"fgcolor"			"0 255 255 255"
+				"fgcolor"			"255 255 255 255"
 			}
 
 			"chargeamountBG"

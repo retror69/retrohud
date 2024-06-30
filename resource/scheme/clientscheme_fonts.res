@@ -618,29 +618,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"HudFontMediumSmallBold"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
 		"HudFontMediumSmall"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{

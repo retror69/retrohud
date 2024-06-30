@@ -376,25 +376,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	"TauntHintLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntHintLabel"
-		"font"			"ItemFontAttribLarge"
-		"xpos"			"c90"
-		"ypos"			"20"
-		"zpos"			"1"	
-		"wide"			"250"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_ClassLoadoutTauntInputHint"
-		"textAlignment"	"east"
-		"centerwrap"	"1"
-	}
-
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
