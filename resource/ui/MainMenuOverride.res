@@ -2028,10 +2028,10 @@
 		}
 	}
 	
-	"NewUserForums"
+	"Workshop"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"NewUserForums"
+		"fieldName"		"Workshop"
 		"xpos"			"124"
 		"ypos"			"441"
 		"zpos"			"16"
@@ -2042,14 +2042,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"V"
+		"labelText"		"w"
 		"paintbackground""0"
 		"font"			"TF2Icons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"view_newuser_forums"
+		"Command"		"engine OpenSteamWorkshopDialog"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -2439,7 +2439,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar tf_use_match_hud 0 1 1"
+		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Base Color"

@@ -3,7 +3,7 @@ Scheme
 {
 	Fonts
 	{
-		"Killfeed"
+		"Newtown8"
 		{
 			"1"
 			{
@@ -1669,7 +1669,7 @@ Scheme
 			}
 		}
 
-		Killfeed
+		Newtown8
 		{
 			"1"
 			{

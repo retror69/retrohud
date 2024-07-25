@@ -4,12 +4,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.4
 	
-	Animate	HealthBoxBG		BgColor		"Health Buff BG"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"27 255 127 180"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"27 255 127 255"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"139 200 127 255"		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.4
 }

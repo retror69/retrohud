@@ -178,7 +178,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Killfeed"
+			"font"			"Newtown8"
 			"xpos"			"240"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -346,7 +346,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Killfeed"
+			"font"			"Newtown8"
 			"xpos"			"235"
 			"ypos"			"0"
 			"zpos"			"5"

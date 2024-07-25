@@ -132,7 +132,7 @@ Scheme
 	{
 		"DefaultFixedOutline"
 		{
-			"1" { "name" "Lucida Console" "tall" "15" "outline" "1" "dropshadow" "0" "antialias" "0" }
+			"1" { "name" "BebasNeuePro-Bold" "tall" "20" "outline" "1" "dropshadow" "0" "antialias" "0" }
 		}
 		"Default"
 		{

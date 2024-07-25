@@ -32,7 +32,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Killfeed"
+		"font"					"Newtown8"
 		"fgcolor_override"		"255 255 255 100"
 	}
 
