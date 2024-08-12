@@ -36,30 +36,6 @@
 			"wide" "0"
 		}
 	}
-	
-	"TimePanelProgressBar"
-	{
-		"ControlName"		"CTFProgressBar"
-		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
-		"ypos"				"16"
-		"zpos"				"4"
-		"wide"				"20"
-		"tall"				"20"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"		"TimerProgress.Active"
-		"color_inactive"	"TimerProgress.InActive"
-		"color_warning"		"TimerProgress.Warning"
-		"percent_warning"	"0.75"
-
-		if_match
-		{
-			"visible"		"0"
-		}
-	}
 
 	"WaitingForPlayersLabel"
 	{
@@ -84,12 +60,6 @@
 			"xpos"			"30"
 		}
 	}
-	"WaitingForPlayersBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"WaitingForPlayersBG"
-		"xpos"				"9999"
-	}
 
 	"OvertimeLabel"
 	{
@@ -113,12 +83,6 @@
 		{
 			"xpos"			"30"
 		}
-	}
-	"OvertimeBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"OvertimeBG"
-		"xpos"				"9999"
 	}
 
 	"SuddenDeathLabel"

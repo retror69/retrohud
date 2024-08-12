@@ -205,13 +205,16 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MoveableSubPanel"
-		"xpos"				"185"
-		"ypos"				"32"
-		"zpos"				"6"
+		"xpos"				"23"
+		"ypos"				"-3"
+		"zpos"				"11"
 		"wide"				"20"
-		"tall"				"36"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
+		"pin_to_sibling"		"TargetIDBG"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		
 		"MoveableSymbolIcon"
 		{

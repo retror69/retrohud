@@ -343,14 +343,15 @@
 
 	HudMannVsMachineStatus
 	{
-		"fieldName" 			"HudMannVsMachineStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"1"
-		"wide"					"f0"
-		"tall"					"480"
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		
 		"PaintBackgroundType"	"2"
 	}
 
@@ -919,13 +920,13 @@
 
 	"HudUpgradePanel"
 	{
-		"fieldName"			"HudUpgradePanel"
-		"visible"			"0"
-		"enable"			"1"
-		"xpos"				"c-200"
-		"ypos"				"260"
-		"wide"				"400"
-		"tall"				"160"
+		"fieldName"		"HudUpgradePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"c-200"
+		"ypos"			"260"
+		"wide"			"400"
+		"tall"			"160"		
 	}
 
 	"HudChat"

@@ -2439,7 +2439,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"Command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar tf_use_match_hud 0 1 1"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Base Color"
