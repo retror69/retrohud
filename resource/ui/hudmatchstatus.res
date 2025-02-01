@@ -275,6 +275,7 @@
 
 		if_match
 		{
+			"xpos"					"c-55"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
