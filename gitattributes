@@ -14,4 +14,4 @@
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
-{.gitattributes,.gitignore,.github} export-ignore
+{.gitattributes,README.md} export-ignore
