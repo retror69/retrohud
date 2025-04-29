@@ -17,13 +17,6 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"500"
-	}
-
-	"ItemEffectMeterLabel_"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"ItemEffectMeterLabel_"
 		"xpos"					"0"
 		"ypos"					"-2"
 		"zpos"					"10"
@@ -32,13 +25,10 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"SPY-CICLE"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"ItemEffectMeterLabels"
 		"fgcolor_override"		"0 0 0 255"
 	}
 

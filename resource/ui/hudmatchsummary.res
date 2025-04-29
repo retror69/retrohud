@@ -8,7 +8,7 @@
 		"pinCorner"			"0"
 		"tabPosition"		"0"
 		"paintbackground"	"0"
-		"zpos"				"20"
+		"zpos"				"1003"
 		"visible"			"0"
 
 		"AnimBluePlayerListParent"			"p.47"
@@ -112,15 +112,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBgPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"1"
-		"bgcolor_override" "0 0 0 250"
+		"enabled"		"0"
 	}
 
 	"DrawingPanel"
@@ -266,7 +259,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Big32"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"	"east"
 					"xpos"			"5"
@@ -289,7 +282,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Big32"
 					"fgcolor"		"TransparentBlack"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"	"east"
@@ -541,7 +534,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Big32"
 					"labelText"		"%redteamscore%"
 					"textAlignment"	"west"
 					"xpos"			"r5-p.19"
@@ -563,7 +556,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Big32"
 					"fgcolor"		"TransparentBlack"
 					"labelText"		"%redteamscore%"
 					"textAlignment"	"west"

@@ -17,23 +17,21 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"Label"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
-		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"
+		"xpos"					"0"
+		"ypos"					"-2"
+		"zpos"					"10"
+		"wide"					"74" //74
+		"tall"					"9"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Newtown8"
+		"disabledfgcolor2_override"		"0 0 0 255"
 	}
 
 	"ItemEffectMeter"

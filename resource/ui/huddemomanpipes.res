@@ -19,11 +19,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"c-14"	// 1 CDCM
-		"ypos"					"c+15"	// 3 CDCM
+		"xpos"					"c-15"
+		"ypos"					"c20"
 		"zpos"					"2"
-		"wide"					"30"	// 5 CDCM
-		"tall"					"4"		// 7 CDCM			
+		"wide"					"30"
+		"tall"					"4"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -31,10 +31,10 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"Blank"
 		"paintborder"			"1"
-		"border"				"G_ChargeBorder"	// 9 CDCM
-		"paintbackground"		"0"	// 10 CDCM
-		"bgcolor_override"		"0 0 0 99"
+		"border"				"G_ChargeBorder"
+		"fgcolor_override"		"G_WhiteShadow"
 	}
 		
 	"PipesPresentPanel"

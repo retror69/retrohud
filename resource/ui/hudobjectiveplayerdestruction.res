@@ -289,7 +289,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
-					"font"							"StorePromotionsTitle"
+					"font"							"BebasNeue10"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -306,7 +306,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
-					"font"							"StorePromotionsTitle"
+					"font"							"BebasNeue10"
 					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 
@@ -379,7 +379,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
-					"font"							"StorePromotionsTitle"
+					"font"							"BebasNeue10"
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
@@ -396,7 +396,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
-					"font"							"StorePromotionsTitle"
+					"font"							"BebasNeue10"
 					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 

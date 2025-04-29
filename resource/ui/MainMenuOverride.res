@@ -498,7 +498,6 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"show_progress"	"0"
 	}
-
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -513,46 +512,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
+		"labelText"		"."
+		"font"			"TF2Icons"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
-		"actionsignallevel" "1"
-		"proportionaltoparent"	"1"
-				
+		"paintbackground""0"
+		"Command"		"open_rank_type_menu"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"border_default"	""
+		"border_armed"		""
 		"paintbackground"	"0"
-		"paintborder"		"0"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Base Color"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"100"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}		
-	}
+			
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "Base Color"
+		"depressedFgColor_override" "Base Color"
+			
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"Base Color"
+	}		
 
 	"RankTooltipPanel"
 	{
@@ -713,70 +694,6 @@
 		"visible"		"1" // 2 RMMC
 		"enabled"		"1" // 2 RMMC
 		"scaleImage"	"1"
-	}
-	
-	"VersionNumber"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"VersionNumber"
-		"xpos"			"22"
-		"ypos"			"95"
-		"zpos"			"11"
-		"wide"			"216"
-		"tall"			"20"
-		"enabled"		"0"
-		"visible"		"0"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"55"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HUDFont20"
-			"textAlignment"	"center"
-			"labelText"		"FUNKeHUD"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/realjob.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanLight"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
 	}
 	
 	"SidePanelBG"

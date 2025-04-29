@@ -13,7 +13,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"14"
+		"medal_width"		"28"
+		"medal_column_width"	"18"
 		"avatar_width"		"50"	
 		"name_width"		"70"
 		"name_width_minmode""51"
@@ -183,7 +184,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"HUDFont56"
+		"font"			"Big56"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-71"
@@ -207,7 +208,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"HUDFont56"
+		"font"			"Big56"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -279,7 +280,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"HUDFont56"
+		"font"			"Big56"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"textAlignment_minmode"		"east"
@@ -306,7 +307,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"HUDFont56"
+		"font"			"Big56"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"

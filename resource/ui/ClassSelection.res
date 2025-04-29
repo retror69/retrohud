@@ -1370,7 +1370,7 @@
 		"fieldName"		"numDemoman"
 		"xpos"			"c-110"
 		"ypos"			"10"
-		"zpos"			"5"
+		"zpos"			"15"
 		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"

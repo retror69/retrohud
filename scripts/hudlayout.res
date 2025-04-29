@@ -21,10 +21,11 @@
 	}
 	//--------------------------------------------------------------
 	
-	MMDashboardPopupContainer
+	"MMDashBoardPopupContainer"
 	{
-		"xpos"    "9999"
-		"ypos"    "9999"
+		"fieldname"        "MMDashBoardPopupContainer"
+		"ypos"            "-423"
+		"tall"            "600"
 	}
 	
 	"score_pin"
@@ -838,7 +839,7 @@
 		"ypos"					"315"
 		"zpos"					"20"
 		"wide"					"300"
-		"tall"					"215"
+		"tall"					"300"
 	}
 
 	ArenaWinPanel

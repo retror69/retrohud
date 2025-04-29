@@ -78,7 +78,7 @@
 				"fonts"
 				{
 					"0"		"HudFontSmallest"
-					"1"		"StorePromotionsTitle"
+					"1"		"BebasNeue10"
 					"2"		"FontStorePrice"
 				}
 			}

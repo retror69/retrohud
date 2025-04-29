@@ -205,10 +205,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
-		"xpos"				"160"
-		"ypos"				"55"
-		//	"xpos_minmode"		"210"
-		//	"ypos_minmode"		"48"
+		"xpos"				"c-321"
+		"ypos"				"7"
 		"zpos"				"2"
 		"wide"				"30"
 		"tall"				"30"
@@ -220,15 +218,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
-		"xpos"			"0"
-		"ypos"			"-25"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"31"
+		"tall"			"31"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
+		"pin_to_sibling" "ResistIconAnchor"
+		"pin_to_sibling_corner" "3"
 	}
 	
 }

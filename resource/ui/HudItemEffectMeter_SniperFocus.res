@@ -25,13 +25,10 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_BALL"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"ItemEffectMeterLabels"
 		"fgcolor_override"		"0 0 0 255"
 	}
 

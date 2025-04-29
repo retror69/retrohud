@@ -1,9 +1,9 @@
-# retrohud by retror
+# retrohud by retro_r
 _______________________________________
 
 <p align="center">
   <p align="center">
-    A lightweight HUD that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LightHUD, rayshud etc. 
+    HUD that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LightHUD, rayshud etc. 
     <br />
     <a href="https://codeload.github.com/retror69/retrohud/zip/refs/heads/main">Download</a>
   </p>
