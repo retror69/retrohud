@@ -124,18 +124,18 @@
 
 	// Payload
     "cart_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue" }
-    "cart_point_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue" }
-    "cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }
-    "cart_point_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral" }
-    "cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }
-    "cart_point_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red" }
-    "cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
-    "cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
-    "cart_track_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue" }
-    "cart_track_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue_opaque" }
-    "cart_track_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_neutral_opaque" }
+    "cart_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_neutral" }
+	"cart_point_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue" }
+	"cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }  
+	"cart_point_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral" }  
+	"cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }  
+	"cart_point_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red" }
+	"cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
+	"cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
+	"cart_track_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue" }
+	"cart_track_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_blue_opaque" }
 	"cart_track_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red" }
-    "cart_track_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red_opaque" }
+	"cart_track_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red_opaque" }
 
     // Control Points - Base
     "icon_obj_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral" }

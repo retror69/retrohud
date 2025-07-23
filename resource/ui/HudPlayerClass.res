@@ -2,8 +2,8 @@
 {
 	"speedometer"
 	{
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"controlName"		"ImagePanel"
 		"fieldName"			"speedometer"
 		"zpos"				"-100"

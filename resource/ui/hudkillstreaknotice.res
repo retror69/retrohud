@@ -20,7 +20,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"ScoreboardSmall"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

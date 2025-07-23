@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"allcaps"		"1"
 		"dulltext"		"0"
@@ -133,26 +133,5 @@
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
 		}
-	}
-
-	"DescLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
-		"xpos"			"9999"
-	}
-
-	"DescLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabelShadow"
-		"xpos"			"9999"
-	}
-
-	"DisabledIcon"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DisabledIcon"
-		"xpos"			"9999"
 	}
 }

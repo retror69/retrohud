@@ -23,7 +23,7 @@
 		"xpos"										"5"
 		"ypos"										"rs1-2"
 		"wide"										"175"
-		"tall"										"2"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"

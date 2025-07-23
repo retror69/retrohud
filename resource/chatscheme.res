@@ -403,11 +403,10 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"tall"										"20"
 				"weight"									"300"
 				"yres"										"1200 10000"
 				"dropshadow"								"1"
-				"antialias" 								"1"
 			}
 		}
 	}

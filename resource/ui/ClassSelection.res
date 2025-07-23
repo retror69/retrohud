@@ -943,20 +943,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" "20 20 20 150"
-	}	
-	"FooterBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterBG"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 	}					
 	"FooterBG2"
 	{
@@ -974,22 +960,7 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}								
-	
-	"HeaderBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeaderBG"
-		"xpos"			"0"
-		"ypos"			"r480"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"110"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}			
+	}										
 	"HeaderBG2"
 	{
 		"ControlName"	"ImagePanel"
