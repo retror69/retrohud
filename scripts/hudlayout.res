@@ -22,8 +22,8 @@
 	
 	"Hitmarker"
 	{
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Hitmarker"
 		"xpos"			"c-4"
@@ -507,7 +507,7 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"DefaultSmall"
+		"TextFont"		"ItemFontAttribSmallest"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

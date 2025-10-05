@@ -1516,93 +1516,6 @@ Scheme
 			}
 		}
 
-		"ChatFont"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"12"
-				"weight"		"700"
-				"yres"			"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"13"
-				"weight"		"700"
-				"yres"			"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"20"
-				"weight"		"700"
-				"yres"			"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
-				"weight"		"700"
-				"yres"			"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"ChatMiniFont"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"10"
-				"weight"		"700"
-				"yres"			"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"10"
-				"weight"		"700"
-				"yres"			"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"13"
-				"weight"		"700"
-				"yres"			"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"15"
-				"weight"		"700"
-				"yres"			"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-
 		MenuSmallestFont
 		{
 			"1"
@@ -1944,16 +1857,6 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-			}
-		}
-		ItemFontAttribSmallv2
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"10"
-				"antialias"		"1"
-				"weight"		"500"
 			}
 		}
 		"ItemFontAttribSmall"

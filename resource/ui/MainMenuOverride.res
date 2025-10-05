@@ -264,6 +264,21 @@
 	  "xpos"  "0"
 	  "ypos"  "-25"
 	}	
+	
+	"FriendsBG"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "FriendsBG"
+        "xpos"          "c-341"
+        "ypos"          "c143"
+        "zpos"          "-3"
+        "wide"          "178"
+        "tall"          "59"
+        "visible"       "1"
+        "proportionaltoparent"  "0"
+        "PaintBackgroundType"   "2"
+        "bgcolor_override"		"25 25 25 255"
+    }
 
 	"SteamFriendsList"
 	{
@@ -284,7 +299,7 @@
 		"column_gap"    "5"
 		"restrict_width"    "0"
 		
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"0 0 0 255"
 		"paintbackgroundtype"	"2"
 
 		"friendpanel_kv"
@@ -451,21 +466,6 @@
 
 		"party_slot"	"5"
 	}
-	
-	"FriendsBG"
-    {
-        "ControlName"   "EditablePanel"
-        "fieldname"     "FriendsBG"
-        "xpos"          "c-341"
-        "ypos"          "c143"
-        "zpos"          "-3"
-        "wide"          "178"
-        "tall"          "59"
-        "visible"       "1"
-        "proportionaltoparent"  "0"
-        "PaintBackgroundType"   "2"
-        "bgcolor_override"		"0 0 0 255"
-    }
 	
 	"RankModelPanel"
 	{
@@ -692,7 +692,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"0 0 0 255"
 	}
 	"SidePanelLeftStripe"
 	{
