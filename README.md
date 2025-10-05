@@ -11,8 +11,7 @@ _______________________________________
 
 
 
-Transparent viewmodels can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
-Speedometer can be enabled/disabled through the "HudPlayerClass.res" file in the "resource/ui" folder.
+Transparent viewmodel, hitmarker, and speedometer can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
 _______________________________________
 

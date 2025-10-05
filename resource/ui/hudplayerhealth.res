@@ -113,7 +113,7 @@
 		"textAlignment"	"center"
 		"font"			"Big56"
 		//	"font_minmode"	"Big32"
-		"fgcolor"		"0 0 0 200"
+		"fgcolor"		"0 0 0 255"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -124,10 +124,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"-120"
+		"ypos"			"-15"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"20"
+		"font"			"Newtown7"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"255 255 255 50"
+		
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOP"
+		"pin_to_sibling_corner"	"PIN_TOP"
 	}
 
 	"PlayerStatusAnchor"

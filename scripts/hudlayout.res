@@ -1,12 +1,14 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL
+	// TRANSPARENT VIEWMODEL, HITMARKER, SPEEDOMETER
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
 	//--------------------------------------------------------------
 	"TransparentViewmodel"
 	{
+		"visible"			"0"
+		"enabled"			"0"
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
 		"xpos"				"0"
@@ -14,9 +16,40 @@
 		"zpos"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
+		"image"				"replay/thumbnails/transparent"
+		"scaleImage"		"1"
+	}
+	
+	"Hitmarker"
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Hitmarker"
+		"xpos"			"c-4"
+		"ypos"			"c-4"
+		"zpos"			"20"
+		"wide"			"8"
+		"tall"			"8"
+		"image"			"replay/thumbnails/hitmarker_red"
+		"scaleImage"	"1"	
+		"Alpha"			"0"
+		"teambg_2"		"replay/thumbnails/hitmarker_red"
+		"teambg_3"		"replay/thumbnails/hitmarker_blue"
+	}
+	
+	"speedometer"
+	{
 		"visible"			"0"
 		"enabled"			"0"
-		"image"				"replay/thumbnails/transparent"
+		"controlName"		"ImagePanel"
+		"fieldName"			"speedometer"
+		"zpos"				"-100"
+		"xpos"				"cs-0.5"
+		"ypos"				"c125"
+		"wide"				"50"
+		"tall"				"12"
+		"image"				"replay/thumbnails/numbers"
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
@@ -26,16 +59,6 @@
 		"fieldname"        "MMDashBoardPopupContainer"
 		"ypos"            "-423"
 		"tall"            "600"
-	}
-	
-	"score_pin"
-	{
-		"ControlName"    "Panel"
-		"xpos"        "0"
-		"xpos_minmode"	"c-550"
-		"ypos"        "0"
-		"wide"        "0"
-		"tall"        "0"
 	}
 	
 	HudPlayerStatus
@@ -484,12 +507,12 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Newtown8"
+		"TextFont"		"DefaultSmall"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"65 65 65 255"
 
 		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]

@@ -10,7 +10,6 @@ Scheme
 		//Custom basic colors
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
-		"ColorVermillion"			"255 64 0 255"
 		"ColorOrange"				"188 60 56 255"
 		"ColorYellow"				"255 255 0 255"
 		"ColorLime"					"128 255 0 255"

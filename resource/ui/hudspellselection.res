@@ -1,25 +1,11 @@
 "Resource/UI/HudSpellSelection.res"
 {
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
-	}
-
-	"Spellbook"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Spellbook"
-		"xpos"			"9999"
-	}
-
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"25"
-		"ypos"			"20"
+		"ypos"			"25"
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
@@ -27,37 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanDark"
-	}
-
-	"ActionText"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ActionText"
-		"font"			"Default"
-		"labelText"		"%actiontext%"
-		"textAlignment" "west"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"100"
-		"tall"			"10"
-		"fgcolor"		"TanLight"
-		"visible"		"1"
-	}
-
-	"SpellText"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SpellText"
-		"font"			"Default"
-		"labelText"		"%selectedspell%"
-		"textAlignment" "west"
-		"xpos"			"35"
-		"ypos"			"25"
-		"wide"			"100"
-		"tall"			"10"
-		"fgcolor"		"tanlight"
-		"visible"		"0"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"CountText"
@@ -68,13 +24,12 @@
 		//	"font_minmode"	"HudFontSmallishBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"5"
+		"ypos"			"20"
 		"zpos"			"1"
-		//	"xpos_minmode"	"5"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"CountTextShadow"

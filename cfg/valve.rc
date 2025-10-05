@@ -18,4 +18,4 @@ startupmenu
 
 sv_unlockedchapters 99
 
-wait 15; hud_reloadscheme
+hud_reloadscheme

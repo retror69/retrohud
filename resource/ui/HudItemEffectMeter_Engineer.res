@@ -32,7 +32,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Newtown8"
+		"font"					"Newtown7"
 		"fgcolor_override"		"255 255 255 100"
 	}
 

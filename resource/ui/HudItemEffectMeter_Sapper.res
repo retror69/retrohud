@@ -31,7 +31,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica12"
+		"font"					"BebasNeue12"
 		"fgcolor_override"		"150 150 150 255"
 	}
 

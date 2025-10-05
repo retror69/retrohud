@@ -263,224 +263,208 @@
 	  "tall"  "0"
 	  "xpos"  "0"
 	  "ypos"  "-25"
+	}	
+
+	"SteamFriendsList"
+	{
+		"ControlName"   "CSteamFriendsListPanel"
+		"fieldname"     "SteamFriendsList"
+		"xpos"          "c-338"
+		"ypos"          "c+165"
+		"zpos"          "1"
+		"wide"          "172"
+		"tall"          "34"
+		"visible"       "1"
+		"proportionaltoparent"  "1"
+
+		"columns_count" "2"
+		"inset_x"       "5"
+		"inset_y"       "5"
+		"row_gap"       "5"
+		"column_gap"    "5"
+		"restrict_width"    "0"
+		
+		"bgcolor_override"	"25 25 25 255"
+		"paintbackgroundtype"	"2"
+
+		"friendpanel_kv"
+		{
+			"wide"      "75"
+			"tall"      "20"
+		}
+
+		"ScrollBar"
+		{
+			"ControlName"   "ScrollBar"
+			"FieldName"     "ScrollBar"
+			"xpos"          "rs1"
+			"ypos"          "0"
+			"tall"          "f0"
+			"wide"          "5" // This gets slammed from client schme.  GG.
+			"zpos"          "1000"
+			"nobuttons"     "1"
+			"proportionaltoparent"  "1"
+
+			"Slider"
+			{
+				"fgcolor_override"  "TanDark"
+			}
+	
+			"UpButton"
+			{
+				"ControlName"   "Button"
+				"FieldName"     "UpButton"
+				"visible"       "0"
+			}
+	
+			"DownButton"
+			{
+				"ControlName"   "Button"
+				"FieldName"     "DownButton"
+				"visible"       "0"
+			}
+		}
+	}
+	
+	"PartySlot0"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot0"
+		"xpos"			"94"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"0"
 	}
 
-	"SafeMode"
+	"PartySlot1"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot1"
+		"xpos"			"115"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"1"
+	}
+
+	"PartySlot2"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot2"
+		"xpos"			"136"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"2"
+	}
+
+	"PartySlot3"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot3"
+		"xpos"			"157"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"3"
+	}
+
+	"PartySlot4"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot4"
+		"xpos"			"178"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"4"
+	}
+
+	"PartySlot5"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"PartySlot5"
+		"xpos"			"199"
+		"ypos"			"386"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+
+		"party_slot"	"5"
+	}
+	
+	"FriendsBG"
     {
         "ControlName"   "EditablePanel"
-        "fieldname"     "SafeMode"
-        "xpos"          "c10"
-        "ypos"          "c173"
-        "zpos"          "1"
-        "wide"          "230"
-        "tall"          "60"
+        "fieldname"     "FriendsBG"
+        "xpos"          "c-341"
+        "ypos"          "c143"
+        "zpos"          "-3"
+        "wide"          "178"
+        "tall"          "59"
         "visible"       "1"
         "proportionaltoparent"  "0"
-        "PaintBackgroundType"   "0"
-
-        "border"        "MainMenuBGBorder"
-		
-        "InnerShadow"
-        {
-            "ControlName"   "EditablePanel"
-            "fieldname"     "InnerShadow"
-            "xpos"          "c-125+7"
-            "ypos"          "c-25"
-            "zpos"          "1"
-            "wide"          "230"
-            "tall"          "55"
-            "visible"       "1" 
-            "PaintBackgroundType"   "0"
-            "proportionaltoparent"  "1"
-            "mouseinputenabled" "0"
-
-            "paintborder"   "1"
-            "border"        "InnerShadowBorder"
-        }
-
-        "SteamFriendsList"
-        {
-            "ControlName"   "CSteamFriendsListPanel"
-            "fieldname"     "SteamFriendsList"
-            "xpos"          "c-125+7"
-            "ypos"          "c-5"
-            "zpos"          "1"
-            "wide"          "240"
-            "tall"          "30"
-            "visible"       "1"
-            "proportionaltoparent"  "1"
-
-            "columns_count" "2"
-            "inset_x"       "10"
-            "inset_y"       "5"
-            "row_gap"       "5"
-            "column_gap"    "10"
-            "restrict_width"    "0"
-
-            "friendpanel_kv"
-            {
-                "wide"      "100"
-                "tall"      "20"
-            }
-
-            "ScrollBar"
-            {
-                "ControlName"   "ScrollBar"
-                "FieldName"     "ScrollBar"
-                "xpos"          "rs1-10"
-                "ypos"          "0"
-                "tall"          "f0"
-                "wide"          "5" // This gets slammed from client schme.  GG.
-                "zpos"          "1000"
-                "nobuttons"     "1"
-                "proportionaltoparent"  "1"
-
-                "Slider"
-                {
-                    "fgcolor_override"  "TanDark"
-                }
-        
-                "UpButton"
-                {
-                    "ControlName"   "Button"
-                    "FieldName"     "UpButton"
-                    "visible"       "0"
-                }
-        
-                "DownButton"
-                {
-                    "ControlName"   "Button"
-                    "FieldName"     "DownButton"
-                    "visible"       "0"
-                }
-            }
-        }
-		
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"7"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"0"
-		}
-
-		"PartySlot1"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot1"
-			"xpos"			"29"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"1"
-		}
-
-		"PartySlot2"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot2"
-			"xpos"			"51"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"2"
-		}
-
-		"PartySlot3"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot3"
-			"xpos"			"73"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"3"
-		}
-
-		"PartySlot4"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot4"
-			"xpos"			"95"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"4"
-		}
-
-		"PartySlot5"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot5"
-			"xpos"			"117"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"0"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"5"
-		}
+        "PaintBackgroundType"   "2"
+        "bgcolor_override"		"0 0 0 255"
     }
 	
 	"RankModelPanel"
@@ -488,10 +472,10 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"150"
-		"ypos"			"-155"
+		"ypos"			"-45"
 		"zpos"			"-1"
 		"wide"			"170"
-		"tall"			"560"
+		"tall"			"350"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -786,7 +770,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"208"
-		"ypos"			"400"
+		"ypos"			"160"
 		"zpos"			"15"
 		"wide"			"32"
 		"tall"			"32"
@@ -1243,8 +1227,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"184"
-		"ypos"			"400"
+		"xpos"			"237"
+		"ypos"			"232"
 		"zpos"			"17"
 		"wide"			"32"
 		"tall"			"32"
@@ -1402,8 +1386,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"240"
-		"ypos"			"166"
+		"xpos"			"164"
+		"ypos"			"440"
 		"zpos"			"16"
 		"wide"			"20"
 		"tall"			"20"
@@ -1624,20 +1608,6 @@
 				"scaleImage"	"1"
 			}		
 		}
-	}
-	"StoreHasNewItemsImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-59"
-		"ypos"			"245"
-		"zpos"			"13"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../vgui/new"
-		"scaleImage"	"1"
 	}
 	"CharacterSetupButton"
 	{
@@ -2022,8 +1992,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"164"
-		"ypos"			"441"
+		"xpos"			"240"
+		"ypos"			"167"
 		"zpos"			"15"
 		"wide"			"32"
 		"tall"			"32"
@@ -2332,103 +2302,7 @@
 			"image_armedcolor"	"235 226 202 255"
 		}
 	}
-	
-	"ScoreboardToggle"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ScoreboardToggle"
-		"xpos"			"60"
-		"ypos"			"392"
-		"zpos"			"16"
-		"wide"			"200"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"SWITCH SCOREBOARDS"
-		"font"			"BebasNeue16"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		"Command"		"engine incrementvar cl_hud_minmode 0 1 1; incrementvar tf_use_match_hud 0 1 1"
-		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-		}			
-	}		
-	
-	"ShowFriends"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShowFriends"
-		"xpos"			"70"
-		"ypos"			"410"
-		"zpos"			"16"
-		"wide"			"110"
-		"tall"			"16"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"BebasNeue16"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-		}
-	}
-	
+
 	"TutorialHighlight"
 	{
 		"ControlName"	"CExplanationPopup"

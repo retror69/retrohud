@@ -1,10 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"ShowFriends"
-    {
-        "label"                "SHOW FRIENDS"
-        "command"            "engine toggle cl_mainmenu_safemode"
-    }
 	"DisconnectButton"
 	{
 		"label" "DISCONNECT" 

@@ -5,11 +5,11 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-341"
 		"ypos"					"0"
 		"zpos"					"1001"
-		"wide"					"150"
-		"tall"					"65"
+		"wide"					"178"
+		"tall"					"70"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
@@ -25,9 +25,26 @@
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
-		"expanded_height"		"60"
+		"expanded_height"		"65"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
+	}
+	
+	"chatlogBG"
+	{
+		"ControlName"   "EditablePanel"
+		"fieldname"     "chatlogBG"
+		"xpos"          "cs-0.5"
+		"ypos"          "0"
+		"zpos"          "0"
+		"wide"          "f0"
+		"tall"          "f20"
+		"proportionaltoparent"	"1"
+		"visible"       "1"
+		"pinCorner"		"2"
+		"autoResize"	"1"
+		"PaintBackgroundType"   "0"
+		"bgcolor_override"		"0 0 0 255"
 	}
 
 	"chatlog"
@@ -43,12 +60,10 @@
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
-		
-		"bgcolor_override"	"0 0 0 50"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
+		
 		"ScrollBar"
 		{
 			"FieldName"		"ScrollBar"
@@ -85,11 +100,11 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"278"
-		"ypos"					"464"
+		"xpos"					"87"
+		"ypos"					"470"
 		"zpos"			"0"
 		"wide"			"f2"
-		"tall"			"14"
+		"tall"			"12"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"

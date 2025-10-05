@@ -108,27 +108,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Yellow"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Yellow"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Yellow"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "Yellow"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "Yellow"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}

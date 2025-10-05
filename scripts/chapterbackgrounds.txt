@@ -5,7 +5,6 @@
 	3	"background_upward"
 	4	"background_upward"
 }
-
 "BackgroundMaps"
 {
 	1	"background_upward"

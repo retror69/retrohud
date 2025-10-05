@@ -80,7 +80,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Cerbetica12"
+		"font"			"BebasNeue12"
 		"xpos"			"80"
 		"ypos"			"5"
 		"zpos"			"1"

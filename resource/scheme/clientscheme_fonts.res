@@ -3,12 +3,12 @@ Scheme
 {
 	Fonts
 	{
-		"Newtown8"
+		"Newtown7"
 		{
 			"1"
 			{
 				"name"		 "Newtown"
-				"tall" 		 "8"
+				"tall" 		 "7"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -46,16 +46,6 @@ Scheme
 			}
 		}
 		
-		"HUDFont56"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall" 		 	"56"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 		"HUDFont48"
 		{
 			"1"
@@ -187,7 +177,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		// DEFAULT
 		"Default"
 		{
@@ -1530,7 +1520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1538,7 +1528,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"13"
 				"weight"		"700"
 				"yres"			"600 767"
@@ -1546,7 +1536,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"700"
 				"yres"			"768 1023"
@@ -1554,7 +1544,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"20"
 				"weight"		"700"
 				"yres"			"1024 1199"
@@ -1562,7 +1552,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"24"
 				"weight"		"700"
 				"yres"			"1200 10000"
@@ -1573,7 +1563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1581,7 +1571,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"700"
 				"yres"			"600 767"
@@ -1589,7 +1579,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"13"
 				"weight"		"700"
 				"yres"			"768 1023"
@@ -1597,7 +1587,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"700"
 				"yres"			"1024 1199"
@@ -1605,7 +1595,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"15"
 				"weight"		"700"
 				"yres"			"1200 10000"
@@ -1660,18 +1650,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		Newtown8
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"12"
-				"weight"		"0"
-				"additive"		"1"
-				"antialias" 	"1"
-			}
-		}
+		
 		TFFontMedium
 		{
 			"1"
