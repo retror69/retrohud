@@ -1347,7 +1347,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"			"TF2"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1977,7 +1977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"400"
 				"yres"			"480 599"
@@ -1986,7 +1986,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1995,7 +1995,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
@@ -2007,7 +2007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"800"
 				"yres"			"480 599"
@@ -2016,7 +2016,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"800"
 				"additive"		"0"
@@ -2025,7 +2025,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"18"
 				"weight"		"800"
 				"additive"		"0"
@@ -2037,7 +2037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
@@ -2048,7 +2048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"20"
 				"antialias" 	"1"
 				"custom"		"1" [$OSX]
@@ -2059,7 +2059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"400"
 				"yres"			"480 599"
@@ -2068,7 +2068,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -2077,7 +2077,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"22"
 				"weight"		"400"
 				"additive"		"0"
@@ -2089,7 +2089,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"400"
 				"yres"			"480 599"
@@ -2099,7 +2099,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -2109,7 +2109,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"22"
 				"weight"		"400"
 				"additive"		"0"
@@ -2122,7 +2122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"800"
 				"yres"			"480 599"
@@ -2131,7 +2131,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"800"
 				"additive"		"0"
@@ -2140,7 +2140,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"18"
 				"weight"		"800"
 				"additive"		"0"
@@ -2152,7 +2152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
@@ -2163,7 +2163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
@@ -2175,7 +2175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2483,7 +2483,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"7"
 				"weight"		"0"
 				"blur"			"3"
@@ -2495,7 +2495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -2506,7 +2506,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2517,7 +2517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -2528,7 +2528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"BebasNeuePro-Bold"
 				"tall"			"30"
 				"weight"		"400"
 				"additive"		"0"
@@ -2551,48 +2551,7 @@ Scheme
 	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
-		{
-			"font"	"resource/TF2.ttf"
-			"name"	"TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4"
-		{
-			"font"	"resource/TF2Secondary.ttf"
-			"name"	"TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5"
-		{
-			"font"	"resource/TF2Professor.ttf"
-			"name"	"TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}
-		"6"
+		"1"
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
@@ -2609,73 +2568,144 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name"	"ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
-		}
-		"8"
+		"2"
 		{
 			"font" "resource/fonts/BebasNeuePro-Bold.otf"
 			"name" "BebasNeuePro-Bold"
+			"arabic"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
 		}
-		"9"
+		"3"
 		{
 			"font" "resource/fonts/Newtown.ttf"
 			"name" "Newtown"

@@ -45,6 +45,7 @@
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
+		"zpos"			"-9"
 		"wide"			"620"
 		"tall"			"320"
 		"proportionaltoparent"	"1"
@@ -54,6 +55,25 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"bgcolor_override"		"10 10 10 255"
+		"PaintBackgroundType"	"2"
+	}
+	
+	"Background2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Background2"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-10"
+		"wide"			"630"
+		"tall"			"330"
+		"proportionaltoparent"	"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"bgcolor_override"		"Base Color"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -140,14 +160,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5-287"	//	cs-0.5-287
-		"ypos"			"365"	//	365
+		"xpos"			"cs-0.5+287"
+		"ypos"			"365"
 		"zpos"			"6"
 		"wide"			"22"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#NextItem"
+		"labelText"		">"
 		"font"			"BebasNeue16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -162,14 +182,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevButton"
-		"xpos"			"cs-0.5+287"
+		"xpos"			"cs-0.5-287"
 		"ypos"			"365"
 		"zpos"			"6"
 		"wide"			"22"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#PreviousItem"
+		"labelText"		"<"
 		"font"			"BebasNeue16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
