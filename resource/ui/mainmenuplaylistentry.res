@@ -32,10 +32,10 @@
 		"mouseinputenabled"	"0"
 	}
 
-	"BGColor"
+	"Vignette"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BGColor"
+		"fieldName"		"Vignette"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -70,7 +70,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"tall"			"50"
-		"wide"			"140"
+		"wide"			"135"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"

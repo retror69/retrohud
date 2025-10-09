@@ -3,14 +3,12 @@ Scheme
 	Colors
 	{
 		"Base Color"				"188 60 56 255"
-		"BGColor"					"188 60 56 255"
 
 		// HUD-specific colors
 		//---------------------------------------------
 		//Custom basic colors
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
-		"ColorOrange"				"188 60 56 255"
 		"ColorYellow"				"255 255 0 255"
 		"ColorLime"					"128 255 0 255"
 		"ColorGreen"				"0 255 0 255"
@@ -56,17 +54,7 @@ Scheme
 		"Solid Color Uber"			"255 50 25 255"
 		"Flashing Uber Color1"		"255 165 0 255"
 		"Flashing Uber Color2"		"255 69 0 255"
-		//---------------------------------------------
-		// Player Stats
-		"StatBar1"						"188 60 56 255"
-		"StatBar2"						"188 60 56 255"
-		"StatBar3"						"188 60 56 255"
-		"StatBar4"						"188 60 56 255"
-		"StatBar5"						"188 60 56 255"
-		"StatBar6"						"188 60 56 255"
-		"StatBar7"						"188 60 56 255"
-		"StatBar8"						"188 60 56 255"
-		"StatBar9"						"188 60 56 255"
+
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------

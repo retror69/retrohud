@@ -5,7 +5,7 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-341"
+		"xpos"					"86"
 		"ypos"					"0"
 		"zpos"					"1001"
 		"wide"					"178"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"   "EditablePanel"
 		"fieldname"     "chatlogBG"
-		"xpos"          "cs-0.5"
+		"xpos"          "0"
 		"ypos"          "0"
 		"zpos"          "0"
 		"wide"          "f0"
@@ -51,14 +51,13 @@
 	{
 		// "ControlName"	"richtext"
 		"fieldName"		"chatlog"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 
 		"pinCorner"		"2"
@@ -79,20 +78,6 @@
 			{
 				"fgcolor_override"	"TanLight"
 			}
-		
-			"UpButton"
-			{
-				"ControlName"	"Button"
-				"FieldName"		"UpButton"
-				"visible"		"0"
-			}
-		
-			"DownButton"
-			{
-				"ControlName"	"Button"
-				"FieldName"		"DownButton"
-				"visible"		"0"
-			}
 		}
 	}
 
@@ -100,15 +85,14 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"87"
+		"xpos"					"85"
 		"ypos"					"470"
 		"zpos"			"0"
 		"wide"			"f2"
 		"tall"			"12"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 255"
-		"RoundedCorners"	"0"
+		"bgcolor_override"	"0 0 0 0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
@@ -128,8 +112,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"RoundedCorners"	"0"
+		"bgcolor_override"	"0 0 0 255"
 		"border"		"QuickplayBorder"
 
 		"keyboardinputenabled"	"0"

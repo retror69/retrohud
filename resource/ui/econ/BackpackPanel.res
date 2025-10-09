@@ -224,7 +224,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		"border"			"CyanBorder"
+		"border"			"OrangeBorder"
 		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"

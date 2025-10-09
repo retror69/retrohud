@@ -26,10 +26,10 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"BGColor"
+		"Base Color"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"BGColor"
+			"fieldName"		"Base Color"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
