@@ -68,7 +68,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToggleChatButton"
 		"xpos"			"237"
-		"ypos"			"363"
+		"ypos"			"357"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"

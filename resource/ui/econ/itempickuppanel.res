@@ -12,6 +12,7 @@
 		"modelpanels_height"	"260"
 		"modelpanels_ypos"		"110"
 		"bgcolor_override"		"0 0 0 0"
+		"settitlebarvisible"	"0"
 
 		"modelpanelskv"
 		{
@@ -167,8 +168,8 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		">"
-		"font"			"BebasNeue16"
+		"labelText"		"D"
+		"font"			"TF2Icons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -189,8 +190,8 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"<"
-		"font"			"BebasNeue16"
+		"labelText"		"A"
+		"font"			"TF2Icons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -270,7 +271,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"ColorYellow"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override"	"TanLight"
 	}
 
@@ -282,7 +283,7 @@
 		"ypos"			"150"
 		"zpos"			"11"
 		"wide"			"80"
-		"tall"			"40"
+		"tall"			"20"
 		"visible"		"0"
 		"paintbackground"	"1"
 		"border"		"NoBorder"
@@ -297,7 +298,7 @@
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
 			"wide"			"80"
-			"tall"			"40"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
@@ -321,5 +322,5 @@
 		"enabled"		"1"
 		"fgcolor_override" "LightRed"
 		"bgcolor_override"	"TanDarker"
-	}
+	}	
 }

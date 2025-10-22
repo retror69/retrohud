@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"38"
+			"fov"			"45"
 			"proportionaltoparent"	"1"
 
 			if_mini

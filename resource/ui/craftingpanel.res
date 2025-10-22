@@ -8,7 +8,7 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"f0"
-		"image"			"../sprites/obj_icons/main_bg"
+		"image"			"../sprites/menu/main_bg"
 		"scaleImage"	"1"
 		"enabled"		"1"
 		"visible"		"1"
@@ -365,7 +365,7 @@
 		"wide"				"280"
 		"tall"				"240"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"200 187 161 0"
+		"bgcolor_override"		"TanDarker"
 	}
 
 	"mouseoveritempanel"
@@ -467,16 +467,5 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
-	}
-
-	"ShowExplanationsButton"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"ShowExplanationsButton"
-		"xpos"				"9999"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
 	}
 }

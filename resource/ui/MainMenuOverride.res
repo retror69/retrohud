@@ -137,15 +137,13 @@
 	"cart_track_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red" }
 	"cart_track_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track_red_opaque" }
 
-    // Control Points - Base
+    // Control Points
     "icon_obj_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral" }
     "icon_obj_neutral_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_neutral_locked" }
     "icon_obj_blu" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu" }
     "icon_obj_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_blu_locked" }
     "icon_obj_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red" }
     "icon_obj_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_red_locked" }
-	
-	// Control Points - Extra
     "icon_obj_a" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_a" }
     "icon_obj_b" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_b" }
     "icon_obj_c" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_c" }
@@ -153,13 +151,13 @@
     "icon_obj_e" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_e" }
 	
 	// Backpack
-	"main_bg" { "ControlName" "ImagePanel" "fieldName" "main_bg" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/main_bg" }
-	"backpack_rect" { "ControlName" "ImagePanel" "fieldName" "backpack_rect" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect" }
-	"backpack_rect_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_color" }
-	"backpack_rect_mousedown" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mousedown" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mousedown" }
-	"backpack_rect_mouseover" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mouseover" }
-	"backpack_rect_mouseover_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_mouseover_color" }
-	"backpack_rect_selected" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_selected" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/backpack_rect_selected" }
+	"main_bg" { "ControlName" "ImagePanel" "fieldName" "main_bg" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/main_bg" }
+	"backpack_rect" { "ControlName" "ImagePanel" "fieldName" "backpack_rect" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect" }
+	"backpack_rect_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_color" }
+	"backpack_rect_mousedown" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mousedown" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_mousedown" }
+	"backpack_rect_mouseover" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_mouseover" }
+	"backpack_rect_mouseover_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_mouseover_color" }
+	"backpack_rect_selected" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_selected" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_selected" }
 	
 	"mouseoveritempanel"
 	{
@@ -270,7 +268,7 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "FriendsBG"
         "xpos"          "86"
-        "ypos"          "383"
+        "ypos"          "377"
         "zpos"          "-3"
         "wide"          "178"
         "tall"          "59"
@@ -285,7 +283,7 @@
 		"ControlName"   "CSteamFriendsListPanel"
 		"fieldname"     "SteamFriendsList"
 		"xpos"          "89"
-		"ypos"          "407"
+		"ypos"          "401"
 		"zpos"          "1"
 		"wide"          "172"
 		"tall"          "32"
@@ -346,7 +344,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot0"
 		"xpos"			"94"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -367,7 +365,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot1"
 		"xpos"			"115"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -388,7 +386,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot2"
 		"xpos"			"136"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -409,7 +407,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot3"
 		"xpos"			"157"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -430,7 +428,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot4"
 		"xpos"			"178"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -451,7 +449,7 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot5"
 		"xpos"			"199"
-		"ypos"			"386"
+		"ypos"			"380"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"19"
@@ -472,10 +470,10 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"150"
-		"ypos"			"-45"
+		"ypos"			"-76"
 		"zpos"			"-1"
 		"wide"			"170"
-		"tall"			"350"
+		"tall"			"400"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"

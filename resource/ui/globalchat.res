@@ -71,7 +71,7 @@
 			"tall"			"f0"
 			"wide"			"5" // This gets slammed from client schme.  GG.
 			"zpos"			"1000"
-			"nobuttons"		"1"
+			"nobuttons"		"0"
 			"proportionaltoparent"	"1"
 
 			"Slider"

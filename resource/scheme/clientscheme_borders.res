@@ -1077,7 +1077,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover"
+			"image"					"../sprites/menu/backpack_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"					// screen size of the corners ( and sides ), proportional
@@ -1088,7 +1088,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"color"					"ItemPanelBG"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -1101,7 +1101,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"Black"
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"					// screen size of the corners ( and sides ), proportional
@@ -1114,7 +1114,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../sprites/obj_icons/backpack_rect"
+			"image"					"../sprites/menu/backpack_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1125,7 +1125,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover"
+			"image"					"../sprites/menu/backpack_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1136,7 +1136,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_selected"
+			"image"					"../sprites/menu/backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1148,7 +1148,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Black"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1160,7 +1160,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"Black"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_selected"
+			"image"					"../sprites/menu/backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1174,7 +1174,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorUnique"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1186,7 +1186,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorUnique"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1198,7 +1198,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorUnique_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1210,7 +1210,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorUnique_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1224,7 +1224,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1236,7 +1236,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1248,7 +1248,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1260,7 +1260,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1274,7 +1274,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1286,7 +1286,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1298,7 +1298,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1310,7 +1310,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1324,7 +1324,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1336,7 +1336,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1348,7 +1348,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1360,7 +1360,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1374,7 +1374,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1386,7 +1386,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1398,7 +1398,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1410,7 +1410,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1424,7 +1424,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1436,7 +1436,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1448,7 +1448,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1460,7 +1460,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1474,7 +1474,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1486,7 +1486,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1498,7 +1498,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1510,7 +1510,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeaponGreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1524,7 +1524,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1536,7 +1536,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1548,7 +1548,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1560,7 +1560,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1574,7 +1574,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1586,7 +1586,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1598,7 +1598,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1610,7 +1610,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1624,7 +1624,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1636,7 +1636,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1648,7 +1648,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1660,7 +1660,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1674,7 +1674,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1686,7 +1686,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1698,7 +1698,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1710,7 +1710,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1724,7 +1724,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1736,7 +1736,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1748,7 +1748,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1760,7 +1760,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1774,7 +1774,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1786,7 +1786,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1798,7 +1798,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1810,7 +1810,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1824,7 +1824,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1836,7 +1836,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1848,7 +1848,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1860,7 +1860,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1874,7 +1874,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1886,7 +1886,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1898,7 +1898,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1910,7 +1910,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1924,7 +1924,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1936,7 +1936,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1948,7 +1948,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1960,7 +1960,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1973,7 +1973,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1985,7 +1985,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -1997,7 +1997,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2009,7 +2009,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2022,7 +2022,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2034,7 +2034,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2046,7 +2046,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2058,7 +2058,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2071,7 +2071,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2083,7 +2083,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2095,7 +2095,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2107,7 +2107,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2120,7 +2120,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2132,7 +2132,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2144,7 +2144,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2156,7 +2156,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2169,7 +2169,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2181,7 +2181,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2193,7 +2193,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2205,7 +2205,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2218,7 +2218,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2230,7 +2230,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2242,7 +2242,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_color"
+			"image"					"../sprites/menu/backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2254,7 +2254,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient_GreyedOut"
 			
-			"image"					"../sprites/obj_icons/backpack_rect_mouseover_color"
+			"image"					"../sprites/menu/backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -2995,43 +2995,7 @@ Scheme
 				}
 			}
 		}
-
-		FriendHighlightBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
-				}
-			}
-		}
+		
 		FriendHighlightBorderThick
 		{
 			"inset" "0 0 1 1"
@@ -3039,12 +3003,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 			}
@@ -3052,12 +3016,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 			}
@@ -3065,12 +3029,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3078,12 +3042,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}

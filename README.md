@@ -3,7 +3,7 @@ _______________________________________
 
 <p align="center">
   <p align="center">
-    HUD that I personally use and maintain. Most of the assets are from other huds such as FlawHUD, LightHUD, rayshud etc. 
+    TF2 HUD based off of FUNKeHUD's many versions through the years.
     <br />
     <a href="https://codeload.github.com/retror69/retrohud/zip/refs/heads/main">Download</a>
   </p>
@@ -11,7 +11,7 @@ _______________________________________
 
 
 
-Transparent viewmodel, hitmarker, and speedometer can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
+Transparent viewmodel and speedometer can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
 _______________________________________
 

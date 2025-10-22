@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL, HITMARKER, SPEEDOMETER
+	// TRANSPARENT VIEWMODEL / SPEEDOMETER
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
 	//--------------------------------------------------------------
@@ -18,24 +18,6 @@
 		"tall"				"480"
 		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
-	}
-	
-	"Hitmarker"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Hitmarker"
-		"xpos"			"c-4"
-		"ypos"			"c-4"
-		"zpos"			"20"
-		"wide"			"8"
-		"tall"			"8"
-		"image"			"replay/thumbnails/hitmarker_red"
-		"scaleImage"	"1"	
-		"Alpha"			"0"
-		"teambg_2"		"replay/thumbnails/hitmarker_red"
-		"teambg_3"		"replay/thumbnails/hitmarker_blue"
 	}
 	
 	"speedometer"

@@ -8,7 +8,7 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"f0"
-		"image"			"../sprites/obj_icons/main_bg"
+		"image"			"../sprites/menu/main_bg"
 		"scaleImage"	"1"
 		"enabled"		"1"
 		"visible"		"1"

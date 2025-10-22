@@ -42,7 +42,7 @@ Scheme
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"255 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
-		"Button Color"				"85 71 62 255"
+		"Button Color"				"Base Color"
 		"Button Color Dim"			"128 40 36 255"
 		//---------------------------------------------
 		// Crosshair Colors
@@ -135,7 +135,7 @@ Scheme
 
 		"TanDark"								"100 100 100 255"
 		"TanLight"								"255 245 235 255"
-		"TanDarker"								"45 45 45 255"
+		"TanDarker"								"40 40 40 255"
 
 		"StoreDarkTan"							"131 121 104 255"
 		"StoreGreen"							"76 107 34 255"

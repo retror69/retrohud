@@ -903,45 +903,20 @@
 			"xpos_minmode" 		"9999"
 			"ypos"				"9999"
 		}
-	       
-		"DeathsLabel"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DeathsLabel"
-			"font"		      "BebasNeue10"
-			"labelText"		 "#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"         "east"
-			"xpos"		      "150"
-			"ypos"		      "0"
-			"ypos_minmode"	        "5"
-			"zpos"		      "3"
-			"wide"		      "0"
-			"tall"		      "0"
-			"autoResize"	"0"
-			"pinCorner"		 "0"
-			"visible"		   "1"
-			"enabled"		   "1"
-		}
+	    
 		"Kills"
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Kills"
-			"visible"		   "0"
-		}
-		"KillsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "KillsWhite"
 			"font"		      "Big32"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%kills%"
 			"textAlignment"         "east"
-			"xpos"		      "126"
-			"xpos_minmode"	        "5"
+			"xpos"		      "115"
+			"xpos_minmode"	        "-5"
 			"ypos"		      "7"
 			"ypos_minmode"	        "22"
 			"zpos"		      "3"
-			"wide"		      "50"
+			"wide"		      "60"
 			"tall"		      "31"
 			"tall_minmode"	        "30"
 			"autoResize"	"0"
@@ -949,7 +924,6 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
-	       
 		"KillsLabel"
 		{
 			"ControlName"           "CExLabel"
@@ -974,18 +948,12 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
+		
 		"Deaths"
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Deaths"
-			"visible"		   "0"
-		}
-		"DeathsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DeathsWhite"
 			"font"		      "Big32"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%deaths%"
 			"textAlignment"         "west"
 			"xpos"		      "181"
@@ -993,10 +961,28 @@
 			"ypos"		      "7"
 			"ypos_minmode"	        "22"
 			"zpos"		      "3"
-			"wide"		      "50"
+			"wide"		      "60"
 			"wide_minmode"	        "50"
 			"tall"		      "31"
 			"tall_minmode"	        "30"
+			"autoResize"	"0"
+			"pinCorner"		 "0"
+			"visible"		   "1"
+			"enabled"		   "1"
+		}
+		"DeathsLabel"
+		{
+			"ControlName"           "CExLabel"
+			"fieldName"		 "DeathsLabel"
+			"font"		      "BebasNeue10"
+			"labelText"		 "#TF_ScoreBoard_DeathsLabel"
+			"textAlignment"         "east"
+			"xpos"		      "150"
+			"ypos"		      "0"
+			"ypos_minmode"	        "5"
+			"zpos"		      "3"
+			"wide"		      "0"
+			"tall"		      "0"
 			"autoResize"	"0"
 			"pinCorner"		 "0"
 			"visible"		   "1"
@@ -1027,14 +1013,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Captures"
-			"visible"		   "0"
-		}
-		"CapturesWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "CapturesWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%captures%"
 			"textAlignment"         "west"
 			"xpos"		      "280"
@@ -1074,14 +1053,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Assists"
-			"visible"		   "0"
-		}
-		"AssistsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "AssistsWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%assists%"
 			"textAlignment"         "west"
 			"xpos"		      "280"
@@ -1096,7 +1068,7 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
-	       
+	
 		"DestructionLabel"
 		{
 			"ControlName"           "CExLabel"
@@ -1121,14 +1093,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Destruction"
-			"visible"		   "0"
-		}
-		"DestructionWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DestructionWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%destruction%"
 			"textAlignment"         "west"
 			"xpos"		      "280"
@@ -1168,14 +1133,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Defenses"
-			"visible"		   "0"
-		}
-		"DefensesWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DefensesWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%defenses%"
 			"textAlignment"         "west"
 			"xpos"		      "360"
@@ -1215,14 +1173,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Domination"
-			"visible"		   "0"
-		}
-		"DominationWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DominationWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%dominations%"
 			"textAlignment"         "west"
 			"xpos"		      "360"
@@ -1262,14 +1213,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Revenge"
-			"visible"		   "0"
-		}
-		"RevengeWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "RevengeWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%Revenge%"
 			"textAlignment"         "west"
 			"xpos"		      "360"
@@ -1309,14 +1253,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Invuln"
-			"visible"		   "0"
-		}
-		"InvulnWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "InvulnWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%invulns%"
 			"textAlignment"         "west"
 			"xpos"		      "437"
@@ -1331,7 +1268,7 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
-	       
+		
 		"HeadshotsLabel"
 		{
 			"ControlName"           "CExLabel"
@@ -1356,14 +1293,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Headshots"
-			"visible"		   "0"
-		}
-		"HeadshotsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "HeadshotsWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%headshots%"
 			"textAlignment"         "west"
 			"xpos"		      "437"
@@ -1403,14 +1333,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Teleports"
-			"visible"		   "0"
-		}
-		"TeleportsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "TeleportsWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%teleports%"
 			"textAlignment"         "west"
 			"xpos"		      "437"
@@ -1450,14 +1373,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Healing"
-			"visible"		   "0"
-		}
-		"HealingWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "HealingWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%healing%"
 			"textAlignment"         "west"
 			"xpos"		      "515"
@@ -1472,7 +1388,7 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
-	       
+		
 		"BackstabsLabel"
 		{
 			"ControlName"           "CExLabel"
@@ -1497,14 +1413,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Backstabs"
-			"visible"		   "0"
-		}
-		"BackstabsWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "BackstabsWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%backstabs%"
 			"textAlignment"         "west"
 			"xpos"		      "515"
@@ -1545,14 +1454,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Damage"
-			"visible"		   "0"
-		}
-		"DamageWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "DamageWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%damage%"
 			"textAlignment"         "west"
 			"xpos"		      "515"
@@ -1593,14 +1495,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Bonus"
-			"visible"		   "0"
-		}
-		"BonusWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "BonusWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%bonus%"
 			"textAlignment"         "west"
 			"xpos"		      "593"
@@ -1615,7 +1510,7 @@
 			"visible"		   "1"
 			"enabled"		   "1"
 		}
-	       
+
 		"SupportLabel"
 		{
 			"ControlName"           "CExLabel"
@@ -1640,14 +1535,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Support"
-			"visible"		   "0"
-		}
-		"SupportWhite"
-		{
-			"ControlName"           "CExLabel"
-			"fieldName"		 "SupportWhite"
 			"font"		      "BebasNeue10"
-			"fgcolor"		   "ColorWhite"
 			"labelText"		 "%support%"
 			"textAlignment"         "west"
 			"xpos"		      "593"

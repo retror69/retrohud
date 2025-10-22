@@ -25,63 +25,7 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
-	"OnYourWayLabel" [$WIN32]
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"OnYourWayLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#LoadingMap"
-		"textAlignment"		"center"
-		"xpos"			"0"
-		"ypos"			"50"
-		"zpos"			"50"
-		"wide"			"360"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-	}					
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
-		"labelText"		"%maplabel%"
-		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
-		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
-		"ypos"			"92"
-		"ypos_hidef"		"425"
-		"ypos_lodef"		"425"
-		"zpos"			"50"
-		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-	}
-	"MapType" [$WIN32]
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapType"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"117"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-	}						
+	
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -268,7 +212,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"	"35 35 35 255"
 		}
 		"AveragesLabel"
 		{
@@ -1653,7 +1597,7 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"35 35 35 255"
 		}
 		"RecordsLabel1"
 		{
