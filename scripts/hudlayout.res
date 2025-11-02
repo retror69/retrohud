@@ -28,7 +28,7 @@
 		"fieldName"			"speedometer"
 		"zpos"				"-100"
 		"xpos"				"cs-0.5"
-		"ypos"				"c125"
+		"ypos"				"335"
 		"wide"				"50"
 		"tall"				"12"
 		"image"				"replay/thumbnails/numbers"
@@ -111,10 +111,14 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-150"	
-		"ypos"			"c20"	
-		"wide"			"500"
-		"tall"			"500"
+//		"xpos"			"r507"	[$WIN32]
+//		"ypos"			"r115"	[$WIN32]
+//		"wide"			"200"
+//		"tall"			"100"
+		"xpos"        	"0"	[$WIN32]
+		"ypos"	        "0"	[$WIN32]
+		"wide"	        "f0"
+		"tall"	        "480"
 	}
 
 	HudDemomanCharge
@@ -262,12 +266,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-50"	[$WIN32]
-		"ypos"		"r40"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"150"
-		"tall"		"200"
+		"xpos"					"c-111"
+		"ypos"					"c110"
+		"wide"					"600"
+		"tall"					"50"
 	}
 
 
@@ -278,7 +280,6 @@
 		"enabled" 				"1"
 		"xpos"					"c-100"
 		"ypos"					"246"
-		//	"ypos_minmode"			"c80"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"100"
@@ -304,8 +305,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c130"
-		//	"ypos_minmode"			"c120"
+		"ypos"					"c144"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"35"
@@ -838,7 +838,7 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-152"
 		"ypos"					"315"
 		"zpos"					"20"
 		"wide"					"300"
@@ -974,7 +974,7 @@
 		"fieldName" 		"HudEurekaEffectTeleportMenu"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-105"
+		"xpos"				"c-100"
 		"ypos"				"c-75"
 		//	"ypos_minmode"		"c105"
 		"zpos"				"1"
@@ -989,7 +989,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c90"
-		"ypos"				"c-72"
+		"ypos"				"c-50"
 		//	"xpos_minmode"		"c120"
 		"zpos"				"1"
 		"wide"				"100"
@@ -1335,8 +1335,8 @@
 		"fieldName" 		"HudMenuTauntSelection"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-235"
-		"ypos"				"c-85"
+		"xpos"				"c-234"
+		"ypos"				"c-40"
 		"zpos"				"0"
 		"wide"				"470"
 		"tall"				"200"

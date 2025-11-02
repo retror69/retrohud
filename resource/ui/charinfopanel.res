@@ -103,6 +103,21 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"Base Color"
 	}
+	
+	"HeaderLine"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"54"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"Base Color"
+	}			
 
 	"Sheet"
 	{
@@ -111,25 +126,8 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
-		"transition_time" "0"
-		
-		"HeaderLine"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}				
+		"tabheight"		"33"
+		"transition_time" "0"	
 		
 		"tabskv"
 		{

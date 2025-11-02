@@ -323,50 +323,7 @@
 		"enabled"		"1"
 		"fillcolor" "TanDarker"
 	}
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_hidef" "305"
-			"origin_x_lodef" "320"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
-	}	
 	
-	"FooterBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterBG"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}							
 	"FooterBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -379,23 +336,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
-		"tileImage"		"1"
 	}	
 	
-	"HeaderBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeaderBG"
-		"xpos"			"0"
-		"ypos"			"r480"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}			
 	"HeaderBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -408,7 +350,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
-		"tileImage"		"1"
 	}	
 
 	"line1"

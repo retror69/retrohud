@@ -15,14 +15,13 @@
 		"tabPosition"		"0"
 		"settitlebarvisible" "0"
 	}
-
+	
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MainBG"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"-1"
 		"wide"				"f0"
 		"tall"				"f0"
 		"autoResize"		"0"
@@ -128,20 +127,6 @@
 		"selectedFgColor_override" 	"TanDark"
 	}
 
-	"MenuBG"
-	{
-		"ControlName"		"CModelPanel"
-		"fieldName"			"MenuBG"
-		"xpos"				"9999"
-	}
-
-	"ShadedBar"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ShadedBar"
-		"xpos"				"9999"
-	}
-
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
@@ -161,4 +146,56 @@
 		"labelText"		"&E"
 		"command"		"okay"
 	}
+	"FooterBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterBG2"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+	}	
+	"HeaderBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG2"
+		"xpos"			"0"
+		"ypos"			"r480"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+	}	
+	"line1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"line1"
+		"xpos"			"0"
+		"ypos"			"r432"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" "TanDark"
+	}
+	"line2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"line2"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"2"
+		"enabled"		"1"
+		"visible"		"1"
+		"fillcolor" "TanDark"
+	}		
 }

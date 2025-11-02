@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"20"
@@ -11,9 +11,8 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"fillcolor"		"0 0 0 100"
+		"bgcolor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"TauntModelPanel1"

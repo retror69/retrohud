@@ -4,72 +4,56 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-
+		"scaleImage"	"1"	
+	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"	
+	}	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"1"
+		"ypos"			"2"
+		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-
-	"PlayerStatusHealthBonusImage"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"	
+	}	
+	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
-	"GuiPlayerHealth"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealth"
-		"xpos"			"3"
-		"ypos"			"3"
+		"ControlName"	"Label"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"-7"
+		"ypos"			"-12"
 		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"38"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
-		"labeltext"		"%Health%"
-	}
-
-	"GuiPlayerHealthShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
-		"xpos"			"4"
-		"ypos"			"4"
-		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
-		"fgcolor"		"TransparentBlack"
-		"labeltext"		"%Health%"
-	}
+		"textAlignment"	"center"	
+		"font"			"HudFontMedium"
+		"labelText"		"%Health%"
+	}								
 }

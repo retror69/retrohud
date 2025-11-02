@@ -179,22 +179,6 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 
-		"ItemBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"240"
-			"tall"			"900"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"HudBlack"
-		}
-
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"

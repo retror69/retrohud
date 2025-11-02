@@ -236,17 +236,8 @@
 	}		
 	"WinPanelBGBorder"
 	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"WinPanelBGBorder"
-		"wide"						"0"
-		"tall"						"0"
-		"visible"					"0"
-		"enabled"					"0"
-	}
-	"TeamColorBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColorBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"67"
 		"ypos"			"96"
 		"zpos"			"1"
@@ -256,17 +247,7 @@
 		"pinCorner"		"0"
 		"visible"	    "1"
 		"enabled"	    "1"
-		"image"            "../hud/tournament_panel_brown"
-		"scaleImage"    "1"
-		"teambg_1"        "../hud/tournament_panel_brown"
-		"teambg_2"        "../hud/tournament_panel_red"
-		"teambg_3"        "../hud/tournament_panel_blu"
-				
-		"src_corner_height"    "23"
-		"src_corner_width"    "23"
-					
-		"draw_corner_width"     "5"
-		"draw_corner_height" "5"
+		"border"		"TFFatLineBorderBlueBG"
 	}
 	"ShadedBar"
 	{
