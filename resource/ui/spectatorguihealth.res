@@ -53,27 +53,6 @@
 		"fgcolor"		"Health Normal"
 	}
 
-	"GuiPlayerHealthShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"font"			"HudFontMediumShadow"
-		"fgcolor"		"TransparentBlack"
-
-		"pin_to_sibling"		"GuiPlayerHealth"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

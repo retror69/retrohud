@@ -79,7 +79,7 @@
 			"tall"				"19"
 			"visible"			"1"
 			"enabled"			"1"
-			"image"				"../hud/color_panel_blu"
+			"image"				"../hud/tournament_panel_blu"
 			"scaleImage"		"1"
 
 			"src_corner_height"		"25"
@@ -120,18 +120,14 @@
 		{
 			"ControlName" "Label"
 			"fieldName" "FreezeLabel"
-			"font" "DefaultSmall"
-			"xpos" "40"
-			"ypos" "62"
+			"xpos" "94"
+			"ypos" "-5"
 			"zpos" "1"
 			"wide" "0"
 			"tall" "0"
 			"visible" "0"
 			"enabled" "0"
 			"labelText" "#FreezePanel_Killer"
-			"textAlignment" "North-West"
-			"dulltext" "0"
-			"brighttext" "0"
 		}
 		"FreezePanelHealth"
 		{
@@ -156,8 +152,8 @@
 			"ControlName" "Label"
 			"fieldName" "FreezeLabelKiller"
 			"font" "HudFontMedium"
-			"xpos" "5"
-			"ypos" "-5"
+			"xpos"	"0"
+			"ypos" "0"
 			"zpos" "9"
 			"wide" "100"
 			"tall" "25"
@@ -166,30 +162,12 @@
 			"visible" "1"
 			"enabled" "1"
 			"labelText" "%killername%"
-			"textAlignment" "Left"
-		}
-		
-		"TargetNameLabelShadow"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"TargetNameLabelShadow"
-			"font"				"HudFontMediumShadow"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"8"
-			"wide"				"100"
-			"tall"				"25"
-			"visible"			"1"
-			"enabled"			"1"
-			"labelText"			"%killername%"
-			"textAlignment"		"west"
-			"fgcolor_override"	"TransparentBlack"
-
-			"pin_to_sibling"		"FreezeLabelKiller"
+			"textAlignment" "center"
+			"pin_to_sibling"		"FreezeLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
-
+		
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"

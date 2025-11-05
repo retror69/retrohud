@@ -3,6 +3,7 @@ Scheme
 	Colors
 	{
 		"Base Color"				"188 60 56 255"
+		"Base Color Dim"			"128 40 36 255" // -60,-20,-20
 
 		// HUD-specific colors
 		//---------------------------------------------
@@ -35,20 +36,16 @@ Scheme
 		"Ammo In Clip Low"			"255 42 130 255"
 		"Ammo In Reserve Low"		"255 46 46 255"
 		"Health Normal"				"255 255 255 255"
-		"Health Buff"				"27 255 127 255"
-		"Health Buff BG"			"27 255 127 180"
-		"Health Hurt"				"255 42 130 255"
-		"Health Hurt BG"			"255 42 130 180"
+		"Health Buff"				"27 255 127 180"
+		"Health Hurt"				"255 42 130 180"
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"255 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
-		"Button Color"				"Base Color"
-		"Button Color Dim"			"128 40 36 255"
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------
-		"Orange"								"Button Color"
-		"OrangeDim"								"Button Color"
+		"Orange"								"Base Color"
+		"OrangeDim"								"Base Color"
 		"LightOrange"							"188 112 0 128"
 		"GoalOrange"							"255 133 0 255"
 		"TFOrange"								"145 73 59 255"
@@ -88,11 +85,11 @@ Scheme
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 
-		"HUDBlueTeam"							"77 119 152 153"
-		"HUDRedTeam"							"205 50 50 153"
+		"HUDBlueTeam"							"75 115 141 153"
+		"HUDRedTeam"							"189 49 48 153"
 		"HUDSpectator"							"124 124 124 153"
-		"HUDBlueTeamSolid"						"77 119 152 255"
-		"HUDRedTeamSolid"						"205 50 50 255"
+		"HUDBlueTeamSolid"						"75 115 141 255"
+		"HUDRedTeamSolid"						"189 49 48 255"
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"255 255 255 255"
@@ -144,11 +141,11 @@ Scheme
 		"DisguiseMenuIconBlue"					"92 128 166 255"
 
 		"ProgressOffWhiteTransparent"			"250 250 250 128"
- 		"MatchmakingDialogTitleColor"			"Button Color"
+ 		"MatchmakingDialogTitleColor"			"Base Color"
  		"MatchmakingMenuItemBackground"			"DarkGrey"
- 		"MatchmakingMenuItemBackgroundActive"	"Button Color"
-		"MatchmakingMenuItemTitleColor"			"Button Color"
-		"MatchmakingMenuItemDescriptionColor"	"Button Color"
+ 		"MatchmakingMenuItemBackgroundActive"	"Base Color"
+		"MatchmakingMenuItemTitleColor"			"Base Color"
+		"MatchmakingMenuItemDescriptionColor"	"Base Color"
 
 		"HTMLBackground"						"95 92 101 255"
 

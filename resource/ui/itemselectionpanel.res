@@ -364,7 +364,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Button Color"
+		"fgcolor_override" "Base Color"
 	}
 
 	"NextPageButton"

@@ -39,11 +39,11 @@
 		"tall"				"19"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/color_panel_brown"
+		"image"				"../hud/tournament_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
+		"teambg_1"			"../hud/tournament_panel_brown"
+		"teambg_2"			"../hud/tournament_panel_red"
+		"teambg_3"			"../hud/tournament_panel_blu"
 
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"
@@ -62,7 +62,7 @@
 		"tall"				"19"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"72 112 125 255"
+		"fillcolor"			"HUDBlueTeamSolid"
 	}
 
 	"TargetIDBG_Spec_Red"
@@ -76,7 +76,7 @@
 		"tall"				"19"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"158 64 61 255"
+		"fillcolor"			"HUDRedTeamSolid"
 	}
 
 	"TargetNameLabel"
@@ -89,27 +89,27 @@
 		"zpos"				"9"
 		"wide"				"300"
 		"tall"				"25"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 	}
-
-	"TargetNameLabelShadow"
+	
+	"TargetNameLabel2"
 	{
 		"ControlName"		"Label"
-		"fieldName"			"TargetNameLabelShadow"
-		"font"				"HudFontMediumShadow"
+		"fieldName"			"TargetNameLabel2"
+		"font"				"HudFontMedium"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"8"
+		"zpos"				"10"
 		"wide"				"300"
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"	"TransparentBlack"
+		"fgcolor_override"	"ColorWhite"
 
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

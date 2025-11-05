@@ -42,8 +42,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelshadow"
-		"xpos"	        "1"
-		"ypos"			"-2"
+		"xpos"	        "0"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"174"
 		"tall"			"150"		//150

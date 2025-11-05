@@ -54,25 +54,4 @@
 		"font"			"HudFontSmallishBold"
 		"fgcolor"		"Spec Health Normal"
 	}
-
-	"GuiPlayerHealthShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
-		"xpos"			"-1"
-		"ypos"			"-2"
-		"zpos"			"4"
-		"wide"			"25"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
-		"fgcolor"		"TransparentBlack"
-
-		"pin_to_sibling"		"GuiPlayerHealth"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
 }

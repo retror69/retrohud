@@ -173,7 +173,7 @@
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
 			"wrap"			"1"
-			"highlight_color"	"Button Color"
+			"highlight_color"	"Base Color"
 			"itemset_color"		"216 244 9 255"
 			"link_color"		"200 128 255 255"
 			"image_up_arrow"				"scroll_up_off"
@@ -316,7 +316,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Button Color"
+		"fgcolor_override" "Base Color"
 	}
 
 	"NextPageButton"

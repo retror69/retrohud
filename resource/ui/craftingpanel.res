@@ -125,7 +125,7 @@
 			"defaultBgColor_override"	"Transparent"
 			"armedFgColor_override"		"TanLight"
 			"armedBgColor_override"		"Transparent"
-			"depressedFgColor_override"	"Button Color"
+			"depressedFgColor_override"	"Base Color"
 			"depressedBgColor_override"	"Transparent"
 		}
 

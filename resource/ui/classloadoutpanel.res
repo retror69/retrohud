@@ -351,7 +351,7 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "250 68 17 255"
@@ -392,7 +392,7 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"Base Color"
 		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "119 179 214 255"

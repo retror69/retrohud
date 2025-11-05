@@ -238,10 +238,6 @@
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
 
-			"if_multiple_trains"
-			{
-				"font"								"Newtown7"
-			}
 			"if_multiple_trains_top"
 			{
 				"ypos"								"7"
@@ -267,10 +263,6 @@
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
 
-			"if_multiple_trains"
-			{
-				"font"								"Newtown7"
-			}
 			"if_multiple_trains_top"
 			{
 				"ypos"								"7"
