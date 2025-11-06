@@ -3,7 +3,7 @@ _______________________________________
 
 <p align="center">
   <p align="center">
-    TF2 HUD based off of FUNKeHUD's many versions through the years.
+    TF2 HUD using FUNKeHUD as a base.
     <br />
     <a href="https://codeload.github.com/retror69/retrohud/zip/refs/heads/main">Download</a>
   </p>
