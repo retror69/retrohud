@@ -2,8 +2,8 @@ Scheme
 {
 	Colors
 	{
-		"Base Color"				"188 60 56 255"
-		"Base Color Dim"			"128 40 36 255" // -60,-20,-20
+		"Base Color"				"239 28 55 255"
+		"Base Color Dim"			"119 14 28 255" // V/2
 
 		// HUD-specific colors
 		//---------------------------------------------

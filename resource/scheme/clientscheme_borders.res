@@ -24,46 +24,6 @@ Scheme
 			}
 		}
 		
-		FooterTextColorBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Base Color"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Base Color"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Base Color"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Base Color"
-					"offset" "0 0"
-				}
-			}
-		}
-		
 		ButtonHover
 		{
 			"inset" "0 0 0 0"
@@ -134,53 +94,6 @@ Scheme
 			}
 		}
 
-		MainMenuTabs
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Base Color"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Base Color"
-					"offset" "0 1"
-				}
-				"3"
-				{
-					"color" "Base Color"
-					"offset" "1 1"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "15 255 255 0"
-					"offset" "0 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "15 255 255 0"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "15 255 255 0"
-					"offset" "0 0"
-				}
-			}
-		}
-
 		OrangeBorderTabs
 		{
 			"inset" "0 0 1 1"
@@ -194,22 +107,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 			Right
@@ -222,22 +135,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 			Top
@@ -250,22 +163,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 		}
@@ -282,22 +195,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color Dim"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color Dim"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color Dim"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color Dim"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 
@@ -311,22 +224,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color Dim"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color Dim"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color Dim"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color Dim"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 
@@ -340,22 +253,22 @@ Scheme
 				"2"
 				{
 					"color" "Base Color Dim"
-					"offset" "1 1"
+					"offset" "0 1"
 				}
 				"3"
 				{
 					"color" "Base Color Dim"
-					"offset" "2 1"
+					"offset" "0 1"
 				}
 				"4"
 				{
 					"color" "Base Color Dim"
-					"offset" "3 1"
+					"offset" "0 1"
 				}
 				"5"
 				{
 					"color" "Base Color Dim"
-					"offset" "4 1"
+					"offset" "0 1"
 				}
 			}
 		}
@@ -376,7 +289,7 @@ Scheme
 				"1"
 				{
 					"color" "Base Color"
-					"offset" "0 0"
+					"offset" "0 4"
 				}
 			}
 			Top
@@ -384,7 +297,7 @@ Scheme
 				"1"
 				{
 					"color" "Base Color"
-					"offset" "0 0"
+					"offset" "0 4"
 				}
 			}
 			Bottom
@@ -392,7 +305,7 @@ Scheme
 				"1"
 				{
 					"color" "Base Color"
-					"offset" "0 0"
+					"offset" "0 4"
 				}
 			}
 		}
@@ -410,12 +323,12 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 0"
+					"offset" "0 0"
 				}
 			}
 			Right
@@ -428,12 +341,12 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 0"
+					"offset" "0 0"
 				}
 			}
 			Top
@@ -446,12 +359,12 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 0"
+					"offset" "0 0"
 				}
 			}
 			Bottom
@@ -464,12 +377,12 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "2 0"
+					"offset" "0 0"
 				}
 			}
 		}

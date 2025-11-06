@@ -60,102 +60,6 @@
 				"PaintBackgroundType"	"0"
 			}
 
-			"PanelLeftFringe"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelLeftFringe"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"52"
-				"tall"				"18"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"0"
-				"fillcolor"			"15 15 15 64"
-			}
-
-			"PanelLeftHalf"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelLeftHalf"
-				"xpos"				"26"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"19"
-				"tall"				"18"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
-				"fillcolor"			"45 45 45 255"
-			}
-
-			"PanelLeftFull"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelLeftFull"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"26"
-				"tall"				"18"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
-				"fillcolor"			"15 15 15 110"
-			}
-
-			"PanelFull"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelFull"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"160"
-				"tall"				"18"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
-				"fillcolor"			"15 15 15 100"
-			}
-
-			"PanelBottom"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelBottom"
-				"xpos"				"0"
-				"ypos"				"15"
-				"zpos"				"-1"
-				"wide"				"160"
-				"tall"				"4"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"0"
-				"fillcolor"			"15 15 15 255"
-			}
-
-			"PanelRight"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelRight"
-				"xpos"				"157"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"4"
-				"tall"				"16"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"0"
-				"fillcolor"			"15 15 15 255"
-			}
-
 			"playername"
 			{
 				"ControlName"		"CExLabel"
@@ -222,24 +126,6 @@
 				"labelText"			"%respawntime%"
 				"textAlignment"		"west"
 				"fgcolor"			"255 255 255 255"
-			}
-
-			"respawntimeBG"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"respawntimeBG"
-				"font"				"HudFontSmallest"
-				"xpos"				"6"
-				"ypos"				"4"
-				"zpos"				"5"
-				"wide"				"23"
-				"tall"				"10"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%respawntime%"
-				"textAlignment"		"west"
-				"fgcolor"			"TransparentBlack"
 			}
 
 			"ReadyBG"
@@ -390,7 +276,7 @@
 		"tall"					"100"
 		"visible"				"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"model_ypos"			"20"
 		"model_center_x"		"1"
