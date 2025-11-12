@@ -33,13 +33,9 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"
 		"ypos"			"r67"
-		//	"xpos_minmode"	"-5"
-		//	"ypos_minmode"	"r44"
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
-		//	"wide_minmode"	"27"
-		//	"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
@@ -204,20 +200,18 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"r250"
-		"ypos"					"r40"
+		"xpos"					"20"
+		"ypos"					"r27"
 		"zpos"					"100"
 		"wide"					"500"
 		"tall"	 				"28"
-		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
 
 		"CarryingBackground"
 		{
 			"ControlName"			"CTFImagePanel"
 			"fieldName"				"CarryingBackground"
 			"xpos"					"0"
-			"ypos"					"0"
+			"ypos"					"5"
 			"zpos"					"0"
 			"wide"					"p1"
 			"tall"	 				"f0"
@@ -231,15 +225,16 @@
 			"teambg_2"				"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
-
-			"src_corner_height"		"23"
+		
+			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		"CarryingLabel"
-		{
+		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"ReplayBrowserSmallest"
@@ -260,41 +255,16 @@
 			"labelText"			"%carrying%"
 		}
 
-		"CarryingLabelDropShadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"p0.011"
-			"ypos"				"p0.12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
-			"labelText"			"%carrying%"
-		}
-
 		"OwnerLabel"
-		{
+		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"
 			"xpos"				"5"
-			"ypos"				"14"
+			"ypos"				"12"
 			"zpos"				"0"
 			"wide"				"200"
 			"tall"	 			"f0"
-			//	"wide_minmode"		"0"
-			//	"tall_minmode"		"0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"

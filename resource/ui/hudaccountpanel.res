@@ -9,10 +9,6 @@
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"Newtown16"
-		//	"delta_item_x_minmode"			"18"
-		//	"delta_item_start_y_minmode"	"10"
-		//	"delta_item_start_y_minmode"		"25"
-		//	"delta_item_font_minmode"		"HudFontSmall"
 	}
 	
 	"AccountValue"
@@ -34,7 +30,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"Newtown16"
-		//	"font_minmode"		"HudFontMediumSecondary"
+		"fgcolor"			"ColorWhite"
 	}
 
 	"AccountValueShadow"
@@ -56,7 +52,6 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"Newtown16"
-		//	"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 
 		"pin_to_sibling"		"AccountValue"

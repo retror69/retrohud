@@ -31,15 +31,13 @@ Scheme
 		"TextColor"					"117 107 94 255"
 		//---------------------------------------------
 		// Gameplay
+		"Health Normal"				"255 255 255 255"
+		"Health Buff"				"27 255 127 255"
+		"Health Low"				"255 153 0 255"
 		"Ammo In Clip"				"255 255 0 255"
 		"Ammo In Reserve"			"255 128 28 255"
-		"Ammo In Clip Low"			"255 42 130 255"
-		"Ammo In Reserve Low"		"255 46 46 255"
-		"Health Normal"				"255 255 255 255"
-		"Health Buff"				"27 255 127 180"
-		"Health Hurt"				"255 42 130 180"
-		"Heal Numbers"				"48 255 48 255"
-		"Last DamageHeal Info"		"255 255 255 255"
+		"Ammo In Reserve Low"		"255 42 130 255"
+		
 		"ItemPanelBG"				"50 50 50 255"
 		//---------------------------------------------
 		// DEFAULT COLORS

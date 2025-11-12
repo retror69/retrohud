@@ -13,10 +13,10 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/color_panel_blu"
+		"image"				"../hud/tournament_panel_blu"
 		"scaleImage"		"1"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
+		"teambg_2"			"../hud/tournament_panel_red"
+		"teambg_3"			"../hud/tournament_panel_blu"
 		"paintborder"		"0"
 
 		"src_corner_height"		"23"

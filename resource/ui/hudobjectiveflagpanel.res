@@ -29,7 +29,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"HudBlueTeamSolid"
 		"scaleImage"	"1"
 
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
+		"fillcolor"		"HudRedTeamSolid"
 		"scaleImage"	"1"
 
 		"if_hybrid"
@@ -78,13 +78,6 @@
 		}
 	}
 
-	"OutlineBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"OutlineBG"
-		"xpos"			"9999"
-	}
-
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -98,7 +91,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"HUDFont40"
+		"font"			"Big32"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -121,8 +114,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -130,7 +123,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"HUDFont40"
+		"font"			"Big32"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"BlueScore"
@@ -166,7 +159,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"HUDFont40"
+		"font"			"Big32"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -189,8 +182,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -198,7 +191,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"HUDFont40"
+		"font"			"Big32"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"RedScore"
@@ -235,14 +228,7 @@
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"
 	}
-
-	"CarriedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CarriedImage"
-		"xpos"			"9999"
-	}
-
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"

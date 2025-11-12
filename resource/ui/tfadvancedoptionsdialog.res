@@ -13,7 +13,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"0 0 0 255"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"

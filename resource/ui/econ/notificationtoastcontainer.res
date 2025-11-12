@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"DarkGrey"
-		"border"			"NoBorder"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 	}
 
 	"HelpTextLabel"

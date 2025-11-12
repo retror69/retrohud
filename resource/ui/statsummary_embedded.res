@@ -11,6 +11,7 @@
 		"visible"	"0"
 		"enabled"	"1"
 		"bgcolor_override"	"DarkGrey"
+		"paintbackgroundtype"	"2"
 	}
 	"MainBackground"
 	{
@@ -213,6 +214,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"35 35 35 255"
+			"paintbackgroundtype"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -1598,6 +1600,7 @@
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
 			"bgcolor_override"		"35 35 35 255"
+			"paintbackgroundtype"	"2"
 		}
 		"RecordsLabel1"
 		{

@@ -91,8 +91,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"border"		"NoBorder"
 				"bgcolor_override"	"15 15 15 150"
+				"paintbackgroundtype"	"2"
 			}
 	
 			"ActualLabel"
@@ -128,8 +128,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
 			"bgcolor_override"		"15 15 15 150"
+			"paintbackgroundtype"	"2"
 		}
 
 		"Title"
@@ -429,8 +429,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
 			"bgcolor_override"		"15 15 15 150"
+			"paintbackgroundtype"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -1817,8 +1817,8 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"NoBorder"
 			"bgcolor_override"	"15 15 15 150"
+			"paintbackgroundtype"	"2"
 		}
 		"RecordsLabel1"
 		{

@@ -15,7 +15,7 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"DarkerGrey"
 		"border"				"OrangeBorderThick"
 	}
 

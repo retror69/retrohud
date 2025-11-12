@@ -5,12 +5,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.4
 	
-	Animate	HealthBoxBG		BgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
+	Animate	HealthBoxBG		BgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"100"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"139 200 127 255"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Health Buff"		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
@@ -33,12 +33,12 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.2
 	
-	Animate	HealthBoxBG		BgColor		"Health Hurt"		Accel 0.0 0.0
-	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
+	Animate	HealthBoxBG		BgColor		"ColorRed"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"100"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Hurt"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"224 146 25 255"	Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Health Low"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Health Low"	Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
@@ -61,13 +61,13 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"0"					Linear 0.125 0.075
 	
-	Animate LowAmmoBG		BgColor		"Health Hurt"					Accel 0.0 0.0
-	Animate LowAmmoBG		Alpha		"200"									Accel 0.0 0.2
+	Animate LowAmmoBG		BgColor		"ColorRed"					Accel 0.0 0.0
+	Animate LowAmmoBG		Alpha		"100"									Accel 0.0 0.2
 	Animate LowAmmoBG		Alpha		"0"										Accel 0.2 0.4
 
-	Animate	AmmoInClip						FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
+	Animate	AmmoInClip						FgColor		"Health Low"		Linear 0.0 0.0
 	Animate	AmmoInReserve					FgColor		"Ammo In Reserve Low"	Linear 0.0 0.0
-	Animate	AmmoNoClip						FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
+	Animate	AmmoNoClip						FgColor		"Health Low"		Linear 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop			0.4
 }
@@ -106,20 +106,6 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 					FgColor		"Ammo In Clip"		Linear 0.0 0.0001
 }
 //==================================================================================
-// Spy Disguise
-event HudSpyDisguiseFadeIn
-{
-//	RunEvent HudSpyDisguiseChanged			0.0
-//	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9	0.1
-}
-
-event HudSpyDisguiseFadeOut
-{
-//	RunEvent HudSpyDisguiseChanged			0.0
-//	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9	0.1
-}
-//==================================================================================
-
 event HudSnapShotReminderIn
 {
     RunEvent DefaultAnimHudSnapShotReminderIn	0.0
@@ -130,7 +116,21 @@ event HudSnapShotReminderIn
     RunEvent HudMedicChargedStop 			0.0
 }
 //==================================================================================
+// Removed Stuff
 
-event CompetitiveGame_LowerChatWindow	{ }
-event CompetitiveGame_RestoreChatWindow	{ }
-event HudTournament_MoveChatWindow 		{ }
+event FlagOutline{}
+event HasNotificationsBlink{}
+event HasNotificationsBlinkStop{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
+event HudSpyDisguiseFadeIn{}
+event HudSpyDisguiseFadeOut{}
+event SurveyShowSequence{RunEventChild Survey SurveyDelete 0}
+event SurveySubmitSequence{}
+event SurveyDelete{FireCommand 0 "delete"}
+event SurveyHideSequence{}

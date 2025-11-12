@@ -1,19 +1,5 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_blue"			
-	}
-
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -41,34 +27,32 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"				"c10"
-		"ypos"				"c80"
+		"xpos"				"cs-0.5"
+		"ypos"				"339"
 		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"126"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"45" // 3 CSBC
-			"ypos"			"0" // 4 CSBC
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"80" // 5 CSBC
-			"tall"			"26"
-			"textinsetx"	"5" // 6 CSBC
-			"textinsety"	"0"
+			"wide"			"50"
+			"tall"			"50"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"east" // 7 CSBC
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HUDFont24" // 8 CSBC
+			"font"			"HUDFont24"
 			"fgcolor"		"255 255 255 255"
 		}
 		
@@ -76,24 +60,25 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"46" // 3 CSBC
-			"ypos"			"1" // 4 CSBC
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
-			"wide"			"80" // 5 CSBC
-			"tall"			"26"
-			"textinsetx"	"5" // 6 CSBC
-			"textinsety"	"0"
+			"wide"			"50"
+			"tall"			"50"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"%activepipes%" // 9 CSBC
-			"textAlignment"	"east" // 7 CSBC
+			"labelText"		"%activepipes%"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HUDFont24" // 8 CSBC
+			"font"			"HUDFont24"
 			"fgcolor"		"0 0 0 219"
+			"pin_to_sibling"		"NumPipesLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}		
 	}
 }

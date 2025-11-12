@@ -28,7 +28,7 @@
 		"fieldName"			"speedometer"
 		"zpos"				"-100"
 		"xpos"				"cs-0.5"
-		"ypos"				"335"
+		"ypos"				"307"
 		"wide"				"50"
 		"tall"				"12"
 		"image"				"replay/thumbnails/numbers"
@@ -37,11 +37,13 @@
 	//--------------------------------------------------------------
 	
 	"MMDashBoardPopupContainer"
-	{
-		"fieldname"        "MMDashBoardPopupContainer"
-		"ypos"            "-423"
-		"tall"            "600"
-	}
+    {
+        "xpos"                    "cs-0.5"
+        "ypos"                    "-423"
+        "wide"                    "f0"
+        "tall"                    "550"
+        "mouseinputenabled"        "1"
+    }
 	
 	HudPlayerStatus
 	{
@@ -61,8 +63,6 @@
 		"enabled"			"1"
 		"xpos"				"c80"
 		"ypos"				"c98"
-		//	"xpos_minmode"		"c25"
-		//	"ypos_minmode"		"c30"
 		"wide"			"250"
 		"tall"			"120"
 	}
@@ -142,8 +142,6 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"c25"
-		//	"xpos_minmode"		"c-75"
-		//	"ypos_minmode"		"c46"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"500"
@@ -159,11 +157,8 @@
 		"enabled"			"1"
 		"xpos"				"r80"
 		"ypos"				"r21"
-		//	"xpos_minmode"		"r52"
-		//	"ypos_minmode"		"r40"
 		"zpos"				"1"
 		"wide"				"60"
-		//	"wide_minmode"		"50"
 		"tall"				"8"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
@@ -218,19 +213,12 @@
 		"NumberFont" 			"HudSelectionText"
 	}
 
-	CHudAccountPanel
+	"CHudAccountPanel"
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c110"
-		//	"xpos_minmode"			"c130"
-		"ypos"					"c80"
-		"zpos"					"0"
-		//	"ypos_minmode"			"c83"
-		"wide"					"50"
-		"tall"  				"70"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"XPos"										"cs-0.5"
+		"YPos"										"355"
+		"Wide"										"50"
+		"Tall"										"50"
 	}
 
 	CHealthAccountPanel
@@ -240,10 +228,6 @@
 		"ypos"					"c45"
 		"wide"					"250"
 		"tall"  				"120"
-		//	"xpos_minmode"			"c-100"
-		//	"ypos_minmode"			"c5"
-		//	"wide_minmode"			"f0"
-		//	"tall_minmode"			"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -267,7 +251,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"					"c-111"
-		"ypos"					"c110"
+		"ypos"					"330"
 		"wide"					"600"
 		"tall"					"50"
 	}
@@ -279,9 +263,9 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"246"
+		"ypos"					"320"
 		"wide"					"600"
-		"tall"					"50"
+		"tall"					"29"
 		"priority"				"100"
 	}
 
@@ -291,9 +275,9 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c100"
+		"ypos"					"320"
 		"wide"					"600"
-		"tall"					"50"
+		"tall"					"29"
 		"priority"				"40"
 		"x_offset" 				"20"
 		"y_offset" 				"20"
@@ -305,9 +289,9 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c144"
+		"ypos"					"390"
 		"wide"					"600"
-		"tall"					"50"
+		"tall"					"29"
 		"priority"				"35"
 	}
 
@@ -478,7 +462,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "34"
+		"ypos"	 "27"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -524,7 +508,6 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"wide"				"640"
-		//	"wide_minmode"		"f0"
 		"tall"				"480"
 	}
 
@@ -577,8 +560,6 @@
 		"tall"	 			"480"
 		"xpos"				"c-210"
 		"ypos"				"c125"
-		//	"xpos_minmode"		"c-145"
-		//	"ypos_minmode"		"c70"
 		"zpos" 				"2"
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
@@ -594,10 +575,6 @@
 		"ypos"				"302"
 		"wide"				"150"
 		"tall"				"60"
-		//	"xpos_minmode"		"c170"
-		//	"ypos_minmode"		"273"
-		//	"wide_minmode"		"120"
-		//	"tall_minmode"		"40"
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
@@ -974,7 +951,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-100"
 		"ypos"				"c-75"
-		//	"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"150"
@@ -988,7 +964,6 @@
 		"enabled" 			"1"
 		"xpos"				"c90"
 		"ypos"				"c-50"
-		//	"xpos_minmode"		"c120"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"190"

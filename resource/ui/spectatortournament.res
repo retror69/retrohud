@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -15,7 +17,7 @@
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
 
-		"team2_player_base_offset_x"	"275"
+		"team2_player_base_offset_x"	"271"
 		"team2_player_base_y"			"255"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"-16"
@@ -34,11 +36,11 @@
 			{
 				"ControlName"		"CTFClassImage"
 				"fieldName"			"classimage"
-				"xpos"				"27"
-				"ypos"				"0"
+				"xpos"				"30"
+				"ypos"				"1"
 				"zpos"				"2"
-				"wide"				"18"
-				"tall"				"18"
+				"wide"				"14"
+				"tall"				"14"
 				"visible"			"1"
 				"enabled"			"1"
 				"image"				"../hud/class_scoutred"
@@ -85,29 +87,13 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"3"
-				"wide"				"26"
+				"wide"				"40"
 				"tall"				"17"
 				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TFFont" 					"HudFontSmallest"
 				"TextColor" 				"HudOffWhite"
-			}
-
-			"PanelBG"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"PanelBG"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"-1"
-				"wide"				"160"
-				"tall"				"0"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"enabled"			"1"
-				"fillcolor"			"15 15 15 50"
 			}
 
 			"respawntime"
@@ -152,8 +138,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"HudFontSmallest"
-				"xpos"				"126"
+				"font"				"Newtown7"
+				"xpos"				"127"
 				"ypos"				"2"
 				"zpos"				"6"
 				"wide"				"25"
@@ -164,24 +150,6 @@
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"east"
 				"fgcolor"			"255 255 255 255"
-			}
-
-			"chargeamountBG"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"chargeamountBG"
-				"font"				"HudFontSmallest"
-				"xpos"				"127"
-				"ypos"				"3"
-				"zpos"				"6"
-				"wide"				"25"
-				"tall"				"13"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%chargeamount%"
-				"textAlignment"		"east"
-				"fgcolor"			"TransparentBlack"
 			}
 		}
 	}
@@ -263,62 +231,5 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
-	}
-
-	"itempanel"
-	{
-		"ControlName"			"CItemModelPanel"
-		"fieldName"				"itempanel"
-		"xpos"					"r249"
-		"ypos"					"c50"
-		"zpos"					"10"
-		"wide"					"240"
-		"tall"					"100"
-		"visible"				"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"2"
-
-		"model_ypos"			"20"
-		"model_center_x"		"1"
-		"model_wide"			"90"
-		"model_tall"			"60"
-
-		"text_xpos"				"10"
-		"text_ypos"				"10"
-		"text_wide"				"220"
-		"text_center"			"1"
-
-		"max_text_height"		"100"
-		"padding_height"		"10"
-		"resize_to_text"		"1"
-		"text_forcesize"		"2"
-
-		"itemmodelpanel"
-		{
-			"fieldName"				"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"			"1"
-			"inventory_image_type"	"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
 	}
 }

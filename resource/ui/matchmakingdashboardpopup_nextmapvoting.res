@@ -20,24 +20,6 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
-		"OuterShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"-2"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"0"
-			"autoResize"	"2"
-		}
-
 		"BGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -48,8 +30,8 @@
 			"wide"			"f5"
 			"tall"			"f5"
 			"visible"		"1"
-			"border"		"NoBorder"
-			"bgcolor_override"		"DarkGrey"
+			"bgcolor_override"	"TransparentBlack"
+			"paintbackgroundtype"	"2"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 

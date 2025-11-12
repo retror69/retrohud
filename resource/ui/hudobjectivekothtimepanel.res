@@ -31,7 +31,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BebasNeue18"
+			"font"			"Newtown16"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"10"
 			"ypos"			"64"
@@ -45,8 +45,7 @@
 
 			if_match
 			{
-				"xpos"		"13"
-				"font"		"BebasNeue14"
+				"xpos"		"14"
 			}
 		}	
 	}
@@ -98,7 +97,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BebasNeue18"
+			"font"			"Newtown16"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"10"
 			"ypos"			"64"
@@ -112,8 +111,7 @@
 
 			if_match
 			{
-				"xpos"		"7"
-				"font"		"BebasNeue14"
+				"xpos"		"8"
 			}
 		}	
 	}

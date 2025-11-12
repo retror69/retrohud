@@ -4,56 +4,55 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"7"
-		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-	}		
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"1"
-		"ypos"			"2"
-		"zpos"			"3"
+		"fieldName"		"BuildingStatusHealthImageBG"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-7"
-		"ypos"			"-12"
-		"zpos"			"5"
-		"wide"			"38"
-		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"HudFontMedium"
-		"labelText"		"%Health%"
-	}								
+	}
+
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"5"
+		"wide"			"60"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"font"			"Newtown16"
+		"labeltext"		"%Health%"
+	}
 }

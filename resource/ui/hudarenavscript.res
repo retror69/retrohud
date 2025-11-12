@@ -234,7 +234,7 @@
         "pinCorner"             "0"
         "visible"               "1"
         "enabled"               "1"
-        "image"                 "../hud/color_panel_blu"
+        "image"                 "../hud/tournament_panel_blu"
 
         "src_corner_height"     "23"
         "src_corner_width"      "23"
@@ -306,7 +306,7 @@
         "pinCorner"             "0"
         "visible"               "1"
         "enabled"               "1"
-        "image"                 "../hud/color_panel_red"
+        "image"                 "../hud/tournament_panel_red"
         "src_corner_height"     "23"
         "src_corner_width"      "23"
         "draw_corner_width"     "5"

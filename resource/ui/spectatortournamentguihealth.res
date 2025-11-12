@@ -42,16 +42,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GuiPlayerHealth"
-		"xpos"			"0"
+		"xpos"			"-4"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"25"
+		"wide"			"40"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"Newtown16"
 		"fgcolor"		"Spec Health Normal"
 	}
 }

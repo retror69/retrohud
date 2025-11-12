@@ -19,8 +19,8 @@
 	"FindAGameButton2"
 	{    
 		"ControlName"                "CExImageButton"
-		"xpos"                        "90"
-		"ypos"                        "145"
+		"xpos"                        "89"
+		"ypos"                        "146"
 		"zpos"                        "1"
 		"wide"                        "200"
 		"tall"                        "16"
@@ -47,20 +47,6 @@
 			
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"Base Color"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-		}
 	}
 	
 	"ToggleChatButton"
@@ -121,27 +107,6 @@
 		"pinCorner"			"2"
 		"autoResize"		"1"
 
-		"Gradient"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Gradient"
-			"visible"		"0"
-		}
-
-		"BGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
-			"visible"		"0"
-		}
-
-		"OuterShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"visible"		"0"
-		}
-
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -154,20 +119,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"OuterShadow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"border"		"OuterShadowBorderThin"
-			}
-
 			"BGPanel"
 			{
 				"ControlName"	"Panel"
@@ -179,8 +130,8 @@
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"border"		"ReplayDefaultBorder"
-				"bgcolor_override"	"DarkGrey"
+				"bgcolor_override"	"TransparentBlack"
+				"paintbackgroundtype"	"2"
 			}
 
 			"QueueLogoButton"
@@ -360,20 +311,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"OuterShadow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"border"		"OuterShadowBorderThin"
-			}
-
 			"BGPanel"
 			{
 				"ControlName"	"Panel"
@@ -385,8 +322,8 @@
 				"tall"			"f6"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"border"		"ReplayDefaultBorder"
-				"bgcolor_override"	"DarkGrey"
+				"bgcolor_override"	"TransparentBlack"
+				"paintbackgroundtype"	"2"
 			}
 
 			"PromptText"
@@ -452,209 +389,40 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"100"
 			"wide"			"0"
 			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"0"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"quit"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"RoundedCorners"	"0"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"195 20 0 255"
-			"defaultBgColor_override"	"175 25 11 255"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-
-			"image_drawcolor"			"TanLight"
-			"image_armedcolor"			"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"DisconnectButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"100"
 			"wide"			"0"
 			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"0"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"quit"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"RoundedCorners"	"0"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"195 20 0 255"
-			"defaultBgColor_override"	"175 25 11 255"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-
-			"image_drawcolor"			"TanLight"
-			"image_armedcolor"			"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"ResumeButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
 			"wide"			"0"
 			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"resume_game"
-			"proportionaltoparent"	"0"
-			"labeltext"		"#MMenu_ResumeGame"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"roundedcorners"	"1"
-			"textinsety"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"140 180 150 255"
-			"defaultBgColor_override"	"100 120 100 255"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
 		}
 
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"rs1-31"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"115"
-			"tall"			"f6"
-			"autoResize"	"0"
-			"pinCorner"		"3"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"find_game"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"roundedcorners"	"1"
-			"textinsetx"		"25"
-			"textinsety"		"5"
-			"use_proportional_insets"	"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"94 150 49 255"
-			"defaultBgColor_override"	"76 107 34 255"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"image_drawcolor"			"TanLight"
-			"image_armedcolor"			"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
-			}
 		}
 	}
 }
