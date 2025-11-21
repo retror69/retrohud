@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HUDFont24"
+		"font"				"HudFont24"
 		"labelText"			"#TF_AdvancedOptions"
 		"textAlignment"		"center"
 		"xpos"				"0"
@@ -42,7 +42,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"CancelButton"
@@ -141,7 +141,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"wrap"				"1"
 			//"centerwrap"		"1"
 		}

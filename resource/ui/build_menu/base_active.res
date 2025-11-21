@@ -65,7 +65,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallBold"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 	}
 	"NumberLabel"
 	{
@@ -82,6 +82,6 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"HudFontSmallest"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 	}
 }

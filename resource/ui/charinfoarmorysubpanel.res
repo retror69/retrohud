@@ -133,12 +133,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"					"TanLight"
+		"fgcolor_override"					"ColorWhite"
 		"bgcolor_override"					"DarkerGrey"
-		"disabledFgColor_override"			"TanLight"
+		"disabledFgColor_override"			"ColorWhite"
 		"disabledBgColor_override"			"DarkerGrey"
 		"selectionColor_override"			"DarkerGrey"
-		"selectionTextColor_override"		"TanLight"
+		"selectionTextColor_override"		"ColorWhite"
 		"defaultSelectionBG2Color_override"	"DarkerGrey"
 	}
 
@@ -171,9 +171,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ColorWhite"
 			"wrap"			"1"
-			"highlight_color"	"Base Color"
+			"highlight_color"	"Main"
 			"itemset_color"		"216 244 9 255"
 			"link_color"		"200 128 255 255"
 			"image_up_arrow"				"scroll_up_off"
@@ -316,7 +316,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "Main"
 	}
 
 	"NextPageButton"

@@ -5,7 +5,6 @@
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NewMatchFound"
 		"xpos"			"cs-0.5"
-		"ypos"			"-50"
 		"zpos"			"10000"
 		"wide"			"200"
 		"tall"			"60"
@@ -14,12 +13,11 @@
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
-		"collapsed_height"	"0"
+		"collapsed_height"	"60"
 		"expanded_height"	"60"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
-		
 		"pin_to_sibling"  "popup_pinner"
 		"pin_to_sibling_corner"  "3"
 
@@ -50,7 +48,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
 				"proportionaltoparent"	"1"
@@ -76,7 +74,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmall"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
@@ -191,7 +189,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmall"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"

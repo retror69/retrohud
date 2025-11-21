@@ -9,7 +9,7 @@
 		"ypos"			"c124"	
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"ColorWhite"
 		"MeterBG"		"Gray"
 	}
 	

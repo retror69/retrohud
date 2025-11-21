@@ -224,7 +224,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"Main"
 	}
 
 	"ClientArea"
@@ -250,7 +250,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"Main"
 		}
 
 		"CartItemsLabel"
@@ -420,7 +420,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "TanLight"
+						"fgcolor_override" "ColorWhite"
 					}
 
 					"TotalSubtextLabelB"
@@ -439,7 +439,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "TanLight"
+						"fgcolor_override" "ColorWhite"
 					}
 
 					"TotalPriceLabel"
@@ -458,7 +458,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "TanLight"
+						"fgcolor_override" "ColorWhite"
 					}
 				}
 			}

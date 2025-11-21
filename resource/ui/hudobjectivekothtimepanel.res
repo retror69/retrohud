@@ -2,10 +2,8 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_match
-		{
-			"zpos"		"5"
-		}
+		"ypos"			"-6"
+		"zpos"			"2"
 	}
 	
 	"BlueTimer"
@@ -22,8 +20,8 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"		"ColorGreen"
+		"NegativeColor"		"ColorRed"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
@@ -32,7 +30,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Newtown16"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"ColorWhite"
 			"xpos"			"10"
 			"ypos"			"64"
 			"zpos"			"3"
@@ -42,11 +40,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"xpos"		"14"
-			}
 		}	
 	}
 	"BluTimerBG"
@@ -68,11 +61,6 @@
 		"src_corner_width"	"23"
 		"draw_corner_width"	"5"
 		"draw_corner_height" 	"5"
-
-		if_match
-		{
-			"wide" "0"
-		}
 	}
 	"RedTimer"
 	{
@@ -88,8 +76,8 @@
 		"delta_item_x"		"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"	"70"
-		"PositiveColor"		"0 255 0 255"
-		"NegativeColor"		"255 0 0 255"
+		"PositiveColor"		"ColorGreen"
+		"NegativeColor"		"ColorRed"
 		"delta_lifetime"	"1.5"
 		"delta_item_font"	"HudFontMedium"
 		
@@ -98,7 +86,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Newtown16"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"ColorWhite"
 			"xpos"			"10"
 			"ypos"			"64"
 			"zpos"			"3"
@@ -108,11 +96,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"xpos"		"8"
-			}
 		}	
 	}
 	"RedTimerBG"
@@ -134,10 +117,5 @@
 		"src_corner_width"	"23"
 		"draw_corner_width"	"5"
 		"draw_corner_height" 	"5"
-
-		if_match
-		{
-			"wide" "0"
-		}
 	}
 }

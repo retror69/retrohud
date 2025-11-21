@@ -34,7 +34,7 @@
 		"labeltext"									""
 		"smallcheckimage"							"0"
 		"AllCaps"									"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 		"font"										"HudFontSmall"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"

@@ -58,8 +58,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"HUDFont40"
-		"fgcolor"		"TanLight"
+		"font"			"HudFont40"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"BlueScoreShadow"
@@ -75,8 +75,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"HUDFont40"
-		"fgcolor"		"TransparentBlack"
+		"font"			"HudFont40"
+		"fgcolor"		"LabelTransparent"
 	}
 
 	"RedScore"
@@ -92,8 +92,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"HUDFont40"
-		"fgcolor"		"TanLight"
+		"font"			"HudFont40"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"RedScoreShadow"
@@ -109,8 +109,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"HUDFont40"
-		"fgcolor"		"TransparentBlack"
+		"font"			"HudFont40"
+		"fgcolor"		"LabelTransparent"
 	}
 
 	"PlayingTo"
@@ -129,7 +129,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"PlayingToBG"

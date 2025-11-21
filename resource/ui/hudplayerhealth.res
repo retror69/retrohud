@@ -89,7 +89,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Big56"
-		"fgcolor"		"Health Normal"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"PlayerStatusHealthValueShadow"
@@ -106,7 +106,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Big56"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

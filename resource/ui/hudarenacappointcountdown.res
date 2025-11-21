@@ -14,7 +14,7 @@
 		"font"										"HudFontMediumSmall"
 		"labelText"									"%capturetime%"
 		"textAlignment"								"center"
-		"fgcolor"									"White"
-		"bgcolor"									"White"
+		"fgcolor"									"ColorWhite"
+		"bgcolor"									"ColorWhite"
 	}
 }

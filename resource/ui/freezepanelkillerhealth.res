@@ -40,10 +40,10 @@
 		"enabled"		"1"
 	}
 
-	"PlayerStatusHealthValue"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"5"

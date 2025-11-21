@@ -86,7 +86,7 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"font"										"DefaultVerySmall"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 
 		"if_hybrid"
 		{
@@ -119,7 +119,7 @@
 			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
 			"font"									"HudFontSmallishBold"
-			"fgcolor"								"White"
+			"fgcolor"								"ColorWhite"
 			"proportionalToParent"					"1"
 		}
 		"CountdownLabelTimeTimeShadow"
@@ -187,7 +187,7 @@
 			"textAlignment"							"west"
 			"labelText"								"%flagvalue%"
 			"font"									"HudFontSmallestBold"
-			"fgcolor"								"White"
+			"fgcolor"								"ColorWhite"
 			"proportionalToParent"					"1"
 
 			"pin_to_sibling"						"CarriedImage"
@@ -367,7 +367,7 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"BebasNeue10"
-					"fgcolor"						"White"
+					"fgcolor"						"ColorWhite"
 					"proportionalToParent"			"1"
 				}
 				"VictoryLabelShadow2"
@@ -403,7 +403,7 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFontSmallestBold"
-					"fgcolor"						"White"
+					"fgcolor"						"ColorWhite"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"
@@ -457,7 +457,7 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"BebasNeue10"
-					"fgcolor"						"White"
+					"fgcolor"						"ColorWhite"
 					"proportionalToParent"			"1"
 				}
 				"VictoryLabelShadow2"
@@ -493,7 +493,7 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFontSmallestBold"
-					"fgcolor"						"White"
+					"fgcolor"						"ColorWhite"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"

@@ -19,9 +19,9 @@
 		"log_font_medium"			"HudFontSmallest"
 		"log_font_large"			"HudFontSmallest"
 
-		"chat_color_default"		"255 255 255 255"
+		"chat_color_default"		"ColorWhite"
 		"chat_color_player_name"	"255 255 0 255"
-		"chat_color_chat_text"		"255 255 255 255"
+		"chat_color_chat_text"		"ColorWhite"
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
@@ -76,7 +76,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 			}
 		}
 	}
@@ -86,7 +86,7 @@
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
 		"xpos"					"85"
-		"ypos"					"470"
+		"ypos"					"76"
 		"zpos"			"0"
 		"wide"			"f2"
 		"tall"			"12"

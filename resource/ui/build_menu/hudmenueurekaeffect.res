@@ -28,7 +28,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_build"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"TitleLabel"
@@ -56,7 +56,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"HudFontMediumBiggish"
-		"fgcolor"			"TransparentBlack"
+		"fgcolor"			"LabelTransparent"
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"1"

@@ -50,7 +50,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Big20"
-		"fgcolor"		"Health Normal"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"PlayerStatusPlayerLevel"

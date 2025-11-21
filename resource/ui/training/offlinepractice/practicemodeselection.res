@@ -100,7 +100,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 		"allcaps"			"1"
 	}
 
@@ -121,7 +121,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"DescLabel"
@@ -140,7 +140,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"SelectCurrentGameModeButton"

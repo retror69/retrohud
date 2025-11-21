@@ -9,7 +9,7 @@
 		"ypos"			"r111"
 		"wide"			"74"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"ColorWhite"
 		"MeterBG"		"Gray"
 	}
 	
@@ -49,6 +49,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"ColorWhite"
 	}					
 }

@@ -79,7 +79,7 @@
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"Health Normal"
+			"TextColor"					"ColorWhite"
 		}
 
 		"FreezeLabelKiller"
@@ -98,7 +98,7 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"center"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"ColorWhite"
 		}
 
 		"AvatarImage"

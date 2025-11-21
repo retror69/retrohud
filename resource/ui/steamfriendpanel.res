@@ -29,7 +29,7 @@
 		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"	"150 50 50 20"
+		"armedBgColor_override"	"200 200 200 20"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"FriendHighlightBorderThick"

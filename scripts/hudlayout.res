@@ -36,15 +36,6 @@
 	}
 	//--------------------------------------------------------------
 	
-	"MMDashBoardPopupContainer"
-    {
-        "xpos"                    "cs-0.5"
-        "ypos"                    "-423"
-        "wide"                    "f0"
-        "tall"                    "550"
-        "mouseinputenabled"        "1"
-    }
-	
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -102,7 +93,7 @@
 		"ypos"				"0"
 		"wide"				"500"
 		"tall"				"500"
-		"MeterFG"			"White"
+		"MeterFG"			"ColorWhite"
 		"MeterBG"			"Gray"
 	}
 
@@ -131,7 +122,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"MeterFG"		"White"
+		"MeterFG"		"ColorWhite"
 		"MeterBG"		"Gray"
 	}		
 
@@ -145,7 +136,7 @@
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"500"
-		"MeterFG"			"White"
+		"MeterFG"			"ColorWhite"
 		"MeterBG"			"Gray"
 		"alpha"				"0"
 	}
@@ -160,7 +151,7 @@
 		"zpos"				"1"
 		"wide"				"60"
 		"tall"				"8"
-		"MeterFG"			"White"
+		"MeterFG"			"ColorWhite"
 		"MeterBG"			"Gray"
 	}
 
@@ -251,7 +242,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"					"c-111"
-		"ypos"					"330"
+		"ypos"					"337"
 		"wide"					"600"
 		"tall"					"50"
 	}
@@ -462,7 +453,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "27"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -477,11 +468,10 @@
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"65 65 65 255"
-
-		"BaseBackgroundColor"	"TransparentBlack"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"IconColor"									"ColorWhite"
+		"LocalPlayerColor"							"ColorBlack"
+		"BaseBackgroundColor"						"TransparentLightBlack"
+		"LocalBackgroundColor"						"ColorWhite"
 	}
 
 	HudVehicle
@@ -980,7 +970,7 @@
 		"zpos"					"1"
 		"wide"			"f0"
 		"tall"			"480"
-		"MeterFG"		"White"
+		"MeterFG"		"ColorWhite"
 		"MeterBG"		"Gray"
 	}	
 
@@ -1389,7 +1379,7 @@
 		"fieldName"			"HudMatchStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
+		"xpos"				"-1"
 		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"f0"

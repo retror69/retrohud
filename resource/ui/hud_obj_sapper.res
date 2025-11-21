@@ -57,7 +57,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"icon"										"obj_status_icon_sapper"
-		"iconColor"									"White"
+		"iconColor"									"ColorWhite"
 	}
 	"NotBuiltPanel"
 	{
@@ -88,7 +88,7 @@
 			"AllCaps"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
 			"textAlignment"							"center"
-			"fgcolor"								"White"
+			"fgcolor"								"ColorWhite"
 		}
 	}
 	"BuiltPanel"
@@ -126,7 +126,7 @@
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"icon"								"obj_status_sentrygun_1"
-				"iconColor"							"White"
+				"iconColor"							"ColorWhite"
 				"proportionaltoparent"				"1"
 			}
 			"TargetHealth"

@@ -6,11 +6,11 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"Health Buff"
-		"NegativeColor"			"Health Low"
+		"PositiveColor"			"Main"
+		"NegativeColor"			"Low"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"HUDFont24Outline"
-		"delta_item_font_big"	"HUDFont24Outline"
+		"delta_item_font"		"HudFont24Outline"
+		"delta_item_font_big"	"HudFont24Outline"
 	}
 
 	"DamageAccountValue"
@@ -27,6 +27,6 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"font"				"Newtown16"
-		"fgcolor"			"Ammo In Clip"
+		"fgcolor"			"ColorYellow"
 	}
 }

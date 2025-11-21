@@ -145,7 +145,7 @@
 			"paintborder"			"0"
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"White"
+			"image_selectedcolor"	"ColorWhite"
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 
@@ -302,12 +302,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 			"bgcolor_override"	"Transparent"
-			"disabledFgColor_override" "White"
+			"disabledFgColor_override" "ColorWhite"
 			"disabledBgColor_override" "Transparent"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "ColorWhite"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -326,7 +326,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_paintkit"
 			{
@@ -369,12 +369,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 			"bgcolor_override"	"Transparent"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "Transparent"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "White"
+			"selectionTextColor_override" "ColorWhite"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -399,7 +399,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_item"
 			{
@@ -467,7 +467,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_paintkit"
 			{
@@ -549,10 +549,10 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"defaultfgcolor_override"	"White"
+			"defaultfgcolor_override"	"ColorWhite"
 			"defaultbgcolor_override"	"Black"
 			"selectedfgcolor_override"	"Black"
-			"selectedbgcolor_override"	"White"
+			"selectedbgcolor_override"	"ColorWhite"
 			"maxchars"		"18"
 
 			"consume_mode"
@@ -591,9 +591,9 @@
 			"actionsignallevel" 	"2"
 			"RoundedCorners"		"0"
 
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"ColorWhite"
 			"defaultBgColor_override"	"72 103 32 255"
-			"armedFgColor_override"		"White"
+			"armedFgColor_override"		"ColorWhite"
 			"armedBgColor_override"		"72 133 32 255"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"

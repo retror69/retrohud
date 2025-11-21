@@ -49,7 +49,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"NewNumberLabel"

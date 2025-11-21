@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"CountText"
@@ -28,7 +28,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"CountTextShadow"
@@ -43,7 +43,7 @@
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"CountText"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

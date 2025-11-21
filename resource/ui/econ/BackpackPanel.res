@@ -256,7 +256,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"bgcolor_override"		"Black"
 		"paintbackgroundtype"	"2"
 	}
@@ -278,7 +278,7 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 		"bgcolor_override"	"0 0 0 255"
 		"paintbackgroundtype" "2"
 		"border_default"			"ButtonHover"
@@ -430,8 +430,8 @@
 		"armedBgColor_override"		"35 35 35 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
+		"defaultFgColor_override"	"ColorWhite"
+		"armedFgColor_override" 	"ColorWhite"
 		"depressedFgColor_override" "TanDark"
 		
 		"border_default"			"NoBorder"
@@ -468,8 +468,8 @@
 		"armedBgColor_override"		"35 35 35 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
+		"defaultFgColor_override"	"ColorWhite"
+		"armedFgColor_override" 	"ColorWhite"
 		"depressedFgColor_override" "TanDark"
 		
 		"border_default"			"NoBorder"

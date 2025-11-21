@@ -25,7 +25,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"icon"										"obj_status_dispenser"
-		"iconColor"									"White"
+		"iconColor"									"ColorWhite"
 	}
 	"NotBuiltPanel"
 	{
@@ -129,7 +129,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -149,7 +149,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -169,7 +169,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -189,7 +189,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									""
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"HUDRedTeamSolid"

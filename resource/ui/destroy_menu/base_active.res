@@ -30,7 +30,7 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"icon"									"ico_demolish"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"ColorWhite"
 		}
 		"NumberBG"
 		{
@@ -66,7 +66,7 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"HudFontSmallest"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 	}
 	"NumberLabel"
 	{
@@ -83,6 +83,6 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"HudFontSmallest"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 	}
 }

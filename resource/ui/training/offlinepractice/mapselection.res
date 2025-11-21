@@ -100,7 +100,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 		"allcaps"			"1"
 	}
 
@@ -121,7 +121,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"StartOfflinePracticeButton"
@@ -167,7 +167,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"DifficultyComboBox"
@@ -192,7 +192,7 @@
 		"unicode"			"0"
 		"textinsetx"		"50"
 
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 		"bgcolor_override"	"DarkGrey"
 
 		"disabledFgColor_override" "235 226 202 255"
@@ -218,7 +218,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"NumPlayersTextEntry"
@@ -244,7 +244,7 @@
 		"NumericInputOnly"	"1"
 		"selectallonfirstfocus"	"1"
 		"bgcolor_override"		"DarkGrey"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"ColorWhite"
 	}
 
 	"SuggestedPlayerCountLabel"
@@ -264,6 +264,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorWhite"
 	}
 }

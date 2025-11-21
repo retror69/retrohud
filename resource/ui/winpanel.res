@@ -77,7 +77,7 @@
 			"labelText"				"%blueteamname%"
 			"textAlignment"			"west"
 			"xpos"					"117"
-			"ypos"					"10"
+			"ypos"					"9"
 			"wide"					"100"
 			"zpos"					"5"
 			"tall"					"20"
@@ -115,7 +115,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"BlueTeamScoreDropshadow"
 			"font"					"Big32"
-			"fgcolor"				"ColorBlack"
+			"fgcolor"				"LabelTransparent"
 			"labelText"				"%blueteamscore%"
 			"textAlignment"			"east"
 			"xpos"					"110"
@@ -160,7 +160,7 @@
 			"labelText"				"%redteamname%"
 			"textAlignment"			"east"
 			"xpos"					"177"
-			"ypos"					"10"
+			"ypos"					"9"
 			"zpos"					"5"
 			"wide"					"100"
 			"tall"					"20"
@@ -198,7 +198,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"RedTeamScoreDropshadow"
 			"font"					"Big32"
-			"fgcolor" 				"ColorBlack"
+			"fgcolor" 				"LabelTransparent"
 			"labelText"				"%redteamscore%"
 			"textAlignment"			"west"
 			"xpos"					"205"
@@ -288,7 +288,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "ColorWhite"
 	}
 	"MVPs"
 	{
@@ -308,7 +308,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "ColorWhite"
 	}
 	"KillStreakPlayer1Name"
 	{

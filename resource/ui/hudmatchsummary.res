@@ -192,7 +192,7 @@
 				"fieldName"		"StatsAndMedalsShadow"
 				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"#TF_StatsAndMedals"
-				"fgcolor"		"TransparentBlack"
+				"fgcolor"		"LabelTransparent"
 				"textAlignment"	"center"
 				"xpos"			"-1"
 				"ypos"			"-1"
@@ -249,6 +249,7 @@
 					"enabled"		"1"
 					"border"		"DarkBlueTeamBorder"
 					"bgcolor_override"	"Blue"
+					"paintbackgroundtype"	"2"
 
 					if_large
 					{
@@ -283,7 +284,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
 					"font"			"Big32"
-					"fgcolor"		"TransparentBlack"
+					"fgcolor"		"LabelTransparent"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"	"east"
 					"xpos"			"7"
@@ -328,7 +329,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"TransparentBlack"
+					"fgcolor"		"LabelTransparent"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"	"east"
 					"xpos"			"-1"
@@ -524,6 +525,7 @@
 					"enabled"		"1"
 					"border"		"DarkRedTeamBorder"
 					"bgcolor_override"	"Red"
+					"paintbackgroundtype"	"2"
 
 					if_large
 					{
@@ -557,7 +559,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
 					"font"			"Big32"
-					"fgcolor"		"TransparentBlack"
+					"fgcolor"		"LabelTransparent"
 					"labelText"		"%redteamscore%"
 					"textAlignment"	"west"
 					"xpos"			"r3-p.19"
@@ -602,7 +604,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"TransparentBlack"
+					"fgcolor"		"LabelTransparent"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"	"west"
 					"xpos"			"-1"

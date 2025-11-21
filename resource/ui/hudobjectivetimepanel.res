@@ -10,7 +10,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimeBG"
-		"xpos"				"25"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
@@ -30,11 +30,6 @@
 			
 		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"7"
-
-		if_match
-		{
-			"wide" "0"
-		}
 	}
 
 	"WaitingForPlayersLabel"
@@ -54,11 +49,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"OvertimeLabel"
@@ -78,11 +69,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"SuddenDeathLabel"
@@ -102,17 +89,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
-	}
-	"SuddenDeathBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"SuddenDeathBG"
-		"xpos"				"9999"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"SetupLabel"
@@ -132,17 +109,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
-	}
-	"SetupBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"SetupBG"
-		"xpos"				"9999"
+		"fgcolor_override"	"ColorWhite"
 	}
 
 	"ServerTimeLimitLabel"
@@ -162,22 +129,11 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"Newtown7"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
-
+		"fgcolor_override"	"ColorWhite"
+		
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}
-
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ServerTimeLimitLabelBG"
-		"xpos"				"9999"
 	}
 }

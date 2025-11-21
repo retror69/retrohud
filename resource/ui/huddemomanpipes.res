@@ -52,8 +52,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HUDFont24"
-			"fgcolor"		"255 255 255 255"
+			"font"			"HudFont24"
+			"fgcolor"		"ColorWhite"
 		}
 		
 		"NumPipesLabelDropshadow"
@@ -74,8 +74,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HUDFont24"
-			"fgcolor"		"0 0 0 219"
+			"font"			"HudFont24"
+			"fgcolor"		"LabelTransparent"
 			"pin_to_sibling"		"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"

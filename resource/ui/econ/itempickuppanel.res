@@ -74,7 +74,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"Main"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -96,7 +96,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
 		"font"			"ItemFontNameLargest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"ypos"			"87"
@@ -114,7 +114,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
 		"font"			"ItemFontNameLarger"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"labelText"		""
 		"textAlignment"	"center"
 		"ypos"			"107"
@@ -270,9 +270,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
+		"defaultFgColor_override"	"ColorWhite"
 		"armedFgColor_override"		"ColorRed"
-		"depressedFgColor_override"	"TanLight"
+		"depressedFgColor_override"	"ColorWhite"
 	}
 
 	"DiscardButtonTooltip"
@@ -301,7 +301,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"centerwrap"	"1"
 		}
 	}

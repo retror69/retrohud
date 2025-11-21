@@ -49,7 +49,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"HudFontMedium"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorWhite"
 	}
 
 	"TextMessage"
@@ -76,7 +76,7 @@
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"northwest"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorWhite"
 	}
 
 	"HTMLMessage"
@@ -120,8 +120,8 @@
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
+		"fgcolor"					"ColorWhite"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"

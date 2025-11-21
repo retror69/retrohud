@@ -100,7 +100,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Base Color"
+		"bgcolor_override"	"Main"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -127,7 +127,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"Main"
 		}
 
 		"tabskv"
@@ -136,7 +136,7 @@
 			"textinsety"		"5"
 			"textAlignment"		"north"
 			"font"				"HudFontSmall"
-			"selectedcolor"		"TanLight"
+			"selectedcolor"		"ColorWhite"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"

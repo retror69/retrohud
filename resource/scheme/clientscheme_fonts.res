@@ -46,7 +46,7 @@ Scheme
 			}
 		}
 		
-		"HUDFont48"
+		"HudFont48"
 		{
 			"1"
 			{
@@ -56,7 +56,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HUDFont40"
+		"HudFont40"
 		{
 			"1"
 			{
@@ -66,7 +66,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HUDFont32"
+		"HudFont32"
 		{
 			"1"
 			{
@@ -76,7 +76,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HUDFont28"
+		"HudFont28"
 		{
 			"1"
 			{
@@ -86,7 +86,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HUDFont24"
+		"HudFont24"
 		{
 			"1"
 			{
@@ -96,7 +96,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HUDFont24Outline"
+		"HudFont24Outline"
 		{
 			"1"
 			{
@@ -107,7 +107,7 @@ Scheme
 				"outline"	 	"1"
 			}
 		}
-		"HUDFont20"
+		"HudFont20"
 		{
 			"1"
 			{

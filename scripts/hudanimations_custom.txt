@@ -9,8 +9,8 @@ event HudHealthBonusPulse
 	Animate	HealthBoxBG		Alpha		"100"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Main"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"Main"		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
@@ -23,8 +23,8 @@ event HudHealthBonusPulseStop
 	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"ColorWhite"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Health Pulse
@@ -33,12 +33,12 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.2
 	
-	Animate	HealthBoxBG		BgColor		"ColorRed"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"Reserve Low"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"100"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
-	Animate	PlayerStatusHealthValue			FgColor		"Health Low"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth				FgColor		"Health Low"	Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Low"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Low"		Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
@@ -51,8 +51,8 @@ event HudHealthDyingPulseStop
 	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 
-	Animate PlayerStatusHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate GuiPlayerHealth				FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate GuiPlayerHealth				FgColor		"ColorWhite"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Ammo Pulse
@@ -65,9 +65,9 @@ event HudLowAmmoPulse
 	Animate LowAmmoBG		Alpha		"100"									Accel 0.0 0.2
 	Animate LowAmmoBG		Alpha		"0"										Accel 0.2 0.4
 
-	Animate	AmmoInClip						FgColor		"Health Low"		Linear 0.0 0.0
-	Animate	AmmoInReserve					FgColor		"Ammo In Reserve Low"	Linear 0.0 0.0
-	Animate	AmmoNoClip						FgColor		"Health Low"		Linear 0.0 0.0
+	Animate	AmmoInClip						FgColor		"Low"		Linear 0.0 0.0
+	Animate	AmmoInReserve					FgColor		"Reserve Low"	Linear 0.0 0.0
+	Animate	AmmoNoClip						FgColor		"Low"		Linear 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop			0.4
 }
@@ -80,19 +80,19 @@ event HudLowAmmoPulseStop
 	Animate LowAmmoBG		BgColor		"Blank"		Accel 0.0 0.0
 	Animate LowAmmoBG		Alpha		"0"		Accel 0.0 0.0
 
-	Animate AmmoInClip						FgColor		"Ammo In Clip"		Accel 0.0 0.0
-	Animate AmmoInReserve					FgColor		"Ammo In Reserve"	Accel 0.0 0.0
-	Animate AmmoNoClip						FgColor		"Ammo In Clip"		Accel 0.0 0.0
+	Animate AmmoInClip						FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate AmmoInReserve					FgColor		"Main"	Accel 0.0 0.0
+	Animate AmmoNoClip						FgColor		"ColorWhite"		Accel 0.0 0.0
 }
 //==================================================================================
 // Ubercharge Meters
 event HudMedicCharged
 {
-	Animate	ChargeLabel 					FgColor		"Ammo In Clip"	Linear 0.0 0.3
-	Animate	ChargeLabel 					FgColor		"Ammo In Reserve"	Linear 0.3 0.3
+	Animate	ChargeLabel 					FgColor		"Main"	Linear 0.0 0.1
+	Animate	ChargeLabel 					FgColor		"Main Dim"	Linear 0.3 0.4
 
-	Animate	ChargeMeter 					FgColor		"Ammo In Clip"	Linear 0.0 0.3
-	Animate	ChargeMeter 					FgColor		"Ammo In Reserve"	Linear 0.3 0.3
+	Animate	ChargeMeter 					FgColor		"Main"	Linear 0.0 0.1
+	Animate	ChargeMeter 					FgColor		"Main Dim"	Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop			0.6
 }
@@ -102,8 +102,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged				0.0
 	StopEvent HudMedicChargedLoop			0.0
 
-	Animate	ChargeMeter						FgColor		"Ammo In Clip"	Linear 0.0 0.0001
-	Animate	ChargeLabel 					FgColor		"Ammo In Clip"		Linear 0.0 0.0001
+	Animate	ChargeMeter						FgColor		"ColorWhite"	Linear 0.0 0.0001
+	Animate	ChargeLabel 					FgColor		"ColorWhite"		Linear 0.0 0.0001
 }
 //==================================================================================
 event HudSnapShotReminderIn
@@ -117,7 +117,6 @@ event HudSnapShotReminderIn
 }
 //==================================================================================
 // Removed Stuff
-
 event FlagOutline{}
 event HasNotificationsBlink{}
 event HasNotificationsBlinkStop{}

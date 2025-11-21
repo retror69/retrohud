@@ -72,8 +72,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -119,7 +119,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"ColorWhite"
 	}
 	"scout"
 	{
@@ -162,8 +162,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -225,8 +225,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -288,8 +288,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -335,7 +335,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"ColorWhite"
 	}
 	"demoman"
 	{
@@ -377,8 +377,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -439,8 +439,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -500,8 +500,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -547,7 +547,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"ColorWhite"
 	}
 	"medic"
 	{
@@ -590,8 +590,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -653,8 +653,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -716,8 +716,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -826,8 +826,8 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
+		"image_armedcolor"		"ColorWhite"
+		"image_selectedcolor"	"ColorWhite"
 		
 		"stayselectedonclick"	"0"
 		"keyboardinputenabled"	"1"
@@ -1300,7 +1300,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 	
 	"numScout" [$WIN32]
@@ -1320,7 +1320,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}	
 	
 	"numSoldier" [$WIN32]
@@ -1340,7 +1340,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}		
 	
 	"numPyro" [$WIN32]
@@ -1360,7 +1360,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}			
 	
 	"numDemoman" [$WIN32]
@@ -1380,7 +1380,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}				
 	
 	"numHeavy" [$WIN32]
@@ -1400,7 +1400,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}					
 	
 	"numEngineer" [$WIN32]
@@ -1420,7 +1420,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}						
 	
 	"numMedic" [$WIN32]
@@ -1440,7 +1440,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}							
 	
 	"numSniper" [$WIN32]
@@ -1460,7 +1460,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}						
 	
 	"numSpy" [$WIN32]
@@ -1480,7 +1480,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}								
 	
 	"MvMUpgradeImageScout"

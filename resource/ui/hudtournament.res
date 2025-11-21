@@ -318,7 +318,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"TanLight"
+				//"fgcolor"		"ColorWhite"
 			}
 
 			"chargeamount"
@@ -359,7 +359,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"TanLight"
+				//"fgcolor"		"ColorWhite"
 			}
 		}
 	}
@@ -623,7 +623,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"xpos"			"c-125"
 		"ypos"			"16"
 		"zpos"			"1"
@@ -736,7 +736,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"	"center"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"LabelTransparent"
 		"proportionaltoparent"	"1"
 	}
 }

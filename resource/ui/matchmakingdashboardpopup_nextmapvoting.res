@@ -5,7 +5,6 @@
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NextMapVoting"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
 		"zpos"			"-100000"
 		"wide"			"260"
 		"tall"			"80"
@@ -19,6 +18,8 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
+		"pin_to_sibling"  "popup_pinner"
+		"pin_to_sibling_corner"  "3"
 
 		"BGPanel"
 		{
@@ -65,7 +66,7 @@
 
 				"image_default"		"glyph_collapse"
 
-				"image_drawcolor"	"TanLight"
+				"image_drawcolor"	"ColorWhite"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -115,7 +116,7 @@
 
 				"image_default"		"glyph_expand"
 
-				"image_drawcolor"	"TanLight"
+				"image_drawcolor"	"ColorWhite"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -147,7 +148,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmall"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"

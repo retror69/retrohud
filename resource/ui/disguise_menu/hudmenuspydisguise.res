@@ -229,7 +229,7 @@
 		"enabled"			"0"
 		"scaleImage"		"0"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"NumberLabel1"
@@ -237,7 +237,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"HudFontMediumSecondary"
-		"fgcolor"			"White"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"10"
 		"ypos"				"40"
 		"zpos"				"5"
@@ -266,7 +266,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"NumberLabel2"
@@ -274,7 +274,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"HudFontMediumSecondary"
-		"fgcolor"			"White"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"10"
 		"ypos"				"85"
 		"zpos"				"5"
@@ -303,7 +303,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"NumberLabel3"
@@ -311,7 +311,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"HudFontMediumSecondary"
-		"fgcolor"			"White"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"10"
 		"ypos"				"130"
 		"zpos"				"5"

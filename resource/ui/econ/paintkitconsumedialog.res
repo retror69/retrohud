@@ -26,7 +26,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"allcaps"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "Main"
 		"proportionaltoparent"	"1"
 	}
 
@@ -44,7 +44,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "White"
+		"fgcolor_override" "ColorWhite"
 		"proportionaltoparent"	"1"
 	}
 
@@ -118,7 +118,7 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "ColorWhite"
 			"proportionaltoparent"	"1"
 		}
 	}

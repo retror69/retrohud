@@ -52,7 +52,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"Newtown16"
-		"fgcolor"			"TransparentBlack"
+		"fgcolor"			"LabelTransparent"
 
 		"pin_to_sibling"		"AccountValue"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

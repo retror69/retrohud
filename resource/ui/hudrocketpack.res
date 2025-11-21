@@ -85,7 +85,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"ItemEffectMeter2"
@@ -105,6 +105,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
+		"fgcolor"		"ColorWhite"
 	}
 }

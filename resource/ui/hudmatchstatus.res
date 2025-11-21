@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"HudFont24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -83,9 +83,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.48"
+		"font"			"HudFont24"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -96,8 +96,11 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"LabelTransparent"
 		"proportionaltoparent"	"1"
+		"pin_to_sibling"		"CountdownLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"FrontParticlePanel"
@@ -187,26 +190,17 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"1"
-		"wide"			"300"
+		"zpos"			"3"
+		"wide"			"0" //90
 		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"BGFrame"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
-		"proportionaltoaparent"	"1"
-		"border"			"NoBorder"
-	}
+    {
+        "ControlName"       "EditablePanel"
+        "fieldName"         "BGFrame"
+        "border"			"noborder"
+    }
 
 	"RankUpLabel"
 	{
@@ -251,21 +245,21 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"LabelTransparent"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-50"
+		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
+		"wide"				"50"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"
+		"delta_item_x"			"0"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"ColorGreen"
@@ -273,37 +267,21 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Newtown16"
 
-		if_match
-		{
-			"xpos"					"c-55"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-		}
-
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Newtown16"
 			"fgcolor"		"ColorWhite"
-			"xpos"			"25"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"24"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"13"
-				"tall"			"10"
-				"proportionaltoparent"	"1"
-			}
 		}
 	}
 
@@ -319,18 +297,18 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 
-		"max_size"									"20"
+		"max_size"									"22"
 
 		"6v6_gap"									"1"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-45"
-		"team1_max_expand"							"180"
+		"team1_max_expand"							"220"
 
 		"team2_grow_dir"							"east"
 		"team2_base_x"								"c46"
-		"team2_max_expand"							"180"
+		"team2_max_expand"							"220"
 
 		"PlayerPanels_KV"
 		{
@@ -344,13 +322,13 @@
 			"color_portrait_bg_blue"				"HudBlueTeamSolid"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
-			"color_bar_health_high"					"Health Buff"
-			"color_bar_health_med"					"255 200 0 255"
+			"color_bar_health_high"					"Main"
+			"color_bar_health_med"					"Low"
 			"percentage_health_med"					"0.6"
-			"color_bar_health_low"					"255 40 40 255"
+			"color_bar_health_low"					"Reserve Low"
 			"percentage_health_low"					"0.3"
-			"color_portrait_blend_dead_red"			"White"
-			"color_portrait_blend_dead_blue"		"White"
+			"color_portrait_blend_dead_red"			"ColorWhite"
+			"color_portrait_blend_dead_blue"		"ColorWhite"
 			"color_portrait_bg_red_local_player"	"15 15 15 255"
 			"color_portrait_bg_blue_local_player"	"15 15 15 255"
 
@@ -370,7 +348,7 @@
 				"TextAlignment"						"west"
 				"BGColor_Override"					"TransparentLightBlack"
 				"ProportionalToParent"				"1"
-				"FGColor"							"White"
+				"FGColor"							"ColorWhite"
 			}
 			"ClassImage"
 			{
@@ -444,7 +422,7 @@
 				"LabelText"							"%respawntime%"
 				"TextAlignment"						"center"
 				"ProportionalToParent"				"1"
-				"FGColor"							"Health Buff"
+				"FGColor"							"ColorYellow"
 			}
 			"HealthIcon"
 			{

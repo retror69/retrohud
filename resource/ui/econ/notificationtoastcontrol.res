@@ -15,7 +15,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"TanLight"
+		"bgcolor_override"		"ColorWhite"
 	}
 
 	"DeleteButton"

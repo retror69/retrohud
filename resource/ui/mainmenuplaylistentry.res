@@ -84,7 +84,7 @@
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
-		"textinsety"	"5"
+		"textinsety"	"3"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"OrangeBorderThick"
@@ -93,9 +93,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"ColorWhite"
+		"armedFgColor_override"		"Main"
+		"depressedFgColor_override" "ColorWhite"
 	}
 
 	"MatchmakingBanPanel"

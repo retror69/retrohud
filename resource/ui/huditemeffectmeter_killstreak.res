@@ -9,7 +9,7 @@
 		"ypos"			"330"
 		"wide"			"f0"
 		"tall"			"260"
-		"MeterFG"		"White"
+		"MeterFG"		"ColorWhite"
 		"MeterBG"		"Gray"
 	}
 	
@@ -25,7 +25,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"north"
@@ -33,7 +33,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Newtown7"
-		"fgcolor_override"		"255 255 255 100"
+		"disabledfgcolor2_override"	"ColorWhite"
 	}
 
 	"ItemEffectMeter"
@@ -53,7 +53,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"ColorWhite"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -74,7 +74,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Newtown16"
-		"fgcolor" "255 255 255 255"
+		"fgcolor" "ColorWhite"
 	}
 	
 	"ItemEffectMeterCount2"
@@ -95,6 +95,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Newtown16"
-		"fgcolor" "0 0 0 255"
+		"fgcolor" "LabelTransparent"
 	}
 }

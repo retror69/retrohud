@@ -5,7 +5,6 @@
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NextMapWinner"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"80"
@@ -19,6 +18,8 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
+		"pin_to_sibling"  "popup_pinner"
+		"pin_to_sibling_corner"  "3"
 		
 		"BGPanel"
 		{
@@ -47,7 +48,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmall"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"	"1"
@@ -92,7 +93,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"MapVotesPercentage"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"ColorWhite"
 				"textAlignment"	"south"
 				"labelText"		"%mapname%"
 				"proportionaltoparent"	"1"

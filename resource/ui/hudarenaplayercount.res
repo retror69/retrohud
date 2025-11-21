@@ -42,7 +42,7 @@
 			"font"				"BebasNeue28"
 			"labelText"			"%blue_alive%"
 			"textAlignment"		"east"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"ColorWhite"
 			"textinsetx"		"10"
 		}
 		"countshadow"
@@ -61,7 +61,7 @@
 			"font"				"BebasNeue28"
 			"labelText"			"%blue_alive%"
 			"textAlignment"		"east"
-			"fgcolor"			"TransparentBlack"
+			"fgcolor"			"LabelTransparent"
 			"textinsetx"		"10"
 			"pin_to_sibling"	"count"
 		}
@@ -124,7 +124,7 @@
 			"font"				"BebasNeue28"
 			"labelText"			"%red_alive%"
 			"textAlignment"		"west"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"ColorWhite"
 			"textinsetx"		"10"
 		}
 		"countshadow"
@@ -143,7 +143,7 @@
 			"font"				"BebasNeue28"
 			"labelText"			"%red_alive%"
 			"textAlignment"		"west"
-			"fgcolor"			"TransparentBlack"
+			"fgcolor"			"LabelTransparent"
 			"textinsetx"		"10"
 			"pin_to_sibling"	"count"
 		}

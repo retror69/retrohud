@@ -88,7 +88,7 @@
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
 		"font"			"MenuMainTitle"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"teambutton1"
@@ -116,7 +116,7 @@
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
 		"font"			"MenuMainTitle"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"teambutton2"
@@ -142,7 +142,7 @@
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
 		"font"			"MenuMainTitle"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 	
 	"teambutton3"
@@ -168,7 +168,7 @@
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
 		"font"			"MenuMainTitle"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ColorWhite"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -247,7 +247,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontMediumBigBold"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ColorWhite"
 	}
 	"TeamMenuAutoShadow"
 	{
@@ -269,7 +269,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontMediumBigBold"
-		"fgcolor"		"black"
+		"fgcolor"		"LabelTransparent"
 	}
 	"TeamMenuSpectate"
 	{
@@ -295,7 +295,7 @@
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
 		"font_lodef"	"MenuSmallFont"
-		"fgcolor"		"white"
+		"fgcolor"		"ColorWhite"
 	}
 	"RANDOMCountBG"
 	{
@@ -398,7 +398,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"TeamMenuBold"
-		"fgcolor"		"black"
+		"fgcolor"		"LabelTransparent"
 	}		
 	"BlueCount"
 	{
@@ -418,7 +418,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"TeamMenuBold"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ColorWhite"
 	}
 	"BluCountBG"
 	{
@@ -464,7 +464,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"TeamMenuBold"
-		"fgcolor"		"black"
+		"fgcolor"		"LabelTransparent"
 	}	
 	"RedCount"
 	{
@@ -484,7 +484,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"TeamMenuBold"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ColorWhite"
 	}	
 	"RedCountBG"
 	{
@@ -840,7 +840,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
+		"fgcolor"		"LabelTransparent"
 		"centerwrap"	"1"
 	}
 	
@@ -884,7 +884,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
+		"fgcolor"		"LabelTransparent"
 		"centerwrap"	"1"
 	}
 

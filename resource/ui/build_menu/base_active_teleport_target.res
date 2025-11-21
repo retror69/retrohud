@@ -49,7 +49,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"ModeLabel"
@@ -84,7 +84,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"ColorWhite"
 	}
 
 	"NumberLabel"
@@ -92,7 +92,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"HudFontMediumSecondary"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"0"
 		"ypos"				"95"
 		"zpos"				"1"

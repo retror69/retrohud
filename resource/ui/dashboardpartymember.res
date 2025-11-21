@@ -143,7 +143,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultBgColor_override"	"235 226 202 2"
-		"armedBgColor_override"	"150 50 50 20"
+		"armedBgColor_override"	"200 200 200 20"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"FriendHighlightBorderThick"

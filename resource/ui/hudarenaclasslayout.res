@@ -66,7 +66,7 @@
 		"font"				"BebasNeue20"
 		"labelText"			"#TF_Arena_Team_Layout"
 		"textAlignment"		"center"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorWhite"
 	}
 	"titleShadow"
 	{
@@ -84,7 +84,7 @@
 		"font"				"BebasNeue20"
 		"labelText"			"#TF_Arena_Team_Layout"
 		"textAlignment"		"center"
-		"fgcolor"			"TransparentBlack"
+		"fgcolor"			"LabelTransparent"
 		"pin_to_sibling"	"title"
 	}
 
@@ -104,7 +104,7 @@
 		"font"				"HudFontSmall"
 		"labelText"			"#TF_Arena_F4_ChangeClass"
 		"textAlignment"		"center"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorWhite"
 	}
 	"changeLabelShadow"
 	{
@@ -122,7 +122,7 @@
 		"font"				"HudFontSmall"
 		"labelText"			"#TF_Arena_F4_ChangeClass"
 		"textAlignment"		"center"
-		"fgcolor"			"TransparentBlack"
+		"fgcolor"			"LabelTransparent"
 		"pin_to_sibling"	"changeLabel"
 	}
 

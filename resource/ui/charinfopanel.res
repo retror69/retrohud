@@ -101,7 +101,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"Main"
 	}
 	
 	"HeaderLine"
@@ -116,7 +116,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"Main"
 	}			
 
 	"Sheet"
@@ -136,7 +136,7 @@
 			"textAlignment"		"center"
 			"font"				"HudFontBiggerBold"
 			"ypos"				"50"
-			"selectedcolor"		"TanLight"
+			"selectedcolor"		"ColorWhite"
 			"unselectedcolor"	"TanDark"	
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"DarkGrey"
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"HudFontSmall"
+		"font"			"ItemFontNameLarge"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

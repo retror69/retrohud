@@ -152,7 +152,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"allcaps"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"ClassUsageImage1"
@@ -167,7 +167,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -183,7 +183,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -199,7 +199,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -215,7 +215,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -231,7 +231,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -247,7 +247,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -510,9 +510,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override" 	"LightRed"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 	}
 
 	"BackButton"

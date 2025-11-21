@@ -29,8 +29,8 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"HUDFont32"
-		"fgcolor"		"TanLight"
+		"font"			"HudFont32"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"MapInfoType"
@@ -49,7 +49,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		
 		"pin_to_sibling"			"MapInfoTitle"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"bgcolor_override"	"Transparent"
 		
 		"pin_to_sibling"			"MapImage"
@@ -118,8 +118,8 @@
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
+		"fgcolor"					"ColorWhite"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
@@ -149,8 +149,8 @@
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
+		"fgcolor"					"ColorWhite"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
@@ -180,8 +180,8 @@
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
+		"fgcolor"					"ColorWhite"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"

@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Big56"
-		"fgcolor"   "Ammo In Clip"
+		"fgcolor"   "ColorWhite"
 	}
 	"ChargeLabelshadow"
 	{
@@ -57,7 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Big56"
-		"fgcolor"   "0 0 0 255"
+		"fgcolor"   "LabelTransparent"
 		"pin_to_sibling"			"ChargeLabel"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
@@ -80,7 +80,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"    "Ammo In Clip"
+		"fgcolor_override"    "ColorWhite"
 	}
 	
 	"IndividualChargesLabel"
@@ -101,7 +101,7 @@
 		"textAlignment"				"east"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"fgcolor"					"Ammo In Clip"
+		"fgcolor"					"ColorWhite"
 		"font"						"Big56"
 		"bgcolor_override"			"10 10 10 255"
 		"paintbackgroundtype"		"2"

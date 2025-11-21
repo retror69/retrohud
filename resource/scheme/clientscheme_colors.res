@@ -2,8 +2,13 @@ Scheme
 {
 	Colors
 	{
-		"Base Color"				"239 28 55 255"
-		"Base Color Dim"			"119 14 28 255" // V/2
+		"Main"				"80 176 114 255"
+		"Main Dim"			"40 88 57 255"  // rgb/2
+		
+		// Gameplay
+		"Low"					"255 160 100 255"
+		"Reserve Low"			"225 75 75 255"
+		"ItemPanelBG"			"50 50 50 255"
 
 		// HUD-specific colors
 		//---------------------------------------------
@@ -23,27 +28,17 @@ Scheme
 		"ColorGreyDark"				"64 64 64 255"
 		"ColorGreyMid"				"128 128 128 255"
 		"ColorGreyLight"			"192 192 192 255"
-		"ColorWhite"				"255 255 255 255"
+		"ColorWhite"				"225 220 220 255"
 		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
 		"TextColor"					"117 107 94 255"
 		//---------------------------------------------
-		// Gameplay
-		"Health Normal"				"255 255 255 255"
-		"Health Buff"				"27 255 127 255"
-		"Health Low"				"255 153 0 255"
-		"Ammo In Clip"				"255 255 0 255"
-		"Ammo In Reserve"			"255 128 28 255"
-		"Ammo In Reserve Low"		"255 42 130 255"
-		
-		"ItemPanelBG"				"50 50 50 255"
-		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------
-		"Orange"								"Base Color"
-		"OrangeDim"								"Base Color"
+		"Orange"								"Main"
+		"OrangeDim"								"Main Dim"
 		"LightOrange"							"188 112 0 128"
 		"GoalOrange"							"255 133 0 255"
 		"TFOrange"								"145 73 59 255"
@@ -67,7 +62,7 @@ Scheme
 		"PartyMember5"							"255 118 108 255"
 		"PartyMember6"							"255 133 255 255"
 
-		"White"									"242 242 242 255"
+		"ColorWhite"							"225 220 220 255"
 		"Red"									"158 64 61 140"
 		"RedSolid"								"158 64 61 255"
 		"Blue"									"72 112 125 140"
@@ -89,8 +84,8 @@ Scheme
 		"HUDBlueTeamSolid"						"75 115 141 255"
 		"HUDRedTeamSolid"						"189 49 48 255"
 		"HUDDeathWarning"						"255 0 0 255"
-		"HudWhite"								"255 255 255 255"
-		"HudOffWhite"							"255 255 255 255"
+		"HudWhite"								"225 220 220 255"
+		"HudOffWhite"							"225 220 220 255"
 		"HudBlack"								"0 0 0 230"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
@@ -118,7 +113,7 @@ Scheme
 		"HudTrainingHint"						"212 160 23 255"
 
 		"TanDark"								"100 100 100 255"
-		"TanLight"								"255 245 235 255"
+		"TanLight"								"225 220 220 255"
 		"TanDarker"								"40 40 40 255"
 
 		"StoreDarkTan"							"131 121 104 255"
@@ -126,12 +121,12 @@ Scheme
 
 		// Building HUD Specific
 		"LowHealthRed"							"255 0 0 255"
-		"ProgressOffWhite"						"255 255 255 255"
+		"ProgressOffWhite"						"ColorWhite"
 		"ProgressBackground"					"205 200 200 51"
 		"HealthBgGrey"							"72 71 69 255"
 
 		"LabelDark"								"48 43 42 255"
-		"LabelTransparent"						"109 96 80 180"
+		"LabelTransparent"						"0 0 0 130"
 
 		"BuildMenuActive"						"248 231 198 255"
 
@@ -139,11 +134,11 @@ Scheme
 		"DisguiseMenuIconBlue"					"92 128 166 255"
 
 		"ProgressOffWhiteTransparent"			"250 250 250 128"
- 		"MatchmakingDialogTitleColor"			"Base Color"
+ 		"MatchmakingDialogTitleColor"			"Main"
  		"MatchmakingMenuItemBackground"			"DarkGrey"
- 		"MatchmakingMenuItemBackgroundActive"	"Base Color"
-		"MatchmakingMenuItemTitleColor"			"Base Color"
-		"MatchmakingMenuItemDescriptionColor"	"Base Color"
+ 		"MatchmakingMenuItemBackgroundActive"	"Main"
+		"MatchmakingMenuItemTitleColor"			"Main"
+		"MatchmakingMenuItemDescriptionColor"	"Main"
 
 		"HTMLBackground"						"95 92 101 255"
 

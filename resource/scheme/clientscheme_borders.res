@@ -31,7 +31,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -39,7 +39,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -47,7 +47,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -55,7 +55,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -68,27 +68,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -101,27 +101,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 			}
@@ -129,27 +129,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 			}
@@ -157,27 +157,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 			}
@@ -189,27 +189,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 			}
@@ -218,27 +218,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 			}
@@ -247,27 +247,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"4"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 				"5"
 				{
-					"color" "Base Color Dim"
+					"color" "Main Dim"
 					"offset" "0 1"
 				}
 			}
@@ -280,7 +280,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 4"
 				}
 			}
@@ -288,7 +288,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 4"
 				}
 			}
@@ -296,7 +296,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 4"
 				}
 			}
@@ -304,7 +304,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 4"
 				}
 			}
@@ -317,17 +317,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -335,17 +335,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -353,17 +353,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -371,17 +371,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -514,7 +514,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 1"
 				}
 			}
@@ -522,7 +522,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "1 0"
 				}
 			}
@@ -530,7 +530,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -538,7 +538,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -872,7 +872,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -919,7 +919,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -927,7 +927,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -935,7 +935,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -943,7 +943,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -956,7 +956,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -964,7 +964,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -972,7 +972,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -980,7 +980,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -2256,7 +2256,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 1"
 				}
 			}
@@ -2264,7 +2264,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "1 0"
 				}
 			}
@@ -2272,7 +2272,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -2280,7 +2280,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -2916,12 +2916,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 1"
 				}
 			}
@@ -2929,12 +2929,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "1 0"
 				}
 			}
@@ -2942,12 +2942,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}
@@ -2955,12 +2955,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "Main"
 					"offset" "0 0"
 				}
 			}

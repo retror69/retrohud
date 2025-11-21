@@ -25,7 +25,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_1"
-		"iconColor"									"White"
+		"iconColor"									"ColorWhite"
 	}
 	"Icon_Sentry_2"
 	{
@@ -41,7 +41,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_2"
-		"iconColor"									"White"
+		"iconColor"									"ColorWhite"
 	}
 	"Icon_Sentry_3"
 	{
@@ -57,7 +57,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_3"
-		"iconColor"									"White"
+		"iconColor"									"ColorWhite"
 	}
 	"NotBuiltPanel"
 	{
@@ -161,7 +161,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -181,7 +181,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -201,7 +201,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -221,7 +221,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									""
-			"iconColor"								"White"
+			"iconColor"								"ColorWhite"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"HUDRedTeamSolid"
@@ -265,7 +265,7 @@
 				"font"								"ScoreboardVerySmall"
 				"labelText"							"Kills:"
 				"textAlignment"						"west"
-				"fgcolor"							"White"
+				"fgcolor"							"ColorWhite"
 				"proportionaltoparent"				"1"
 			}
 			"KillsLabel"

@@ -563,7 +563,7 @@
 		"tall"					"20"
 		"visible"				"1"
 		"panel_bgcolor"			"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"0"
 		"PaintBackgroundType"	"2"
 
@@ -615,7 +615,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -667,7 +667,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -719,7 +719,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -771,7 +771,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -825,7 +825,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -841,7 +841,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -857,7 +857,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -873,7 +873,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -889,7 +889,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -905,7 +905,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
-		"panel_bgcolor_mouseover" "TanLight"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -936,7 +936,7 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"ColorWhite"
 		"depressedFgColor_override"	"TanDark"
 	}
 
@@ -966,7 +966,7 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"ColorWhite"
 		"depressedFgColor_override"	"TanDark"
 	}
 
@@ -1260,7 +1260,7 @@
 
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"TanLight"
+			"image_selectedcolor"	"ColorWhite"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -1393,9 +1393,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override" 	"LightRed"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 	}
 
 	"BackButton"

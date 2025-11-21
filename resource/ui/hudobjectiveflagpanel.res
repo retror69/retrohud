@@ -92,7 +92,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Big32"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 
 		"if_hybrid"
 		{
@@ -124,7 +124,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Big32"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -160,7 +160,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Big32"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 
 		"if_hybrid"
 		{
@@ -192,7 +192,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Big32"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -245,7 +245,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 
 		"if_hybrid"
 		{
@@ -430,7 +430,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"SpecCarriedImage"

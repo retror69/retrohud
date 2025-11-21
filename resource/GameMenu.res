@@ -2,13 +2,6 @@
 {
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"DisconnectButton"
-	{
-		"label" "DISCONNECT" 
-		"Command"	"engine disconnect"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
 	"CallVoteButton"
 	{
 		"label"			"i"

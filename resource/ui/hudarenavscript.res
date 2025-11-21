@@ -68,7 +68,7 @@
     "dulltext"      "0"
     "brighttext"    "0"
     "font"          "HudFontSmall"
-    "fgcolor"       "TanLight"
+    "fgcolor"       "ColorWhite"
   }
 
   "PlayingToBG"
@@ -130,7 +130,7 @@
         "font"                  "HudFontMedium"
         "font_hidef"            "HudFontMedium"
         "font_lodef"            "HudFontMedium"
-        "fgcolor"               "TanLight"
+        "fgcolor"               "ColorWhite"
         "proportionalToParent"  "1"
       }
 
@@ -150,7 +150,7 @@
         "font"                  "HudFontMedium"
         "font_hidef"            "HudFontMedium"
         "font_lodef"            "HudFontMedium"
-        "fgcolor"               "Black"
+        "fgcolor"               "LabelTransparent"
         "proportionalToParent"  "1"
       }
     }
@@ -185,7 +185,7 @@
         "font"                  "HudFontMedium"
         "font_hidef"            "HudFontMedium"
         "font_lodef"            "HudFontMedium"
-        "fgcolor"               "TanLight"
+        "fgcolor"               "ColorWhite"
         "proportionalToParent"  "1"
       }
 
@@ -205,7 +205,7 @@
         "font"                  "HudFontMedium"
         "font_hidef"            "HudFontMedium"
         "font_lodef"            "HudFontMedium"
-        "fgcolor"               "Black"
+        "fgcolor"               "LabelTransparent"
         "proportionalToParent"  "1"
       }
     }
@@ -271,7 +271,7 @@
         "textAlignment"         "center"
         "labelText"             "%blue_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "TanLight"
+        "fgcolor"               "ColorWhite"
         "proportionalToParent"  "1"
       }
 
@@ -289,7 +289,7 @@
         "textAlignment"         "center"
         "labelText"             "%blue_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "Black"
+        "fgcolor"               "LabelTransparent"
         "proportionalToParent"  "1"
       }
 
@@ -342,7 +342,7 @@
         "textAlignment"         "center"
         "labelText"             "%red_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "TanLight"
+        "fgcolor"               "ColorWhite"
         "proportionalToParent"  "1"
       }
 
@@ -360,7 +360,7 @@
         "textAlignment"         "center"
         "labelText"             "%red_escrow%"
         "font"                  "HudFontMediumSmallBold"
-        "fgcolor"               "Black"
+        "fgcolor"               "LabelTransparent"
         "proportionalToParent"  "1"
       }
     }

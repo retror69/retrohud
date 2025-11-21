@@ -52,6 +52,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Newtown16"
-		"fgcolor"		"Spec Health Normal"
+		"fgcolor"		"Spec Normal"
 	}
 }

@@ -77,7 +77,7 @@
 				"visible"			"1"
 				"labelText"			"%playername%"
 				"textAlignment"		"west"
-				"fgcolor"			"TanLight"
+				"fgcolor"			"ColorWhite"
 			}
 
 			"HealthIcon"
@@ -111,7 +111,7 @@
 				"visible"			"1"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"west"
-				"fgcolor"			"255 255 255 255"
+				"fgcolor"			"ColorWhite"
 			}
 
 			"ReadyBG"
@@ -149,7 +149,7 @@
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"east"
-				"fgcolor"			"255 255 255 255"
+				"fgcolor"			"ColorWhite"
 			}
 		}
 	}

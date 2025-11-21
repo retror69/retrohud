@@ -54,13 +54,13 @@
 				"border_armed"		""
 				"paintbackground"	"0"
 				
-				"defaultFgColor_override" "TanLight"
-				"armedFgColor_override" "Base Color"
-				"depressedFgColor_override" "Base Color"
+				"defaultFgColor_override" "ColorWhite"
+				"armedFgColor_override" "Main"
+				"depressedFgColor_override" "Main"
 				
-				"image_drawcolor"	"TanLight"
-				"image_armedcolor"	"Base Color"
-				"image_depressedcolor" "Base Color"
+				"image_drawcolor"	"ColorWhite"
+				"image_armedcolor"	"Main"
+				"image_depressedcolor" "Main"
 				
 				"SubImage"
 				{
@@ -196,6 +196,15 @@
 	"backpack_rect_mouseover_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_mouseover_color" }
 	"backpack_rect_selected" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_selected" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_selected" }
 	
+	"popup_pinner"
+	{
+	  "ControlName"  "Panel"
+	  "wide"  "0"
+	  "tall"  "0"
+	  "xpos"  "0"
+	  "ypos"  "-25"
+	}	
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -291,15 +300,6 @@
 		}
 	}	
 	
-	"popup_pinner"
-	{
-	  "ControlName"  "Panel"
-	  "wide"  "0"
-	  "tall"  "0"
-	  "xpos"  "0"
-	  "ypos"  "-25"
-	}	
-	
 	"FriendsBG"
     {
         "ControlName"   "EditablePanel"
@@ -311,7 +311,6 @@
         "tall"          "59"
         "visible"       "1"
         "proportionaltoparent"  "0"
-        "PaintBackgroundType"   "2"
         "bgcolor_override"		"25 25 25 255"
     }
 
@@ -335,7 +334,6 @@
 		"restrict_width"    "0"
 		
 		"bgcolor_override"	"0 0 0 255"
-		"paintbackgroundtype"	"2"
 
 		"friendpanel_kv"
 		{
@@ -546,12 +544,12 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Base Color"
+		"image_armedcolor"	"Main"
 	}		
 
 	"RankTooltipPanel"
@@ -602,7 +600,7 @@
 		"textinsetx"		"15"
 		"textinsety"		"5"
 		"font"				"HudFontSmall"
-		"fgcolor_override"	"Base Color"
+		"fgcolor_override"	"Main"
 		"labelText"			"#TF_MM_NoGC_Rank"
 		"textAlignment"		"north-west"
 		"bgcolor_override"	"Transparent"
@@ -700,6 +698,20 @@
 		"image"			"../console/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
+	"TFLogoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogoBG"
+		"xpos"			"86"
+		"ypos"			"35"
+		"zpos"			"1"
+		"wide"			"180"
+		"tall"			"46"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"	"Main"
+	}	
 	
 	"TFCharacterImage"
 	{
@@ -741,7 +753,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"Base Color"
+		"fillcolor"		"Main"
 	}
 	"SidePanelRightStripe"
 	{
@@ -755,7 +767,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"Base Color"
+		"fillcolor"		"Main"
 	}
 	
 	"MOTD_Panel"{"ControlName" "EditablePanel" "fieldName" "MOTD_Panel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
@@ -796,7 +808,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"ColorWhite"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -824,8 +836,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Base Color"
+			"defaultFgColor_override"	"ColorWhite"
+			"armedFgColor_override"		"Main"
 		}
 	}
 	
@@ -871,9 +883,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
+			"defaultFgColor_override" "ColorWhite"
+			"armedFgColor_override" "Main"
+			"depressedFgColor_override" "Main"
 		}
 	
 		"Notifications_TitleLabel"
@@ -891,7 +903,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"wrap"			"1"
 		}
 		
@@ -944,9 +956,9 @@
 		"paintbackground""0"
 		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -979,9 +991,9 @@
 		"paintbackground""0"
 		"Command"		"opentf2options"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1014,9 +1026,9 @@
 		"paintbackground""0"
 		"Command"		"OpenOptionsDialog"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1028,7 +1040,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"60"
-		"ypos"			"294"
+		"ypos"			"188"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1048,9 +1060,9 @@
 		"paintbackground""0"
 		"Command"		"engine open_store"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1062,7 +1074,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"60"
-		"ypos"			"188"
+		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"16"
@@ -1082,9 +1094,9 @@
 		"paintbackground""0"
 		"Command"		"engine open_charinfo"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1126,9 +1138,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
+			"defaultFgColor_override" "ColorWhite"
+			"armedFgColor_override" "Main"
+			"depressedFgColor_override" "Main"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ColorWhite"		
@@ -1169,9 +1181,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
+			"defaultFgColor_override" "ColorWhite"
+			"armedFgColor_override" "Main"
+			"depressedFgColor_override" "Main"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ColorWhite"				
@@ -1212,9 +1224,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
+			"defaultFgColor_override" "ColorWhite"
+			"armedFgColor_override" "Main"
+			"depressedFgColor_override" "Main"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ColorWhite"			
@@ -1250,12 +1262,12 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Base Color"			
+		"image_armedcolor"	"Main"			
 	}		
 	
 	"Achievements"
@@ -1286,20 +1298,20 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Base Color"
+		"image_armedcolor"	"Main"
 	}		
 	
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"164"
-		"ypos"			"441"
+		"xpos"			"237"
+		"ypos"			"379"
 		"zpos"			"15"
 		"wide"			"32"
 		"tall"			"32"
@@ -1322,7 +1334,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"r"
-			"font"			"TF2Icons"
+			"font"			"MenuIcons"
 			"command"		"questlog"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
@@ -1333,8 +1345,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Base Color"
+			"defaultFgColor_override"	"ColorWhite"
+			"armedFgColor_override"		"Main"
 		}
 	}	
 	
@@ -1367,12 +1379,49 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Base Color"	
+		"image_armedcolor"	"Main"	
+	}	
+	
+	"Replays"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"Replays"
+		"xpos"			"164"
+		"ypos"			"441"
+		"zpos"			"16"
+		"wide"			"21"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"d"
+		"font"			"TF2Icons"
+		"textAlignment"	"center"
+		"paintbackground""0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine replay_reloadbrowser"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
+			
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"Main"	
 	}	
 	
 	"ReportBug"
@@ -1404,12 +1453,12 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
 			
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Base Color"
+		"image_armedcolor"	"Main"
 	}		
 	
 	"QuitButton"
@@ -1437,29 +1486,15 @@
 		"paintbackground""0"
 		"Command"		"engine replay_confirmquit"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"		
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Base Color"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"Main"	
 	}
 	
 	"DemoUIButton"
@@ -1487,15 +1522,15 @@
 		"paintbackground""0"
 		"Command"		"engine demoui"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"		
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Base Color"
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"Main"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1537,15 +1572,15 @@
 		"paintbackground""0"
 		"Command"		"engine toggleconsole"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "Base Color"		
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Base Color"
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"Main"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1562,50 +1597,36 @@
 		}				
 	}		
 	
-	"DisconnectButton"
+	"MatchHud"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DisconnectButton"
-		"xpos"			"70"
-		"ypos"			"354"
-		"zpos"			"16"
-		"wide"			"110"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"MatchHud"
+		"xpos"			"60"
+		"ypos"			"294"
+		"zpos"			"11"
+		"wide"			"200"
 		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"BebasNeue16"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Base Color"
-			"depressedFgColor_override" "Base Color"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-		}
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"TOGGLE MATCHHUD"
+		"font"			"BebasNeue16"
+		"textAlignment"	"west"
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine incrementvar tf_use_match_hud 0 1 1"
+		
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"	
 	}
 }

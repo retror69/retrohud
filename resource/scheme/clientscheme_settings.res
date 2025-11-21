@@ -11,22 +11,22 @@ Scheme
 		ReplayBrowser.Button.ArmedBgColor				"TFOrange"
 		ReplayBrowser.Button.DepressedBgColor			"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
-		ReplayBrowser.Warning.FgColor					"White"
+		ReplayBrowser.Warning.FgColor					"ColorWhite"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
 		ReplayBrowser.Search.BgColor					"TanDark"
-		ReplayBrowser.Search.FgColor					"White"
+		ReplayBrowser.Search.FgColor					"ColorWhite"
 		Replay.RenderDialog.BgColor						"TanDark"
 
 		Econ.Dialog.BgColor						"Blank"
 		Econ.Button.BgColor						"TanDarker"
 		Econ.Button.FgColor						"TanDark"
 		Econ.Button.ArmedBgColor				"TanDark"
-		Econ.Button.ArmedFgColor				"TanLight"
+		Econ.Button.ArmedFgColor				"ColorWhite"
 		Econ.Button.DepressedBgColor			"TanDarker"
 		Econ.Button.DepressedFgColor			"TanDark"
-		Econ.Button.PresetDefaultColorFg		"Base Color"
-		Econ.Button.PresetArmedColorFg			"Base Color"
-		Econ.Button.PresetDepressedColorFg		"Base Color"
+		Econ.Button.PresetDefaultColorFg		"Main"
+		Econ.Button.PresetArmedColorFg			"Main"
+		Econ.Button.PresetDepressedColorFg		"Main"
 		Econ.Button.PresetDefaultColorBg		"TanDarker"
 		Econ.Button.PresetArmedColorBg			"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg		"TanDarker"
@@ -37,13 +37,13 @@ Scheme
 		Border.Dark								"NoBorder"
 		Border.Selection						"NoBorder"
 
-		Button.TextColor						"TanLight"
+		Button.TextColor						"ColorWhite"
 		Button.BgColor							"TanDarker"
-		Button.ArmedTextColor					"TanLight"
+		Button.ArmedTextColor					"ColorWhite"
 		Button.ArmedBgColor						"TanDark"
-		Button.SelectedTextColor				"Base Color"
+		Button.SelectedTextColor				"Main"
 		Button.SelectedBgColor					"TanDarker"
-		Button.DepressedTextColor				"TanLight"
+		Button.DepressedTextColor				"ColorWhite"
 		Button.DepressedBgColor					"TanDark"
 
 		CheckButton.TextColor					"Yellow"
@@ -54,8 +54,8 @@ Scheme
 		CheckButton.Check						"Yellow"		// color of the check itself
 		CheckButton.HighlightFgColor			"Yellow"
 
-		ComboBoxButton.ArrowColor				"TanLight"
-		ComboBoxButton.ArmedArrowColor			"TanLight"
+		ComboBoxButton.ArrowColor				"ColorWhite"
+		ComboBoxButton.ArmedArrowColor			"ColorWhite"
 		ComboBoxButton.BgColor					"Blank"
 		ComboBoxButton.DisabledBgColor			"Blank"
 
@@ -83,9 +83,9 @@ Scheme
 		GraphPanel.BgColor						"TransparentBlack"
 
 		Label.TextDullColor						"TanDark"
-		Label.TextColor							"TanLight"
-		Label.TextBrightColor					"TanLight"
-		Label.SelectedTextColor					"White"
+		Label.TextColor							"ColorWhite"
+		Label.TextBrightColor					"ColorWhite"
+		Label.SelectedTextColor					"ColorWhite"
 		Label.BgColor							"Blank"
 		Label.DisabledFgColor1					"Blank"
 		Label.DisabledFgColor2					"Black"
@@ -97,10 +97,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor		"Red"
 		ListPanel.EmptyListInfoTextColor		"Orange"
 
-		Menu.TextColor							"TanLight"
+		Menu.TextColor							"ColorWhite"
 		Menu.BgColor							"DarkGrey"
 		Menu.ArmedTextColor						"TanDark"
-		Menu.ArmedBgColor						"TanLight"
+		Menu.ArmedBgColor						"ColorWhite"
 		Menu.TextInset							"6"
 
 		Chat.TypingText							"Orange"
@@ -113,18 +113,18 @@ Scheme
 		ProgressBar.FgColor						"ProgressOffWhite"
 		ProgressBar.BgColor						"ProgressBackground"
 
-		CircularProgressBar.FgColor				"White"
-		CircularProgressBar.BgColor				"White"
+		CircularProgressBar.FgColor				"ColorWhite"
+		CircularProgressBar.BgColor				"ColorWhite"
 
 		"BuildingHealthBar.BgColor"				"HealthBgGrey"
 		"BuildingHealthBar.Health"				"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"			"LowHealthRed"
 
-		PropertySheet.TextColor					"White"
-		PropertySheet.SelectedTextColor			"White"
+		PropertySheet.TextColor					"ColorWhite"
+		PropertySheet.SelectedTextColor			"ColorWhite"
 		PropertySheet.TransitionEffectTime		"0.25"		// time to change from one tab to another
 
-		RadioButton.TextColor					"Base Color"
+		RadioButton.TextColor					"Main"
 		RadioButton.SelectedTextColor			"Orange"
 
 		RichText.TextColor						"Gray"
@@ -142,11 +142,11 @@ Scheme
 		ScrollBarSlider.FgColor					"Gray"		// nob color
 		ScrollBarSlider.BgColor					"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor		"White"
+		SectionedListPanel.HeaderTextColor		"ColorWhite"
 		SectionedListPanel.HeaderBgColor		"Blank"
 		SectionedListPanel.DividerColor			"Black"
-		SectionedListPanel.TextColor			"White"
-		SectionedListPanel.BrightTextColor		"White"
+		SectionedListPanel.TextColor			"ColorWhite"
+		SectionedListPanel.BrightTextColor		"ColorWhite"
 		SectionedListPanel.BgColor				"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor	"Black"
 		SectionedListPanel.SelectedBgColor		"Red"
@@ -164,12 +164,12 @@ Scheme
 		TextEntry.CursorColor					"Gray"
 		TextEntry.DisabledTextColor				"Gray"
 		TextEntry.DisabledBgColor				"Blank"
-		TextEntry.SelectedTextColor				"TanLight"
+		TextEntry.SelectedTextColor				"ColorWhite"
 		TextEntry.SelectedBgColor				"Gray"
 		TextEntry.OutOfFocusSelectedBgColor		"Blank"
 		TextEntry.FocusEdgeColor				"Blank"
 
-		ToggleButton.SelectedTextColor			"White"
+		ToggleButton.SelectedTextColor			"ColorWhite"
 
 		Tooltip.TextColor						"TransparentBlack"
 		Tooltip.BgColor							"Red"
@@ -209,7 +209,7 @@ Scheme
 
 		// CHudMenu
 		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"								"255 255 255 255"
+		"MenuColor"								"ColorWhite"
 		"MenuBoxBg"								"HudBlack"
 
 		// Weapon Selection Colors
@@ -220,7 +220,7 @@ Scheme
 		"SelectionSelectedBoxBg" 				"0 0 0 190"
 
 		// Hint Message Colors
-		"HintMessageFg"							"255 255 255 255"
+		"HintMessageFg"							"ColorWhite"
 		"HintMessageBg"							"0 0 0 60"
 
 		"ProgressBarFg"							"255 30 13 255"

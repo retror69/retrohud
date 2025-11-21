@@ -99,7 +99,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"ColorWhite"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -123,9 +123,9 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override"	"TextColor"
 			"defaultBgColor_override"	"Transparent"
-			"armedFgColor_override"		"TanLight"
+			"armedFgColor_override"		"ColorWhite"
 			"armedBgColor_override"		"Transparent"
-			"depressedFgColor_override"	"Base Color"
+			"depressedFgColor_override"	"Main"
 			"depressedBgColor_override"	"Transparent"
 		}
 
@@ -463,7 +463,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

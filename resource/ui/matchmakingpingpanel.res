@@ -45,7 +45,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"font"										"HudFontMediumSmall"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 
 		"mouseinputenabled"							"0"
 	}
@@ -64,7 +64,7 @@
 		"font"										"HudFontSmallestBold"
 		"AllCaps"									"0"
 		"smallcheckimage"							"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"LighterDarkBrown"
@@ -93,19 +93,19 @@
 
 		"editable"									"0"
 
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"ColorWhite"
 		"bgcolor_override"							"HudBlack"
-		"disabledfgcolor_override"					"White"
+		"disabledfgcolor_override"					"ColorWhite"
 		"disabledBgColor_override"					"Blank"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"White"
+		"selectionTextColor_override"				"ColorWhite"
 		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
-			"defaultfgcolor_override"				"White"
+			"defaultfgcolor_override"				"ColorWhite"
 			"defaultBgColor_override"				"Blank"
-			"armedfgcolor_override"					"White"
+			"armedfgcolor_override"					"ColorWhite"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -141,8 +141,8 @@
 		"font"										"FontStorePrice"
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
-		"fgcolor"									"White"
-		"fgcolor_override"							"White"
+		"fgcolor"									"ColorWhite"
+		"fgcolor_override"							"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -165,8 +165,8 @@
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
-		"fgcolor"									"White"
-		"fgcolor_override"							"White"
+		"fgcolor"									"ColorWhite"
+		"fgcolor_override"							"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -187,7 +187,7 @@
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -208,8 +208,8 @@
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
-		"fgcolor"									"White"
-		"fgcolor_override"							"White"
+		"fgcolor"									"ColorWhite"
+		"fgcolor_override"							"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -231,7 +231,7 @@
 		"font"										"FontStorePrice"
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -251,7 +251,7 @@
 		"font"										"FontStorePrice"
 		"AllCaps"									"1"
 		"wrap"										"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -272,7 +272,7 @@
 		"textinsety"								"5"
 		"font"										"HudFontSmallestBold"
 		"AllCaps"									"1"
-		"fgcolor"									"White"
+		"fgcolor"									"ColorWhite"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"HudBlack"
@@ -339,7 +339,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"White"
+					"fgcolor_override"				"ColorWhite"
 				}
 				"UpButton"
 				{

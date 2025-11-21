@@ -102,7 +102,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"Main"
 	}
 
 	"Sheet"
@@ -130,7 +130,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"Main"
 		}
 
 		"tabskv"
@@ -138,7 +138,7 @@
 			"textinsetx"		"25"
 			"textAlignment"		"center"
 			"font"				"HudFontSmall"
-			"selectedcolor"		"TanLight"
+			"selectedcolor"		"ColorWhite"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"

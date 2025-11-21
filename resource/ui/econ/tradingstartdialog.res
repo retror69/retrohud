@@ -79,7 +79,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"allcaps"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "ColorWhite"
 	}
 
 	"PlayerListScroller"
@@ -312,7 +312,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "Main"
 		}
 	}
 
@@ -344,7 +344,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "Main"
 		}
 
 		"URLHelpLabel"
@@ -365,7 +365,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "ColorWhite"
 		}
 
 		"URLFailLabel"
@@ -386,7 +386,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "Main"
 		}
 		"URLSearchingLabel"
 		{
@@ -406,7 +406,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "Main"
 		}
 
 		"URLEntry"
@@ -428,7 +428,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""

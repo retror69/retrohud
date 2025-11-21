@@ -58,9 +58,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -94,9 +94,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -129,9 +129,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -165,9 +165,9 @@
 		"depressedBgColor_override" "TransparentBlack"
 		"selectedBgColor_override" 	"HudBlack"
 
-		"defaultFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -258,7 +258,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
-		"fgcolor"		"White"
+		"fgcolor"		"ColorWhite"
 		"wrap"			"1"
 	}
 	

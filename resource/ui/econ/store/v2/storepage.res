@@ -160,7 +160,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"DarkerGrey"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"ColorWhite"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -185,12 +185,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"					"TanLight"
+		"fgcolor_override"					"ColorWhite"
 		"bgcolor_override"					"Transparent"
-		"disabledFgColor_override"			"TanLight"
+		"disabledFgColor_override"			"ColorWhite"
 		"disabledBgColor_override"			"Transparent"
 		"selectionColor_override"			"Transparent"
-		"selectionTextColor_override"		"TanLight"
+		"selectionTextColor_override"		"ColorWhite"
 		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
@@ -214,12 +214,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"					"TanLight"
+		"fgcolor_override"					"ColorWhite"
 		"bgcolor_override"					"Transparent"
-		"disabledFgColor_override"			"TanLight"
+		"disabledFgColor_override"			"ColorWhite"
 		"disabledBgColor_override"			"Transparent"
 		"selectionColor_override"			"Transparent"
-		"selectionTextColor_override"		"TanLight"
+		"selectionTextColor_override"		"ColorWhite"
 		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
@@ -302,7 +302,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"PrevPageButton"
@@ -345,7 +345,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "Main"
 	}
 
 	"NextPageButton"
@@ -408,7 +408,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"SubcategoryFiltersLabel"
@@ -427,7 +427,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"SortFilterLabel"
@@ -446,7 +446,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"ClassFilterLabel"
@@ -465,7 +465,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"ClassFilterNavPanel"
