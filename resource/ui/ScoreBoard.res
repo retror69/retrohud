@@ -182,7 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Big56"
+		"font"			"Big48"
 		"fgcolor" "ColorWhite"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Big56"
+		"font"			"Big48"
 		"fgcolor" "LabelTransparent"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -286,7 +286,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Big56"
+		"font"			"Big48"
 		"fgcolor" "ColorWhite"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -313,7 +313,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Big56"
+		"font"			"Big48"
 		"fgcolor" "LabelTransparent"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -911,7 +911,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Kills"
-			"font"		      "Big32"
+			"font"		      "Big38"
 			"labelText"		 "%kills%"
 			"textAlignment"         "east"
 			"xpos"		      "115"
@@ -956,7 +956,7 @@
 		{
 			"ControlName"           "CExLabel"
 			"fieldName"		 "Deaths"
-			"font"		      "Big32"
+			"font"		      "Big38"
 			"labelText"		 "%deaths%"
 			"textAlignment"         "west"
 			"xpos"		      "181"

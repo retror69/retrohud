@@ -67,9 +67,9 @@ Scheme
 		"RedSolid"								"158 64 61 255"
 		"Blue"									"72 112 125 140"
 		"BlueSolid"								"72 112 125 255"
-		"Yellow"								"251 235 202 255"
-		"TransparentYellow"						"251 235 202 140"
-		"BrightYellow"							"251 235 0 255"
+		"Yellow"								"225 220 220 255"
+		"TransparentYellow"						"225 220 220 140"
+		"BrightYellow"							"225 220 220 255"
 		"GreenSolid"							"76 107 34 255"
 
 		"Black"									"30 30 30 255"
@@ -121,19 +121,19 @@ Scheme
 
 		// Building HUD Specific
 		"LowHealthRed"							"255 0 0 255"
-		"ProgressOffWhite"						"ColorWhite"
+		"ProgressOffWhite"						"225 220 220 255"
 		"ProgressBackground"					"205 200 200 51"
 		"HealthBgGrey"							"72 71 69 255"
 
 		"LabelDark"								"48 43 42 255"
 		"LabelTransparent"						"0 0 0 130"
 
-		"BuildMenuActive"						"248 231 198 255"
+		"BuildMenuActive"						"225 220 220 255"
 
 		"DisguiseMenuIconRed"					"192 56 63 255"
 		"DisguiseMenuIconBlue"					"92 128 166 255"
 
-		"ProgressOffWhiteTransparent"			"250 250 250 128"
+		"ProgressOffWhiteTransparent"			"225 220 220 128"
  		"MatchmakingDialogTitleColor"			"Main"
  		"MatchmakingMenuItemBackground"			"DarkGrey"
  		"MatchmakingMenuItemBackgroundActive"	"Main"
@@ -143,7 +143,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"225 220 220 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 

@@ -70,7 +70,7 @@
 		"wide"			"255"
 		"tall"			"25"
 		"textAlignment"	"center"
-		"font"			"BebasNeue32"
+		"font"			"Big38"
 		"visible"		"1"
 		"enabled"		"1"
 		"allcaps"		"1"

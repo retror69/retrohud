@@ -14,18 +14,6 @@ Scheme
 			}
 		}
 
-		"ClassIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"62"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
 		"MenuIcons"
 		{
 			"1"

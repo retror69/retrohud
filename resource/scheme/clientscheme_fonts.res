@@ -1,21 +1,12 @@
-		//=== Actual fonts ===//
 Scheme
 {
+	//////////////////////// FONTS /////////////////////////////
+	//
+	// describes all the fonts
 	Fonts
 	{
-		"Newtown7"
-		{
-			"1"
-			{
-				"name"		 "Newtown"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		
-		// Health and Ammo fonts
-		"Big56"
+		// CUSTOM
+		"Big48"
 		{
 			"1"
 			{
@@ -25,7 +16,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Big32"
+		"Big38"
 		{
 			"1"
 			{
@@ -41,47 +32,6 @@ Scheme
 			{
 				"name"			"Newtown"
 				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"HudFont48"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"48"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"HudFont40"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"40"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"HudFont32"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"32"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"HudFont28"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -107,22 +57,100 @@ Scheme
 				"outline"	 	"1"
 			}
 		}
-		"HudFont20"
+		"Newtown16"
+		{
+			"1"
+			{
+				"name"			"Newtown"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Newtown7"
+		{
+			"1"
+			{
+				"name"		 "Newtown"
+				"tall" 		 "7"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		
+		"HudFontSmallestBold"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontNameSmallest"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"13"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLargest"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"17"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"BebasNeue20"
 		{
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
 				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"BebasNeue18"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -143,16 +171,6 @@ Scheme
 			{
 				"name"			"BebasNeuePro-Bold"
 				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Newtown16"
-		{
-			"1"
-			{
-				"name"			"Newtown"
-				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -382,7 +400,7 @@ Scheme
 			}
 		}
 
-		CenterPrintText
+		"CenterPrintText"
 		{
 			"1"
 			{
@@ -407,7 +425,7 @@ Scheme
 			}
 		}
 
-		HudHintText
+		"HudHintText"
 		{
 			"1"
 			{
@@ -440,7 +458,7 @@ Scheme
 			"5"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"12"
+				"tall"			"24"
 				"weight"		"700"
 			}
 		}
@@ -490,7 +508,6 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-				"yres"			"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -548,17 +565,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HudFontMediumBiggish"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"30"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 		"HudFontMedium"
 		{
 			"1"
@@ -570,21 +576,9 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"HudFontMediumShadow"
+		"HudFontMediumSecondary"
 		{
 			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		"HudFontMediumSecondary"
-        {
-            "1"
             {
                 "name"        "BebasNeuePro-Bold"
                 "tall"        "24"
@@ -601,7 +595,7 @@ Scheme
                 "additive"    "0"
                 "antialias" "1"
             }
-        }
+		}
 		"HudFontMediumBold"
 		{
 			"1"
@@ -613,7 +607,29 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"HudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontMediumSmall"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
@@ -636,17 +652,6 @@ Scheme
 			}
 		}
 		"HudFontSmallishBold"
-		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"16"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"HudFontSmallishBoldShadow"
 		{
 			"1"
 			{
@@ -701,29 +706,6 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
-			}
-		}
-		"HudFontSmallestBold"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"12"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"HudFontSmallestBolder"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 
@@ -818,7 +800,7 @@ Scheme
 			}
 		}
 
-		GameUIButtons
+		"GameUIButtons"
 		{
 			"1"	//[$X360]
 			{
@@ -828,7 +810,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmall
+		"GameUIButtonsSmall"
 		{
 			"1"	[$X360]
 			{
@@ -838,7 +820,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmallest
+		"GameUIButtonsSmallest"
 		{
 			"1"	[$X360]
 			{
@@ -848,7 +830,7 @@ Scheme
 				"scaley"		"0.4"
 			}
 		}
-		GameUIButtonsSteamController
+		"GameUIButtonsSteamController"
 		{
 			"1"
 			{
@@ -858,7 +840,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSteamControllerSmall
+		"GameUIButtonsSteamControllerSmall"
 		{
 			"1"
 			{
@@ -868,7 +850,7 @@ Scheme
 				"scaley"		"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
+		"GameUIButtonsSteamControllerSmallest"
 		{
 			"1"
 			{
@@ -994,12 +976,11 @@ Scheme
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
-				"yres"			"1200 10000"
 				"range"			"0x0000 0x017F"
 			}
 		}
 
-		DebugOverlay
+		"DebugOverlay"
 		{
 			"1"
 			{
@@ -1011,7 +992,7 @@ Scheme
 			}
 		}
 
-		TFTypeDeath
+		"TFTypeDeath"
 		{
 			"1"
 			{
@@ -1023,7 +1004,7 @@ Scheme
 			}
 		}
 
-		Icons
+		"Icons"
 		{
 			"1"
 			 {
@@ -1048,7 +1029,7 @@ Scheme
 			}
 		}
 
-		HudNumbers
+		"HudNumbers"
 		{
 			"1"
 			{
@@ -1068,12 +1049,12 @@ Scheme
 			}
 		}
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
+				"tall"			"14"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1084,7 +1065,7 @@ Scheme
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
+				"tall"			"14"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1096,7 +1077,7 @@ Scheme
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
+				"tall"			"14"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1107,7 +1088,7 @@ Scheme
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
+				"tall"			"14"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
@@ -1119,7 +1100,7 @@ Scheme
 			"1"
 			{
 				"name"			"BebasNeuePro-Bold"
-				"tall"			"16"
+				"tall"			"10"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1398,8 +1379,20 @@ Scheme
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
-				"yres"			"1200 10000"
 				"antialias" 	"1"
+			}
+		}
+
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"36"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1511,12 +1504,96 @@ Scheme
 				"name"			"BebasNeuePro-Bold"
 				"tall"			"24"
 				"weight"		"700"
-				"yres"			"1200 10000"
 				"dropshadow"	"0"
 			}
 		}
 
-		MenuSmallestFont
+		"ChatFont"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"13"
+				"weight"		"700"
+				"yres"			"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"20"
+				"weight"		"700"
+				"yres"			"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"24"
+				"weight"		"700"
+				"dropshadow"	"1"
+			}
+		}
+		"ChatMiniFont"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"10"
+				"weight"		"700"
+				"yres"			"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"10"
+				"weight"		"700"
+				"yres"			"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"13"
+				"weight"		"700"
+				"yres"			"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"15"
+				"weight"		"700"
+				"dropshadow"	"1"
+			}
+		}
+
+		"MenuSmallestFont"
 		{
 			"1"
 			{
@@ -1527,7 +1604,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		MenuSmallFont
+		"MenuSmallFont"
 		{
 			"1"
 			{
@@ -1539,7 +1616,7 @@ Scheme
 			}
 		}
 
-		CapPlayerFont
+		"CapPlayerFont"
 		{
 			"1"
 			{
@@ -1551,7 +1628,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		CapPlayerFontSmall
+		"CapPlayerFontSmall"
 		{
 			"1"
 			{
@@ -1563,8 +1640,19 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		TFFontMedium
+
+		"TFFontSmall"
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"8"
+				"weight"		"0"
+				"additive"		"1"
+				"antialias" 	"1"
+			}
+		}
+		"TFFontMedium"
 		{
 			"1"
 			{
@@ -1576,7 +1664,7 @@ Scheme
 			}
 		}
 
-		InstructionalText
+		"InstructionalText"
 		{
 			"1"
 			{
@@ -1589,7 +1677,7 @@ Scheme
 			}
 		}
 
-		MatchmakingDialogTitle
+		"MatchmakingDialogTitle"
 		{
 			"1"
 			{
@@ -1598,7 +1686,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogSessionOptionsTitle
+		"MatchmakingDialogSessionOptionsTitle"
 		{
 			"1"
 			{
@@ -1607,7 +1695,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuLarge
+		"MatchmakingDialogMenuLarge"
 		{
 			"1"
 			{
@@ -1616,7 +1704,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuBrowserHostname
+		"MatchmakingDialogMenuBrowserHostname"
 		{
 			"1"
 			{
@@ -1625,7 +1713,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuBrowserDetails
+		"MatchmakingDialogMenuBrowserDetails"
 		{
 			"1"
 			{
@@ -1634,7 +1722,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuMedium
+		"MatchmakingDialogMenuMedium"
 		{
 			"1"
 			{
@@ -1643,7 +1731,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuMediumSmall
+		"MatchmakingDialogMenuMediumSmall"
 		{
 			"1"
 			{
@@ -1652,7 +1740,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuSmall
+		"MatchmakingDialogMenuSmall"
 		{
 			"1"
 			{
@@ -1661,7 +1749,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuSmallest
+		"MatchmakingDialogMenuSmallest"
 		{
 			"1"
 			{
@@ -1671,7 +1759,7 @@ Scheme
 			}
 		}
 
-		RankingDialogHeaders
+		"RankingDialogHeaders"
 		{
 			"1"
 			{
@@ -1793,61 +1881,6 @@ Scheme
 			}
 		}
 
-		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"13"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLargest"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"17"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -1857,6 +1890,16 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"			"BebasNeuePro-Bold"
+				"tall"			"10"
+				"antialias"		"1"
+				"weight"		"500"
 			}
 		}
 		"ItemFontAttribSmall"

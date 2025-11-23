@@ -58,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"BebasNeue40"
+			"font"			"Big38"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"138"
@@ -75,7 +75,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreShadow"
-			"font"			"BebasNeue40"
+			"font"			"Big38"
 			"fgcolor"		"LabelTransparent"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
@@ -112,7 +112,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"BebasNeue40"
+			"font"			"Big38"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"230"
@@ -129,7 +129,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreShadow"
-			"font"			"BebasNeue40"
+			"font"			"Big38"
 			"fgcolor"		"LabelTransparent"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"

@@ -87,23 +87,33 @@ event HudLowAmmoPulseStop
 //==================================================================================
 // Ubercharge Meters
 event HudMedicCharged
-{
-	Animate	ChargeLabel 					FgColor		"Main"	Linear 0.0 0.1
-	Animate	ChargeLabel 					FgColor		"Main Dim"	Linear 0.3 0.4
+{	
+	Animate	ChargedBG		BgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	ChargedBG		Alpha		"100"		Accel 0.0 0.2
+	Animate	ChargedBG		Alpha		"0"		Accel 0.2 0.4
+	
+	Animate	ChargeLabel 					FgColor		"Main"	Accel 0.0 0.0
+	Animate	ChargeMeter1 					FgColor		"Main"	Accel 0.0 0.0
+	Animate	ChargeMeter2 					FgColor		"Main"	Accel 0.0 0.0
+	Animate	ChargeMeter3 					FgColor		"Main"	Accel 0.0 0.0
+	Animate	ChargeMeter4 					FgColor		"Main"	Accel 0.0 0.0
 
-	Animate	ChargeMeter 					FgColor		"Main"	Linear 0.0 0.1
-	Animate	ChargeMeter 					FgColor		"Main Dim"	Linear 0.3 0.4
-
-	RunEvent HudMedicChargedLoop			0.6
+	RunEvent HudMedicChargedLoop			0.4
 }
 
 event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged				0.0
 	StopEvent HudMedicChargedLoop			0.0
+	
+	Animate	ChargedBG		BgColor		"Blank"		Accel 0.0 0.0
+	Animate	ChargedBG		Alpha		"0"			Accel 0.0 0.0
 
-	Animate	ChargeMeter						FgColor		"ColorWhite"	Linear 0.0 0.0001
-	Animate	ChargeLabel 					FgColor		"ColorWhite"		Linear 0.0 0.0001
+	Animate	ChargeLabel 					FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	ChargeMeter1 					FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	ChargeMeter2					FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	ChargeMeter3 					FgColor		"ColorWhite"		Accel 0.0 0.0
+	Animate	ChargeMeter4 					FgColor		"ColorWhite"		Accel 0.0 0.0
 }
 //==================================================================================
 event HudSnapShotReminderIn

@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"HudFont32"
+		"font"			"HudFontMedium"
 		"fgcolor"		"ColorWhite"
 	}
 

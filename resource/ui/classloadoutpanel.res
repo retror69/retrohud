@@ -110,24 +110,6 @@
 		}
 	}
 	
-	"ClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"ItemFontNameLargest"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"c-270"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

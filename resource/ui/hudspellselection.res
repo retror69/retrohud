@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBiggish"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"5"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBiggish"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"-2"

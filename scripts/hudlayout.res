@@ -97,19 +97,15 @@
 		"MeterBG"			"Gray"
 	}
 
-	HudMedicCharge
+	"HudMedicCharge"
 	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-//		"xpos"			"r507"	[$WIN32]
-//		"ypos"			"r115"	[$WIN32]
-//		"wide"			"200"
-//		"tall"			"100"
-		"xpos"        	"0"	[$WIN32]
-		"ypos"	        "0"	[$WIN32]
-		"wide"	        "f0"
-		"tall"	        "480"
+		"fieldName"			"HudMedicCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"0"
+		"ypos"				"c10"
+		"wide"				"f0"
+		"tall"				"300"
 	}
 
 	HudDemomanCharge

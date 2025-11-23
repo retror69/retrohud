@@ -35,7 +35,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontMediumBiggish"
+		"font"				"HudFontMediumBigBold"
 		"xpos"				"10"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"HudFontMediumBiggish"
+		"font"				"HudFontMediumBigBold"
 		"fgcolor"			"LabelTransparent"
 		"xpos"				"-2"
 		"ypos"				"-2"

@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"Big32"
+		"font"			"Big38"
 		"fgcolor"		"ColorWhite"
 
 		"if_hybrid"
@@ -123,7 +123,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"Big32"
+		"font"			"Big38"
 		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"BlueScore"
@@ -159,7 +159,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"Big32"
+		"font"			"Big38"
 		"fgcolor"		"ColorWhite"
 
 		"if_hybrid"
@@ -191,7 +191,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"Big32"
+		"font"			"Big38"
 		"fgcolor"		"LabelTransparent"
 
 		"pin_to_sibling"		"RedScore"
