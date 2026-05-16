@@ -2,9 +2,9 @@
 {
 	"Colors"
 	{
-		"ColorWhite"												"230 235 240 255"
-		"OffWhite"											"230 235 240 255"
-		"DullWhite"											"0 0 0 255"
+		"ColorWhite"				"245 240 240 255"
+		"OffWhite"					"245 240 240 255"
+		"DullWhite"					"132 130 130 255"
 		"Orange"											"243 155 83 255"
 		"TransparentBlack"									"0 0 0 0"
 		"Black"												"0 0 0 255"
@@ -330,51 +330,56 @@
 		
 		"ChatFont"
 		{
-			"1"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"480 599"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-			"2"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"16"
-				"weight"		"700"
-				"yres"			"600 767"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-			"3"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"17"
-				"weight"		"700"
-				"yres"			"768 1023"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-			"4"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"19"
-				"weight"		"700"
-				"yres"			"1024 1199"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-			"5"
-			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"24"
-				"weight"		"700"
-				"yres"			"1200 10000"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
+			"isproportional"                                        "only"
+
+            "1"
+            {
+                "name"                                              "BebasNeuePro-Bold"
+                "tall"                                              "15"
+                "weight"                                            "500"
+                "yres"                                              "480 599"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+            }
+
+            "2"
+            {
+                "name"                                              "BebasNeuePro-Bold"
+                "tall"                                              "17"
+                "weight"                                            "500"
+                "yres"                                              "600 767"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+            }
+
+            "3"
+            {
+                "name"                                              "BebasNeuePro-Bold"
+                "tall"                                              "18"
+                "weight"                                            "500"
+                "yres"                                              "768 1023"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+            }
+
+            "4"
+            {
+                "name"                                              "BebasNeuePro-Bold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "yres"                                              "1024 1199"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+            }
+
+            "5"
+            {
+                "name"                                              "BebasNeuePro-Bold"
+                "tall"                                              "9"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+            }
 		}
 
 		"DefaultVerySmall"

@@ -19,7 +19,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"160"
-		"tall"										"6"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"

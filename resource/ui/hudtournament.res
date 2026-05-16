@@ -691,7 +691,7 @@
 		"fieldName"		"TournamentReadyHintIcon"
 		"wide"			"0"
 	}
-
+	
 	"CountdownBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -700,46 +700,35 @@
 	}
 
 	"CountdownLabel"
-	{
-		"ControlName"	"CExLabel"
+	{	
+		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFont24"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"font"			"HudFont24Outline"
+		"xpos"			"230"
+		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"	"0"
+		"zpos"			"5"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-	}
 
-	"CountdownLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFont24"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"	"center"
-		"fgcolor"		"LabelTransparent"
-		"proportionaltoparent"	"1"
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 }

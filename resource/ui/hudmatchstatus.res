@@ -12,57 +12,16 @@
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
-		"fieldName"		"RoundSignModel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"xpos"			"9999"
+		"visible"		"0"
 		"enabled"		"1"
-		"fov"			"70"
-		"proportionaltoparent"	"1"
-
-		"model"
-		{
-			"modelname"	"models/props_ui/banner.mdl"
-			"skin"		"0"
-			"angles_x"	"30"
-			"angles_y"	"180"
-			"angles_z"	"0"
-			"origin_x"	"150"
-			"origin_y"	"0"
-			"origin_z"	"62"
-			"spotlight"	"1"
-
-			"animation"
-			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"intro"
-				"sequence"		"intro"
-			}
-
-			"animation"
-			{
-				"name"			"outro"
-				"sequence"		"outro"
-			}
-		}
 	}
 
 	"CountdownLabel"
-	{
+	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFont24"
+		"font"			"HudFont24Outline"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -75,32 +34,14 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"ColorWhite"
 		"proportionaltoparent"	"1"
-	}
+		"fgcolor"		"TanLight"
 
-	"CountdownLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFont24"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"LabelTransparent"
-		"proportionaltoparent"	"1"
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 
 	"FrontParticlePanel"
@@ -290,25 +231,25 @@
 		"ControlName"								"CTFTeamStatus"
 		"FieldName"									"TeamStatus"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"1"
 		"ZPos"										"2"
 		"Wide"										"f0"
-		"Tall"										"15"
+		"Tall"										"16"
 		"Visible"									"1"
 		"Enabled"									"1"
 
-		"max_size"									"23"
+		"max_size"									"20"
 
 		"6v6_gap"									"1"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-45"
-		"team1_max_expand"							"230"
+		"team1_max_expand"							"250"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c46"
-		"team2_max_expand"							"230"
+		"team2_base_x"								"c45"
+		"team2_max_expand"							"250"
 
 		"PlayerPanels_KV"
 		{
@@ -358,7 +299,7 @@
 				"YPos"								"0"
 				"ZPos"								"5"
 				"Wide"								"o1"
-				"Tall"								"f0"
+				"Tall"								"15"
 				"Visible"							"1"
 				"Enabled"							"1"
 				"Image"								"../hud/class_scoutred"
@@ -412,7 +353,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"FieldName"							"RespawnTime"
-				"Font"								"Newtown16"
+				"Font"								"Newtown7"
 				"XPos"								"cs-0.5"
 				"YPos"								"cs-0.5"
 				"ZPos"								"10"

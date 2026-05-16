@@ -61,7 +61,7 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"0"					Linear 0.125 0.075
 	
-	Animate LowAmmoBG		BgColor		"ColorRed"					Accel 0.0 0.0
+	Animate LowAmmoBG		BgColor		"Reserve Low"					Accel 0.0 0.0
 	Animate LowAmmoBG		Alpha		"100"									Accel 0.0 0.2
 	Animate LowAmmoBG		Alpha		"0"										Accel 0.2 0.4
 

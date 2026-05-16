@@ -195,10 +195,10 @@
 		"fgcolor_override"	"ColorWhite"
 		"bgcolor_override"	"DarkGrey"
 
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "ColorWhite"
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "ColorWhite"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 

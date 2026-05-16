@@ -27,7 +27,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"160"
-		"tall"										"6"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -47,7 +47,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"160"
-		"tall"										"6"
+		"tall"										"5"
 		"visible"									"0"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -68,17 +68,12 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
 		"wide"										"160"
-		"tall"										"6"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"image"										""
 		"scaleImage"								"1"
-
-		"if_multiple_trains"
-		{
-			"tall"									"6"
-		}
 	}
 	
 	"HomeCPIcon"
@@ -88,8 +83,8 @@
 		"xpos"										"-2"
 		"ypos"										"cs-0.5"
 		"zpos"										"6"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -100,13 +95,6 @@
 		"if_team_red"
 		{
 			"image"									"../hud/cart_home_red"
-		}
-		"if_multiple_trains"
-		{
-			"image"									"../hud/cart_point_neutral"
-			"wide"										"14"
-			"tall"										"14"
-			"xpos"										"-1"
 		}
 	}
 	"SimpleControlPointTemplate"
@@ -146,7 +134,7 @@
 			"ypos"									"cs-0.5"
 			"zpos"									"20"
 			"wide"									"160"
-			"tall"									"6"
+			"tall"									"5"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"HUDBlueTeamSolid"
@@ -165,7 +153,7 @@
 			"xpos"									"147"
 			"ypos"									"3"
 			"zpos"									"1"
-			"wide"									"25"
+			"wide"									"26"
 			"tall"									"26"
 			"visible"								"1"
 			"enabled"								"1"

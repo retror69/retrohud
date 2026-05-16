@@ -4,13 +4,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudChatFilterPanel"
-		"xpos"										"2"
-		"ypos"										"143"
+		"xpos"										"10"
+		"ypos"										"126"
 		"zpos"										"0"
-		"wide"										"260"
-		"tall"										"26"
+		"wide"										"200"
+		"tall"										"36"
 		"visible"									"0"
 		"enabled"									"1"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"2"
+		"bgcolor_override"							"0 0 0 128"
 	}
 	"JoinLeave_Button"
 	{
@@ -48,7 +51,7 @@
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"PublicChat_Button"
-		"xpos"										"2"
+		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"80"
 		"tall"										"10"
@@ -58,9 +61,9 @@
 		"labelText"									"#filter_publicchat"
 		"textAlignment"								"west"
 
-		"pin_to_sibling"							"NameChange_Button"
+		"pin_to_sibling"							"ServerMSG_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"ServerMSG_Button"
 	{
@@ -112,7 +115,7 @@
 		"labelText"									"#filter_achievement"
 		"textAlignment"								"west"
 
-		"pin_to_sibling"							"TeamChange_Button"
+		"pin_to_sibling"							"PublicChat_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}

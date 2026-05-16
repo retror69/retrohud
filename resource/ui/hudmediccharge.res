@@ -40,8 +40,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c76"
-		"ypos"			"38"
+		"xpos"			"c132"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"175"
 		"tall"			"150"
@@ -207,8 +207,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
-		"xpos"				"c75"
-		"ypos"				"99"
+		"xpos"				"c130"
+		"ypos"				"60"
 		"wide"				"30"
 		"tall"				"30"
 		"visible"			"1"

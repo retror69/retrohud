@@ -29,7 +29,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlueTeamSolid"
+		"fillcolor"		"HudBlueTeam"
 		"scaleImage"	"1"
 
 		"if_hybrid"
@@ -55,11 +55,11 @@
 		"xpos"			"c0"
 		"ypos"			"r30"
 		"zpos"			"-1"
-		"wide"			"60"
+		"wide"			"69"
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudRedTeamSolid"
+		"fillcolor"		"HudRedTeam"
 		"scaleImage"	"1"
 
 		"if_hybrid"

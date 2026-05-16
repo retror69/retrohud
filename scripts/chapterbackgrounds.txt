@@ -1,14 +1,10 @@
 "chapters"
 {
 	1	"background_upward"
-	2	"background_upward"
-	3	"background_upward"
-	4	"background_upward"
+	2	"background01"
 }
 "BackgroundMaps"
 {
 	1	"background_upward"
-	2	"background_upward"
-	3	"background_upward"
-	4	"background_upward"
+	2	"background01"
 }

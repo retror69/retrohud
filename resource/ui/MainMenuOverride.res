@@ -11,8 +11,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		
-	//	"bgcolor_override"	"0 0 0 100"
-		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -42,7 +40,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"BebasNeue16"
+				"font"			"HudFontSmallishBold"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -123,19 +121,12 @@
 	}
 
 	// Payload
-    "cart_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue" }
-	"cart_blue_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_blue_bottom" }
-	"cart_home_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_blue" }
-	"cart_home_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_home_red" }
 	"cart_point_blue" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue" }
 	"cart_point_blue_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_blue_opaque" }  
 	"cart_point_neutral" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral" }  
 	"cart_point_neutral_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_neutral_opaque" }  
 	"cart_point_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red" }
 	"cart_point_red_opaque" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_point_red_opaque" }
-	"cart_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red" }
-	"cart_red_bottom" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_red_bottom" }
-	"cart_track" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../hud/cart_track" }
 
     // Control Points
     "CPHighlight" { "ControlName" "ImagePanel" "FieldName" "CPHighlight" "XPos" "9999" "Visible" "1" "Enabled" "1" "Image" "../sprites/obj_icons/capture_highlight" }
@@ -196,6 +187,9 @@
 	"backpack_rect_mouseover_color" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_mouseover_color" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_mouseover_color" }
 	"backpack_rect_selected" { "ControlName" "ImagePanel" "fieldName" "backpack_rect_selected" "xpos"	"9999" "visible" "1" "enabled" "1" "image" "../sprites/menu/backpack_rect_selected" }
 	
+	// leaderboard
+	"leaderboard_icons" { "ControlName" "CTFImagePanel" "FieldName" "leaderboard_streak" "XPos" "9999" "Visible" "1" "Enabled" "1" "teambg_0" "vgui/replay/thumbnails/hud/leaderboard_streak" "teambg_1" "vgui/replay/thumbnails/hud/leaderboard_dominated" }
+	
 	"popup_pinner"
 	{
 	  "ControlName"  "Panel"
@@ -216,7 +210,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"DullWhite"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
@@ -241,7 +235,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"DullWhite"
 			"centerwrap"	"1"
 		}
 	}	
@@ -275,7 +269,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"DullWhite"
 			"wrap"			"1"
 		}
 		
@@ -295,7 +289,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"ColorWhite"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -308,7 +302,7 @@
         "ypos"          "377"
         "zpos"          "-3"
         "wide"          "178"
-        "tall"          "59"
+        "tall"          "100"
         "visible"       "1"
         "proportionaltoparent"  "0"
         "bgcolor_override"		"25 25 25 255"
@@ -322,18 +316,18 @@
 		"ypos"          "401"
 		"zpos"          "1"
 		"wide"          "172"
-		"tall"          "32"
+		"tall"          "73"
 		"visible"       "1"
 		"proportionaltoparent"  "1"
 
 		"columns_count" "2"
 		"inset_x"       "5"
-		"inset_y"       "5"
+		"inset_y"       "2"
 		"row_gap"       "5"
 		"column_gap"    "5"
 		"restrict_width"    "0"
 		
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"ColorBlack"
 
 		"friendpanel_kv"
 		{
@@ -504,11 +498,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"150"
-		"ypos"			"-76"
+		"xpos"			"132"
+		"ypos"			"-130"
 		"zpos"			"-1"
-		"wide"			"170"
-		"tall"			"400"
+		"wide"			"200"
+		"tall"			"550"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -519,17 +513,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"90"
-		"ypos"			"cs-0.5-134"
+		"xpos"			"175"
+		"ypos"			"135"
 		"zpos"			"15"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"21"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"."
+		"labelText"		"v"
 		"font"			"TF2Icons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -548,25 +542,74 @@
 		"armedFgColor_override" "Main"
 		"depressedFgColor_override" "Main"
 			
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"Main"
+	}		
+	
+	"Achievements"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"Achievements"
+		"xpos"			"175"
+		"ypos"			"120"
+		"zpos"			"16"
+		"wide"			"21"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"b"
+		"font"			"TF2Icons"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenAchievementsDialog"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
+			
+		"image_drawcolor"	"ColorWhite"
 		"image_armedcolor"	"Main"
 	}		
 
 	"RankTooltipPanel"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"95"
-		"zpos"			"-200"
-		"wide"			"0"
+		"xpos"			"254"
+		"ypos"			"151"
+		"zpos"			"16"
+		"wide"			"8"
 		"tall"			"8"
 		"visible"		"1"
+		"pinCorner"		"3"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
-		"image"			"info"
-		"scaleImage"	"1"
-		"alpha"			"75"
+		"labelText"		"?"
+		"font"			"Newtown7"
+		"textAlignment"	"center"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
+			
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"Main"
 	}
 
 	"RankPanel"
@@ -574,7 +617,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"55"
-		"ypos"			"95"
+		"ypos"			"110"
 		"zpos"			"14"
 		"wide"			"170"
 		"tall"			"50"
@@ -590,20 +633,20 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"NoGCMessage"
-		"xpos"				"70"
-		"ypos"				"95"
-		"zpos"				"15"
-		"wide"				"150"
-		"tall"				"70"
+		"xpos"				"80"
+		"ypos"				"110"
+		"zpos"				"17"
+		"wide"				"120"
+		"tall"				"50"
 		"visible"			"1"
 		"wrap"				"1"
 		"textinsetx"		"15"
 		"textinsety"		"5"
-		"font"				"HudFontSmall"
-		"fgcolor_override"	"Main"
-		"labelText"			"#TF_MM_NoGC_Rank"
-		"textAlignment"		"north-west"
-		"bgcolor_override"	"Transparent"
+		"font"				"HudFontSmallishBold"
+		"fgcolor_override"	"ColorRed"
+		"labelText"			"CONNECTION LOST      RANK UNAVAILABLE" //#TF_MM_NoGC_Rank
+		"textAlignment"		"west"
+		"bgcolor_override"	"ColorBlack"
 		"use_proportional_insets"	"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
@@ -613,33 +656,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"220"
-		"ypos"			"95"
+		"xpos"			"212"
+		"ypos"			"126"
 		"zpos"			"15"
-		"wide"			"45"
-		"tall"			"45"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\close"
+		"image"			"../hud/cart_blocked"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
 
-	"RankBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"30"
-		"ypos"			"140"
-		"zpos"			"14"
-		"wide"			"260"
-		"tall"			"198"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuHighlightBorder"
-		"proportionaltoparent"	"1"
-	}
-	
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
@@ -656,31 +684,39 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/title_team_halloween2011_widescreen"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012_widescreen"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013_widescreen"
 		}
 		if_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014"
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		if_halloween_4
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_xmas2020_widescreen"
 		}
-		if_eotl_launch
+		if_christmas_1
 		{
-			"image"		"../console/title_eotl01"
+			"image"		"../console/background_xmas2011_widescreen"
 		}
 	}
 	
@@ -698,10 +734,10 @@
 		"image"			"../console/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
-	"TFLogoBG"
+	"TFLogoColor"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoBG"
+		"fieldName"		"TFLogoColor"
 		"xpos"			"86"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -739,7 +775,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"ColorBlack"
 	}
 	"SidePanelLeftStripe"
 	{
@@ -916,7 +952,7 @@
 			"wide"			"210"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"DullWhite"
 			
 			"Notifications_Control"
 			{
@@ -946,7 +982,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"SWITCH SCOREBOARDS"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -963,7 +999,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"		
+		"image_drawcolor"	"ColorWhite"		
 	}
 	
 	"AdvancedOptions"
@@ -981,7 +1017,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"ADV. OPTIONS"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -998,7 +1034,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"				
+		"image_drawcolor"	"ColorWhite"				
 	}		
 	
 	"Options"
@@ -1016,7 +1052,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"OPTIONS"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1033,7 +1069,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"ColorWhite"
 	}
 	"GeneralStoreButton"
 	{
@@ -1050,7 +1086,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"STORE"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1067,7 +1103,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"		
+		"image_drawcolor"	"ColorWhite"		
 	}
 	"CharacterSetupButton"
 	{
@@ -1084,7 +1120,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"ITEMS"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1101,15 +1137,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"		
+		"image_drawcolor"	"ColorWhite"		
 	}
 	
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"90"
-		"ypos"			"147"
+		"xpos"			"91"
+		"ypos"			"95"
 		"zpos"			"16"
 		"wide"			"20"
 		"tall"			"20"
@@ -1142,7 +1178,7 @@
 			"armedFgColor_override" "Main"
 			"depressedFgColor_override" "Main"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ColorWhite"
 			"image_armedcolor"	"ColorWhite"		
 		}
 	}
@@ -1150,8 +1186,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"110"
-		"ypos"			"147"
+		"xpos"			"108"
+		"ypos"			"94"
 		"zpos"			"16"
 		"wide"			"20"
 		"tall"			"20"
@@ -1185,16 +1221,16 @@
 			"armedFgColor_override" "Main"
 			"depressedFgColor_override" "Main"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ColorWhite"
 			"image_armedcolor"	"ColorWhite"				
 		}
 	}
-	"RequestCoachButton"
+	"ReportPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"130"
-		"ypos"			"147"
+		"fieldname"		"ReportPlayersButton"
+		"xpos"			"128"
+		"ypos"			"94"
 		"zpos"			"16"
 		"wide"			"20"
 		"tall"			"20"
@@ -1228,83 +1264,10 @@
 			"armedFgColor_override" "Main"
 			"depressedFgColor_override" "Main"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ColorWhite"
 			"image_armedcolor"	"ColorWhite"			
 		}
 	}
-	
-	"Workshop"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Workshop"
-		"xpos"			"124"
-		"ypos"			"441"
-		"zpos"			"16"
-		"wide"			"21"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"w"
-		"paintbackground""0"
-		"font"			"TF2Icons"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine OpenSteamWorkshopDialog"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Main"			
-	}		
-	
-	"Achievements"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Achievements"
-		"xpos"			"144"
-		"ypos"			"441"
-		"zpos"			"16"
-		"wide"			"21"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"b"
-		"font"			"TF2Icons"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"OpenAchievementsDialog"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Main"
-	}		
 	
 	"QuestLogButton"
 	{
@@ -1333,7 +1296,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"r"
+			"labelText"		"@"
 			"font"			"MenuIcons"
 			"command"		"questlog"
 			"use_proportional_insets" "1"
@@ -1350,211 +1313,14 @@
 		}
 	}	
 	
-	"CoachPlayers"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayers"
-		"xpos"			"184"
-		"ypos"			"441"
-		"zpos"			"16"
-		"wide"			"21"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"g"
-		"font"			"TF2Icons"
-		"textAlignment"	"center"
-		"paintbackground""0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Main"	
-	}	
-	
-	"Replays"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"Replays"
-		"xpos"			"164"
-		"ypos"			"441"
-		"zpos"			"16"
-		"wide"			"21"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"d"
-		"font"			"TF2Icons"
-		"textAlignment"	"center"
-		"paintbackground""0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine replay_reloadbrowser"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Main"	
-	}	
-	
-	"ReportBug"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ReportBug"
-		"xpos"			"204"
-		"ypos"			"441"
-		"zpos"			"16"
-		"wide"			"21"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"e"
-		"font"			"TF2Icons"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		"Command"		"engine bug"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"Main"
-	}		
-	
-	"QuitButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"QuitButton"
-		"xpos"			"60"
-		"ypos"			"336"
-		"zpos"			"16"
-		"wide"			"75"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"QUIT"
-		"font"			"BebasNeue16"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		"Command"		"engine replay_confirmquit"
-		
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"		
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"ColorWhite"
-		"image_armedcolor"	"Main"	
-	}
-	
-	"DemoUIButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DemoUIButton"
-		"xpos"			"58"
-		"ypos"			"444"
-		"zpos"			"15"
-		"wide"			"100"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"DEMOUI"
-		"font"			"BebasNeue12"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		"Command"		"engine demoui"
-		
-		"defaultFgColor_override" "ColorWhite"
-		"armedFgColor_override" "Main"
-		"depressedFgColor_override" "Main"		
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"ColorWhite"
-		"image_armedcolor"	"Main"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
-	}
-
 	"ConsoleButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"195"
-		"ypos"			"444"
+		"xpos"			"60"
+		"ypos"			"348"
 		"zpos"			"16"
-		"wide"			"100"
+		"wide"			"200"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1562,7 +1328,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"CONSOLE"
-		"font"			"BebasNeue12"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1580,22 +1346,41 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"ColorWhite"
-		"image_armedcolor"	"Main"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
-	}		
+		"image_armedcolor"	"Main"	
+	}
+	
+	"DemoUIButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DemoUIButton"
+		"xpos"			"60"
+		"ypos"			"330"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"DEMOUI"
+		"font"			"HudFontSmallishBold"
+		"textAlignment"	"west"
+		"textinsetx"	"35"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"Command"		"engine demoui"
+		
+		"defaultFgColor_override" "ColorWhite"
+		"armedFgColor_override" "Main"
+		"depressedFgColor_override" "Main"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"	
+	}
 	
 	"MatchHud"
 	{
@@ -1612,7 +1397,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"TOGGLE MATCHHUD"
-		"font"			"BebasNeue16"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -1620,7 +1405,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine incrementvar tf_use_match_hud 0 1 1"
+		"Command"		"engine incrementvar tf_use_match_hud 0 1 1; ; hud_reloadscheme"
 		
 		"defaultFgColor_override" "ColorWhite"
 		"armedFgColor_override" "Main"

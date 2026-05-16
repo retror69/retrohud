@@ -4,7 +4,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"i"
+		"label"			"y"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" ""
@@ -16,10 +16,10 @@
 		"OnlyInGame"	"1"
 		"subimage" ""
 	}
-	"RequestCoachButton"
+	"ReportPlayersButton"
 	{
-		"label"			"h"
-		"command"		"engine cl_coach_find_coach"
+		"label"			"l"
+		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" ""
 	}

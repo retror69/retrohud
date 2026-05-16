@@ -18,6 +18,6 @@
 		"labelText"		"%capturetime%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
-		"bgcolor"		"235 226 202 255"
+		"bgcolor"		"ColorWhite"
 	}
 }

@@ -82,62 +82,37 @@
 			"rotation"	"2"
 		}
 	}
-
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"labelText"		">"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"15"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"command"		"nav_close"
-		"textAlignment"	"east"
-		"font"			"HudFontSmall"
-
-		"armedBgColor_override"		"Transparent"
-		"defaultBgColor_override"	"Transparent"
-		"defaultFgColor_override"	"ColorWhite"
-		"armedFgColor_override"		"169 123 53 255"
-
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"	"<"
-		}
-	}
-
+	
 	"ReturnButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"labelText"		"<"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"command"		"nav_to"
-		"labelText"		"<"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
+		"ControlName"								"CExButton"
+		"fieldName"									"ReturnButton"
+		"xpos"										"0"
+		"labelText"									"<"
+
+		"if_left"
+		{
+			"wide"									"0"
+			"visible"								"0"
+		}
+
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"14"
+		"tall"										"f3"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"command"									"nav_to"
+		"labelText"									">"
+		"roundedcorners"							"0"
+
+		"textAlignment"								"center"
+		"font"										"HudFontMediumSmallBold"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"ColorWhite"
-		"armedFgColor_override"		"169 123 53 255"
-
-		if_left
-		{
-			"xpos"		"rs1-3"
-			"labelText"	">"
-		}
+		"armedFgColor_override"		"Main"
 	}
 
 	"BGPanel"

@@ -28,7 +28,7 @@
 		"fieldName"			"speedometer"
 		"zpos"				"-100"
 		"xpos"				"cs-0.5"
-		"ypos"				"307"
+		"ypos"				"c95"
 		"wide"				"50"
 		"tall"				"12"
 		"image"				"replay/thumbnails/numbers"
@@ -52,8 +52,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c80"
-		"ypos"				"c98"
+		"xpos"				"c132"
+		"ypos"				"c130"
 		"wide"			"250"
 		"tall"			"120"
 	}
@@ -103,7 +103,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"c10"
+		"ypos"				"c80"
 		"wide"				"f0"
 		"tall"				"300"
 	}
@@ -203,7 +203,7 @@
 	"CHudAccountPanel"
 	{
 		"XPos"										"cs-0.5"
-		"YPos"										"355"
+		"YPos"										"c149"
 		"Wide"										"50"
 		"Tall"										"50"
 	}
@@ -211,8 +211,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-280"
-		"ypos"					"c45"
+		"xpos"					"c-330"
+		"ypos"					"c75"
 		"wide"					"250"
 		"tall"  				"120"
 		"visible" 				"1"
@@ -238,7 +238,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"					"c-111"
-		"ypos"					"337"
+		"ypos"					"c143"
 		"wide"					"600"
 		"tall"					"50"
 	}
@@ -250,7 +250,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"320"
+		"ypos"					"c20"
 		"wide"					"600"
 		"tall"					"29"
 		"priority"				"100"
@@ -262,7 +262,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"320"
+		"ypos"					"c20"
 		"wide"					"600"
 		"tall"					"29"
 		"priority"				"40"
@@ -276,7 +276,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"390"
+		"ypos"					"c110"
 		"wide"					"600"
 		"tall"					"29"
 		"priority"				"35"
@@ -448,7 +448,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"
+		"xpos"	 "r638"
 		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
@@ -464,10 +464,11 @@
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"									"ColorWhite"
-		"LocalPlayerColor"							"ColorBlack"
-		"BaseBackgroundColor"						"TransparentLightBlack"
-		"LocalBackgroundColor"						"ColorWhite"
+		"IconColor"     		"245 240 240 255"
+		"LocalPlayerColor"  	"12 12 12 255"
+
+		"BaseBackgroundColor"	"12 12 12 165"
+		"LocalBackgroundColor"	"245 240 240 165"
 	}
 
 	HudVehicle

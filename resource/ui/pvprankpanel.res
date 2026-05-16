@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"ypos"			"-5"
 		"zpos"			"100" //			"100"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"45"
+			"fov"			"60"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -183,7 +183,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"9"
 		"zpos"			"100" //			"99"
 		"wide"			"260"
 		"tall"			"102"
@@ -205,7 +205,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
+			"xpos"			"40"
 			"ypos"			"0"
 			"wide"			"170"
 			"zpos"			"100" //			"100"
@@ -214,8 +214,9 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"ColorWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%name%"
+			"allcaps"		"1"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -228,22 +229,23 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"0"
+			"xpos"			"40"
 			"ypos"			"13"
-			"wide"			"170"
+			"wide"			"90"
 			"zpos"			"100" //			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"ColorWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%desc1%"
+			"allcaps"		"1"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"			"50"
+				"xpos"			"cs-0.5"
 				"ypos"			"r35"
 			}
 		}
@@ -259,10 +261,11 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"ColorWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
+			"allcaps"		"1"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -319,52 +322,11 @@
 					"wide"			"p1"
 				}
 
-				"CurrentXPLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"CurrentXPLabel"
-					"xpos"			"35"
-					"ypos"			"rs1"
-					"zpos"			"100" //			"0"
-					"wide"			"50"
-					"tall"			"10"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"ColorWhite"
-					"textAlignment"	"west"
-					"labelText"		"%current_xp%"
-					"proportionaltoparent"	"1"
-
-					if_mini
-					{
-						"xpos"			"40"
-					}
-				}
-
-				"NextLevelXPLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"85"
-					"ypos"			"rs1"
-					"zpos"			"100" //			"0"
-					"wide"			"50"
-					"tall"			"10"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"ColorWhite"
-					"textAlignment"	"east"
-					"labelText"		"%next_level_xp%"
-					"proportionaltoparent"	"1"
-				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"35"
+					"xpos"			"39"
 					"ypos"			"rs1-10"
 					"wide"			"100"
 					"tall"			"7"

@@ -74,6 +74,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"ScoutSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ScoutSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&1"
+		"Command"									"loadout scout"
+		"visible"									"1"
+	}
+	
 	"soldier"
 	{
 		"ControlName"		"ImageButton"
@@ -99,6 +109,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"SoldierSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SoldierSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&2"
+		"Command"									"loadout soldier"
+		"visible"									"1"
+	}
+	
 	"pyro"
 	{
 		"ControlName"		"ImageButton"
@@ -123,6 +143,15 @@
 		"inactiveimage"		"class_sel_sm_pyro_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"PyroSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"PyroSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&3"
+		"Command"									"loadout pyro"
+		"visible"									"1"
 	}
 	
 	"demoman"
@@ -150,6 +179,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	"DemomanSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"DemomanSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&4"
+		"Command"									"loadout demoman"
+		"visible"									"1"
+	}
+	
 	"heavyweapons"
 	{
 		"ControlName"		"ImageButton"
@@ -175,6 +214,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"HeavySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"HeavySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&5"
+		"Command"									"loadout heavy"
+		"visible"									"1"
+	}
+	
 	"engineer"
 	{
 		"ControlName"		"ImageButton"
@@ -199,6 +248,15 @@
 		"inactiveimage"		"class_sel_sm_engineer_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"EngineerSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"EngineerSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&6"
+		"Command"									"loadout engineer"
+		"visible"									"1"
 	}
 	
 	"medic"
@@ -226,6 +284,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"MedicSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"MedicSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&7"
+		"Command"									"loadout medic"
+		"visible"									"1"
+	}
+	
 	"sniper"
 	{
 		"ControlName"		"ImageButton"
@@ -251,6 +319,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	"SniperSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SniperSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&8"
+		"Command"									"loadout sniper"
+		"visible"									"1"
+	}
+	
 	"spy"
 	{
 		"ControlName"		"ImageButton"
@@ -276,6 +354,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	"SpySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SpySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&9"
+		"Command"									"loadout spy"
+		"visible"									"1"
+	}
 	
 	"ShowBackpackButton"
 	{
@@ -291,7 +378,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"Backpack"
 		"textAlignment"		"south-west"
 		"Command"			"backpack"
 		"Default"			"0"
@@ -302,6 +389,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	"BackpackSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackpackSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&0"
+		"Command"									"backpack"
+		"visible"									"1"
+	}
+	
 	"ShowCraftingButton"
 	{
 		"ControlName"		"ImageButton"
@@ -316,7 +413,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"Crafting"
 		"textAlignment"		"south-west"
 		"Command"			"crafting"
 		"Default"			"0"
@@ -341,7 +438,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"Catalog"
 		"textAlignment"		"south-west"
 		"Command"			"armory"
 		"Default"			"0"
@@ -366,8 +463,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
+		"labelText"			"Trading"
+		"textAlignment"		"south"
 		"Command"			"trading"
 		"Default"			"0"
 		"font"				"ItemFontNameLarge"
@@ -391,8 +488,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
+		"labelText"			"Skins"
+		"textAlignment"		"south"
 		"Command"			"paintkit_preview"
 		"Default"			"0"
 		"font"				"ItemFontNameLarge"
@@ -475,6 +572,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
+	}
+	
+	"SelectLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"SelectLabel"
+		"font"										"ItemFontNameLarge"
+		"labelText"									"Use the 1-9 Keys quickly switch between class menus"
+		"textAlignment"								"north"
+		"xpos"										"0"
+		"ypos"										"300"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"fgcolor"									"117 107 94 255"
 	}
 
 	"LoadoutChangesLabel"

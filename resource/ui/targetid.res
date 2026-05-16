@@ -152,7 +152,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"KillStreakAnchor"
-		"xpos"				"3"
+		"xpos"				"17"
 		"ypos"				"20"
 		"wide"				"0"
 		"tall"				"8"
@@ -164,14 +164,14 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"KillStreakIcon"
-		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"2"
 		"zpos"				"15"
-		"wide"				"9"
-		"tall"				"9"
+		"wide"				"10"
+		"tall"				"11"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/leaderboard_streak"
+		"image"				"logos/KS/scoreboard_streak"
+		"drawcolor"			"ColorWhite"
 		"scaleImage"		"1"
 
 		"pin_to_sibling"		"KillStreakAnchor"

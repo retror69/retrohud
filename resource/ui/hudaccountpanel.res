@@ -3,8 +3,8 @@
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"0"
-		"delta_item_start_y"	"10"
-		"delta_item_end_y"		"35"
+		"delta_item_start_y"	"20"
+		"delta_item_end_y"		"45"
 		"PositiveColor"			"ColorGreen"
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"2"
@@ -16,7 +16,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValue"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"5"
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"20"
@@ -29,7 +29,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Newtown16"
+		"font"				"HudFont24"
 		"fgcolor"			"ColorWhite"
 	}
 
@@ -51,7 +51,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Newtown16"
+		"font"				"HudFont24"
 		"fgcolor"			"LabelTransparent"
 
 		"pin_to_sibling"		"AccountValue"

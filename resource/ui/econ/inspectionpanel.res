@@ -47,7 +47,7 @@
 		"use_item_rendertarget" "0"
 		"allow_rot"				"1"
 		"allow_pitch"			"1"
-		"max_pitch"				"30"
+		"max_pitch"				"99999"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
 		"fov"					"75"
@@ -417,7 +417,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"90"
-			"ypos"			"50"
+			"ypos"			"45"
 
 			"fixed_item"
 			{
@@ -589,7 +589,7 @@
 			"paintbackground"		"1"
 			"command"				"market"
 			"actionsignallevel" 	"2"
-			"RoundedCorners"		"0"
+			"RoundedCorners"		"15"
 
 			"defaultFgColor_override"	"ColorWhite"
 			"defaultBgColor_override"	"72 103 32 255"
