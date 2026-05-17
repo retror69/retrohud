@@ -22,7 +22,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../console/background_upward"
+		"image"			"../console/background01"
 		"scaleImage"	"1"
 	}
 
@@ -36,7 +36,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			"../console/background01"
 		"scaleImage"	"1"
 	}
 

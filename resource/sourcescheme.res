@@ -1,4 +1,5 @@
 #base "SourceSchemeBase.res"
+#base "../customizations/color.res"
 
 Scheme
 {
@@ -15,7 +16,6 @@ Scheme
 		"Black"						"17 17 17 255"
 		"Blank"						"0 0 0 0"
 		"HudBlack"					"0 0 0 200"
-		"Main"						"80 176 114 255"
 
 		// BASE COLORS
 		//---------------------------------------------

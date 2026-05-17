@@ -3,15 +3,11 @@ _______________________________________
 
 <p align="center">
   <p align="center">
-    TF2 HUD using FUNKeHUD as a base.
+    TF2 HUD inspired by FUNKeHUD.
     <br />
     <a href="https://codeload.github.com/retror69/retrohud/zip/refs/heads/main">Download</a>
   </p>
 </p>
-
-
-
-Transparent viewmodel and speedometer can be enabled/disabled through the "hudlayout.res" file in the "scripts" folder.
 
 _______________________________________
 

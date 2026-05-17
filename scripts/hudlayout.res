@@ -1,41 +1,8 @@
-"Resource/HudLayout.res"
-{
-	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL / SPEEDOMETER
-	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use.
-	//--------------------------------------------------------------
-	"TransparentViewmodel"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TransparentViewmodel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-100"
-		"wide"				"f0"
-		"tall"				"480"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
-	}
-	
-	"speedometer"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"controlName"		"ImagePanel"
-		"fieldName"			"speedometer"
-		"zpos"				"-100"
-		"xpos"				"cs-0.5"
-		"ypos"				"c95"
-		"wide"				"50"
-		"tall"				"12"
-		"image"				"replay/thumbnails/numbers"
-		"scaleImage"		"1"
-	}
-	//--------------------------------------------------------------
-	
+#base "../customizations/enabled/speedometer.res"
+#base "../customizations/enabled/transparentViewmodel.res"
+
+"scripts/hudlayout.res"
+{	
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"

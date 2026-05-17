@@ -177,9 +177,13 @@
 		"TFColors.ChatTextTeamRed"							"255 63 53 255"
 	}
 
-	"BitmapFontFiles"
+	//////////////////////// BITMAP FONT FILES /////////////////////////////
+	//
+	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
+	BitmapFontFiles
 	{
-		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
+		// UI buttons, custom font, (256x64)
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
 	//////////////////////// FONTS /////////////////////////////
@@ -191,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Verdana"
 				"tall"			"12" [!$POSIX]
 				"tall"			"14" [$POSIX]
 				"weight"		"0"
@@ -200,7 +204,7 @@
 			}
 			"2"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Verdana"
 				"tall"			"13" [!$POSIX]
 				"tall"			"16" [$POSIX]
 				"weight"		"0"
@@ -209,7 +213,7 @@
 			}
 			"3"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Verdana"
 				"tall"			"14" [!$POSIX]
 				"tall"			"16" [$POSIX]
 				"weight"		"0"
@@ -219,7 +223,7 @@
 			}
 			"4"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Verdana"
 				"tall"			"16" [!$POSIX]
 				"tall"			"18" [$POSIX]
 				"weight"		"0"
@@ -229,7 +233,7 @@
 			}
 			"5"
 			{
-				"name"			"BebasNeuePro-Bold"
+				"name"			"Verdana"
 				"tall"			"20" [!$POSIX]
 				"tall"			"24" [$POSIX]
 				"weight"		"0"
@@ -330,80 +334,80 @@
 		
 		"ChatFont"
 		{
-			"isproportional"                                        "only"
-
-            "1"
-            {
-                "name"                                              "BebasNeuePro-Bold"
-                "tall"                                              "15"
-                "weight"                                            "500"
-                "yres"                                              "480 599"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-            }
-
-            "2"
-            {
-                "name"                                              "BebasNeuePro-Bold"
-                "tall"                                              "17"
-                "weight"                                            "500"
-                "yres"                                              "600 767"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-            }
-
-            "3"
-            {
-                "name"                                              "BebasNeuePro-Bold"
-                "tall"                                              "18"
-                "weight"                                            "500"
-                "yres"                                              "768 1023"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-            }
-
-            "4"
-            {
-                "name"                                              "BebasNeuePro-Bold"
-                "tall"                                              "20"
-                "weight"                                            "500"
-                "yres"                                              "1024 1199"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-            }
-
-            "5"
-            {
-                "name"                                              "BebasNeuePro-Bold"
-                "tall"                                              "9"
-                "weight"                                            "500"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-            }
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"12"	[!$POSIX]
+				"tall"			"15"	[$POSIX]
+				"weight"		"700"
+				"yres"			"480 599"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"2"
+			{
+				"name"			"Verdana"
+				"tall"			"14"	[!$POSIX]
+				"tall"			"17"	[$POSIX]
+				"weight"		"700"
+				"yres"			"600 767"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"3"
+			{
+				"name"			"Verdana"
+				"tall"			"15"	[!$POSIX]
+				"tall"			"18"	[$POSIX]
+				"weight"		"700"
+				"yres"			"768 1023"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"4"
+			{
+				"name"			"Verdana"
+				"tall"			"17"	[!$POSIX]
+				"tall"			"20"	[$POSIX]
+				"weight"		"700"
+				"yres"			"1024 1199"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
+			"5"
+			{
+				"name"			"Verdana"
+				"tall"			"22"	[!$POSIX]
+				"tall"			"25"	[$POSIX]
+				"weight"		"700"
+				"yres"			"1200 10000"
+				"dropshadow"	"0"
+				"antialias"		"1"
+			}
 		}
 
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
+				"name"			"Verdana"
+				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
+				"name"			"Verdana"
+				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"14"
+				"name"			"Verdana"
+				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
@@ -411,8 +415,8 @@
 			}
 			"4"
 			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"16"
+				"name"			"Verdana"
+				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
@@ -420,8 +424,8 @@
 			}
 			"5"
 			{
-				"name"			"BebasNeuePro-Bold"
-				"tall"			"18"
+				"name"			"Verdana"
+				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"

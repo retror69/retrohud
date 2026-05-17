@@ -1,3 +1,5 @@
+#base "../customizations/color.res"
+
 Scheme
 {
 	Borders
@@ -2969,9 +2971,6 @@ Scheme
 
 	Colors
 	{
-		"Main"				"80 176 114 255"
-		"Main Dim"			"40 88 57 255"  // rgb/2
-		
 		// Gameplay
 		"Low"					"255 160 100 255"
 		"Reserve Low"			"225 75 75 255"
