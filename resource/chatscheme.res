@@ -341,7 +341,7 @@
 				"tall"			"15"	[$POSIX]
 				"weight"		"700"
 				"yres"			"480 599"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"2"
@@ -351,7 +351,7 @@
 				"tall"			"17"	[$POSIX]
 				"weight"		"700"
 				"yres"			"600 767"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"3"
@@ -361,7 +361,7 @@
 				"tall"			"18"	[$POSIX]
 				"weight"		"700"
 				"yres"			"768 1023"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"4"
@@ -371,7 +371,7 @@
 				"tall"			"20"	[$POSIX]
 				"weight"		"700"
 				"yres"			"1024 1199"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"5"
@@ -381,7 +381,7 @@
 				"tall"			"25"	[$POSIX]
 				"weight"		"700"
 				"yres"			"1200 10000"
-				"dropshadow"	"0"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 		}
