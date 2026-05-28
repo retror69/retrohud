@@ -179,11 +179,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-330"
-<<<<<<< Updated upstream
-		"ypos"					"c75"
-=======
 		"ypos"					"c88"
->>>>>>> Stashed changes
 		"wide"					"250"
 		"tall"  				"120"
 		"visible" 				"1"

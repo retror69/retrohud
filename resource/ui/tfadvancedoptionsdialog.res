@@ -4,11 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TFAdvancedOptionsDialog"
-<<<<<<< Updated upstream
-		"xpos"				"c-250"
-=======
 		"xpos"				"cs-0.5"
->>>>>>> Stashed changes
 		"ypos"				"90"
 		"wide"				"500"
 		"tall"				"350"

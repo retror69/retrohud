@@ -17,13 +17,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-<<<<<<< Updated upstream
-		"xpos"				"c85"
-		"ypos"				"320"
-=======
 		"xpos"				"c140"
 		"ypos"				"c110"
->>>>>>> Stashed changes
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"26"

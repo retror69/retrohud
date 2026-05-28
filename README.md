@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-# retrohud by retro_r
-_______________________________________
-
-<p align="center">
-  <p align="center">
-    TF2 HUD inspired by FUNKeHUD.
-    <br />
-    <a href="https://codeload.github.com/retror69/retrohud/zip/refs/heads/main">Download</a>
-  </p>
-</p>
-
-_______________________________________
-=======
 <div align="center">
 
   <img width="1024" height="512" alt="image" src="https://raw.githubusercontent.com/retror69/retrohud/refs/heads/screenshots/titlecard.png" />
@@ -24,6 +10,5 @@ _______________________________________
   
 </div>
 
->>>>>>> Stashed changes
 
 For any questions, ask me in the HUDS.tf discord!

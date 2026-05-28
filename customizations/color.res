@@ -1,10 +1,6 @@
-<<<<<<< Updated upstream
-//DO NOT MOVE THIS FILE
-=======
 //
 //	DO NOT MOVE THIS FILE
 //
->>>>>>> Stashed changes
 
 Scheme
 {
