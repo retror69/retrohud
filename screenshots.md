@@ -59,16 +59,16 @@
 ## DESTROY MENU
 ![](../screenshots/destroy.jpg)
 
-## DISGUISE MENU
+## DISGUISE MENU/TEAM READY
 ![](../screenshots/disguise.jpg)
 
-## READY UP
+## READY UP/METERS
 ![](../screenshots/ready.jpg)
 
 ## WINPANEL/DAMAGE NUMBERS
 ![](../screenshots/win.jpg)
 
-## PAYLOAD
+## PAYLOAD/SHIELD/HEADS
 ![](../screenshots/payload.jpg)
 
 ## DEAD
