@@ -1,5 +1,7 @@
 <div align="center">
 
+![](../screenshots/titlecard.png)
+
 ![](../screenshots/menu.jpg)
 
 ![](../screenshots/char.jpg)
