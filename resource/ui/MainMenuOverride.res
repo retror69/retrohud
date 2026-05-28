@@ -1382,10 +1382,17 @@
 		"sound_released"	"UI/buttonclickrelease.wav"	
 	}
 	
+<<<<<<< Updated upstream
 	"MatchHud"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MatchHud"
+=======
+	"ReloadHud"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReloadHud"
+>>>>>>> Stashed changes
 		"xpos"			"60"
 		"ypos"			"294"
 		"zpos"			"11"
@@ -1396,7 +1403,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+<<<<<<< Updated upstream
 		"labelText"		"TOGGLE MATCHHUD"
+=======
+		"labelText"		"RELOAD HUD"
+>>>>>>> Stashed changes
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
@@ -1405,7 +1416,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
+<<<<<<< Updated upstream
 		"Command"		"engine incrementvar tf_use_match_hud 0 1 1; ; hud_reloadscheme"
+=======
+		"Command"		"engine hud_reloadscheme"
+>>>>>>> Stashed changes
 		
 		"defaultFgColor_override" "ColorWhite"
 		"armedFgColor_override" "Main"

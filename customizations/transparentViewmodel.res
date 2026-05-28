@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+//
+//	drag to enabled
+//
+
+>>>>>>> Stashed changes
 "scripts/hudlayout.res"
 {
 	"TransparentViewmodel"

@@ -84,7 +84,11 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"LabelText"								"%itemname%"
+<<<<<<< Updated upstream
 			"TextAlignment"							"south"
+=======
+			"TextAlignment"							"center"
+>>>>>>> Stashed changes
 			"FGColor"								"White"
 			"CenterWrap"							"1"
 		}
